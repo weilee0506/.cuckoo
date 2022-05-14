@@ -1,0 +1,4840 @@
+{
+    "info": {
+        "added": 1652397539.905897, 
+        "started": 1652397540.235443, 
+        "duration": 94, 
+        "ended": 1652397634.617466, 
+        "owner": null, 
+        "score": 0.4, 
+        "id": 23, 
+        "category": "file", 
+        "git": {
+            "head": "13cbe0d9e457be3673304533043e992ead1ea9b2", 
+            "fetch_head": "13cbe0d9e457be3673304533043e992ead1ea9b2"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "", 
+        "route": "none", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "192.168.56.102", 
+            "label": "192.168.56.102", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-05-12 23:19:00", 
+            "shutdown_on": "2022-05-12 23:20:34"
+        }, 
+        "platform": null, 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=none"
+    }, 
+    "procmemory": [
+        {
+            "regions": [
+                {
+                    "protect": "rw", 
+                    "end": "0x00020000", 
+                    "addr": "0x00010000", 
+                    "state": 4096, 
+                    "offset": 24, 
+                    "type": 262144, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00030000", 
+                    "addr": "0x00020000", 
+                    "state": 4096, 
+                    "offset": 65584, 
+                    "type": 262144, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00034000", 
+                    "addr": "0x00030000", 
+                    "state": 4096, 
+                    "offset": 131144, 
+                    "type": 262144, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00041000", 
+                    "addr": "0x00040000", 
+                    "state": 4096, 
+                    "offset": 147552, 
+                    "type": 262144, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00051000", 
+                    "addr": "0x00050000", 
+                    "state": 4096, 
+                    "offset": 151672, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00061000", 
+                    "addr": "0x00060000", 
+                    "state": 4096, 
+                    "offset": 155792, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00071000", 
+                    "addr": "0x00070000", 
+                    "state": 4096, 
+                    "offset": 159912, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00081000", 
+                    "addr": "0x00080000", 
+                    "state": 4096, 
+                    "offset": 164032, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x000f7000", 
+                    "addr": "0x00090000", 
+                    "state": 4096, 
+                    "offset": 168152, 
+                    "type": 262144, 
+                    "size": 421888
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00200000", 
+                    "addr": "0x00104000", 
+                    "state": 4096, 
+                    "offset": 590064, 
+                    "type": 131072, 
+                    "size": 1032192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00206000", 
+                    "addr": "0x00200000", 
+                    "state": 4096, 
+                    "offset": 1622280, 
+                    "type": 262144, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00211000", 
+                    "addr": "0x00210000", 
+                    "state": 4096, 
+                    "offset": 1646880, 
+                    "type": 262144, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00221000", 
+                    "addr": "0x00220000", 
+                    "state": 4096, 
+                    "offset": 1651000, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00240000", 
+                    "addr": "0x00230000", 
+                    "state": 4096, 
+                    "offset": 1655120, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00241000", 
+                    "addr": "0x00240000", 
+                    "state": 4096, 
+                    "offset": 1720680, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x00251000", 
+                    "addr": "0x00250000", 
+                    "state": 4096, 
+                    "offset": 1724800, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00261000", 
+                    "addr": "0x00260000", 
+                    "state": 4096, 
+                    "offset": 1728920, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00271000", 
+                    "addr": "0x00270000", 
+                    "state": 4096, 
+                    "offset": 1733040, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00281000", 
+                    "addr": "0x00280000", 
+                    "state": 4096, 
+                    "offset": 1737160, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00291000", 
+                    "addr": "0x00290000", 
+                    "state": 4096, 
+                    "offset": 1741280, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x002a8000", 
+                    "addr": "0x002a0000", 
+                    "state": 4096, 
+                    "offset": 1745400, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x002b8000", 
+                    "addr": "0x002b0000", 
+                    "state": 4096, 
+                    "offset": 1778192, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x002d0000", 
+                    "addr": "0x002c0000", 
+                    "state": 4096, 
+                    "offset": 1810984, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00302000", 
+                    "addr": "0x002d0000", 
+                    "state": 4096, 
+                    "offset": 1876544, 
+                    "type": 131072, 
+                    "size": 204800
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x0030b000", 
+                    "addr": "0x00303000", 
+                    "state": 4096, 
+                    "offset": 2081368, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x0033f000", 
+                    "addr": "0x00310000", 
+                    "state": 4096, 
+                    "offset": 2114160, 
+                    "type": 131072, 
+                    "size": 192512
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x0035c000", 
+                    "addr": "0x00340000", 
+                    "state": 4096, 
+                    "offset": 2306696, 
+                    "type": 131072, 
+                    "size": 114688
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x003f0000", 
+                    "addr": "0x003d0000", 
+                    "state": 4096, 
+                    "offset": 2421408, 
+                    "type": 131072, 
+                    "size": 131072
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x004d3000", 
+                    "addr": "0x004d0000", 
+                    "state": 4096, 
+                    "offset": 2552504, 
+                    "type": 262144, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00653000", 
+                    "addr": "0x00650000", 
+                    "state": 4096, 
+                    "offset": 2564816, 
+                    "type": 262144, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x007e1000", 
+                    "addr": "0x00660000", 
+                    "state": 4096, 
+                    "offset": 2577128, 
+                    "type": 262144, 
+                    "size": 1576960
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x0080d000", 
+                    "addr": "0x007f0000", 
+                    "state": 4096, 
+                    "offset": 4154112, 
+                    "type": 262144, 
+                    "size": 118784
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x01e7b000", 
+                    "addr": "0x01bf0000", 
+                    "state": 4096, 
+                    "offset": 4272920, 
+                    "type": 262144, 
+                    "size": 2666496
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x01e90000", 
+                    "addr": "0x01e80000", 
+                    "state": 4096, 
+                    "offset": 6939440, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x01e91000", 
+                    "addr": "0x01e90000", 
+                    "state": 4096, 
+                    "offset": 7005000, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x01ea8000", 
+                    "addr": "0x01ea0000", 
+                    "state": 4096, 
+                    "offset": 7009120, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x01eb1000", 
+                    "addr": "0x01eb0000", 
+                    "state": 4096, 
+                    "offset": 7041912, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x01ec8000", 
+                    "addr": "0x01ec0000", 
+                    "state": 4096, 
+                    "offset": 7046032, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x01ed1000", 
+                    "addr": "0x01ed0000", 
+                    "state": 4096, 
+                    "offset": 7078824, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x01ef0000", 
+                    "addr": "0x01ee0000", 
+                    "state": 4096, 
+                    "offset": 7082944, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x01f00000", 
+                    "addr": "0x01ef0000", 
+                    "state": 4096, 
+                    "offset": 7148504, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x01f02000", 
+                    "addr": "0x01f00000", 
+                    "state": 4096, 
+                    "offset": 7214064, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x021ff000", 
+                    "addr": "0x01f30000", 
+                    "state": 4096, 
+                    "offset": 7222280, 
+                    "type": 262144, 
+                    "size": 2945024
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02201000", 
+                    "addr": "0x02200000", 
+                    "state": 4096, 
+                    "offset": 10167328, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02211000", 
+                    "addr": "0x02210000", 
+                    "state": 4096, 
+                    "offset": 10171448, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02230000", 
+                    "addr": "0x02220000", 
+                    "state": 4096, 
+                    "offset": 10175568, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02231000", 
+                    "addr": "0x02230000", 
+                    "state": 4096, 
+                    "offset": 10241128, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02250000", 
+                    "addr": "0x02240000", 
+                    "state": 4096, 
+                    "offset": 10245248, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02260000", 
+                    "addr": "0x02250000", 
+                    "state": 4096, 
+                    "offset": 10310808, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02286000", 
+                    "addr": "0x02260000", 
+                    "state": 4096, 
+                    "offset": 10376368, 
+                    "type": 131072, 
+                    "size": 155648
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02310000", 
+                    "addr": "0x02300000", 
+                    "state": 4096, 
+                    "offset": 10532040, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x02324000", 
+                    "addr": "0x02320000", 
+                    "state": 4096, 
+                    "offset": 10597600, 
+                    "type": 262144, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x02360000", 
+                    "addr": "0x02330000", 
+                    "state": 4096, 
+                    "offset": 10614008, 
+                    "type": 262144, 
+                    "size": 196608
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x0253f000", 
+                    "addr": "0x02460000", 
+                    "state": 4096, 
+                    "offset": 10810640, 
+                    "type": 262144, 
+                    "size": 913408
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x02544000", 
+                    "addr": "0x02540000", 
+                    "state": 4096, 
+                    "offset": 11724072, 
+                    "type": 262144, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x025b6000", 
+                    "addr": "0x02550000", 
+                    "state": 4096, 
+                    "offset": 11740480, 
+                    "type": 262144, 
+                    "size": 417792
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x029b3000", 
+                    "addr": "0x025c0000", 
+                    "state": 4096, 
+                    "offset": 12158296, 
+                    "type": 262144, 
+                    "size": 4141056
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x029c2000", 
+                    "addr": "0x029c0000", 
+                    "state": 4096, 
+                    "offset": 16299376, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x029f0000", 
+                    "addr": "0x029e0000", 
+                    "state": 4096, 
+                    "offset": 16307592, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02a00000", 
+                    "addr": "0x029f0000", 
+                    "state": 4096, 
+                    "offset": 16373152, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02a10000", 
+                    "addr": "0x02a00000", 
+                    "state": 4096, 
+                    "offset": 16438712, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x02a20000", 
+                    "addr": "0x02a10000", 
+                    "state": 4096, 
+                    "offset": 16504272, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02a21000", 
+                    "addr": "0x02a20000", 
+                    "state": 4096, 
+                    "offset": 16569832, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02a31000", 
+                    "addr": "0x02a30000", 
+                    "state": 4096, 
+                    "offset": 16573952, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02a50000", 
+                    "addr": "0x02a40000", 
+                    "state": 4096, 
+                    "offset": 16578072, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02a51000", 
+                    "addr": "0x02a50000", 
+                    "state": 4096, 
+                    "offset": 16643632, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x02df0000", 
+                    "addr": "0x02cf4000", 
+                    "state": 4096, 
+                    "offset": 16647752, 
+                    "type": 131072, 
+                    "size": 1032192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x03030000", 
+                    "addr": "0x02f34000", 
+                    "state": 4096, 
+                    "offset": 17679968, 
+                    "type": 131072, 
+                    "size": 1032192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x03130000", 
+                    "addr": "0x03034000", 
+                    "state": 4096, 
+                    "offset": 18712184, 
+                    "type": 131072, 
+                    "size": 1032192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x03280000", 
+                    "addr": "0x03184000", 
+                    "state": 4096, 
+                    "offset": 19744400, 
+                    "type": 131072, 
+                    "size": 1032192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x03380000", 
+                    "addr": "0x03284000", 
+                    "state": 4096, 
+                    "offset": 20776616, 
+                    "type": 131072, 
+                    "size": 1032192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x4ab41000", 
+                    "addr": "0x4ab40000", 
+                    "state": 4096, 
+                    "offset": 21808832, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x4ab69000", 
+                    "addr": "0x4ab41000", 
+                    "state": 4096, 
+                    "offset": 21812952, 
+                    "type": 16777216, 
+                    "size": 163840
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x4ab6e000", 
+                    "addr": "0x4ab69000", 
+                    "state": 4096, 
+                    "offset": 21976816, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x4ab70000", 
+                    "addr": "0x4ab6e000", 
+                    "state": 4096, 
+                    "offset": 21997320, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x4ab73000", 
+                    "addr": "0x4ab70000", 
+                    "state": 4096, 
+                    "offset": 22005536, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x4ab74000", 
+                    "addr": "0x4ab73000", 
+                    "state": 4096, 
+                    "offset": 22017848, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x4ab77000", 
+                    "addr": "0x4ab74000", 
+                    "state": 4096, 
+                    "offset": 22021968, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x4ab78000", 
+                    "addr": "0x4ab77000", 
+                    "state": 4096, 
+                    "offset": 22034280, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x4ab7b000", 
+                    "addr": "0x4ab78000", 
+                    "state": 4096, 
+                    "offset": 22038400, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x4ab7d000", 
+                    "addr": "0x4ab7b000", 
+                    "state": 4096, 
+                    "offset": 22050712, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x4ab82000", 
+                    "addr": "0x4ab7d000", 
+                    "state": 4096, 
+                    "offset": 22058928, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x4ab87000", 
+                    "addr": "0x4ab82000", 
+                    "state": 4096, 
+                    "offset": 22079432, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x4ab8a000", 
+                    "addr": "0x4ab87000", 
+                    "state": 4096, 
+                    "offset": 22099936, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x4ab8b000", 
+                    "addr": "0x4ab8a000", 
+                    "state": 4096, 
+                    "offset": 22112248, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x4ab8c000", 
+                    "addr": "0x4ab8b000", 
+                    "state": 4096, 
+                    "offset": 22116368, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x4ab99000", 
+                    "addr": "0x4ab8c000", 
+                    "state": 4096, 
+                    "offset": 22120488, 
+                    "type": 16777216, 
+                    "size": 53248
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x579fb000", 
+                    "addr": "0x579f0000", 
+                    "state": 4096, 
+                    "offset": 22173760, 
+                    "type": 131072, 
+                    "size": 45056
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a07000", 
+                    "addr": "0x57a00000", 
+                    "state": 4096, 
+                    "offset": 22218840, 
+                    "type": 131072, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a17000", 
+                    "addr": "0x57a10000", 
+                    "state": 4096, 
+                    "offset": 22247536, 
+                    "type": 131072, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a22000", 
+                    "addr": "0x57a20000", 
+                    "state": 4096, 
+                    "offset": 22276232, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a3d000", 
+                    "addr": "0x57a30000", 
+                    "state": 4096, 
+                    "offset": 22284448, 
+                    "type": 131072, 
+                    "size": 53248
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a4c000", 
+                    "addr": "0x57a40000", 
+                    "state": 4096, 
+                    "offset": 22337720, 
+                    "type": 131072, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a5d000", 
+                    "addr": "0x57a50000", 
+                    "state": 4096, 
+                    "offset": 22386896, 
+                    "type": 131072, 
+                    "size": 53248
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a6a000", 
+                    "addr": "0x57a60000", 
+                    "state": 4096, 
+                    "offset": 22440168, 
+                    "type": 131072, 
+                    "size": 40960
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a7c000", 
+                    "addr": "0x57a70000", 
+                    "state": 4096, 
+                    "offset": 22481152, 
+                    "type": 131072, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a86000", 
+                    "addr": "0x57a80000", 
+                    "state": 4096, 
+                    "offset": 22530328, 
+                    "type": 131072, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57a92000", 
+                    "addr": "0x57a90000", 
+                    "state": 4096, 
+                    "offset": 22554928, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57aa1000", 
+                    "addr": "0x57aa0000", 
+                    "state": 4096, 
+                    "offset": 22563144, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57abb000", 
+                    "addr": "0x57ab0000", 
+                    "state": 4096, 
+                    "offset": 22567264, 
+                    "type": 131072, 
+                    "size": 45056
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57ac2000", 
+                    "addr": "0x57ac0000", 
+                    "state": 4096, 
+                    "offset": 22612344, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57adc000", 
+                    "addr": "0x57ad0000", 
+                    "state": 4096, 
+                    "offset": 22620560, 
+                    "type": 131072, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57aeb000", 
+                    "addr": "0x57ae0000", 
+                    "state": 4096, 
+                    "offset": 22669736, 
+                    "type": 131072, 
+                    "size": 45056
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57afc000", 
+                    "addr": "0x57af0000", 
+                    "state": 4096, 
+                    "offset": 22714816, 
+                    "type": 131072, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57b0b000", 
+                    "addr": "0x57b00000", 
+                    "state": 4096, 
+                    "offset": 22763992, 
+                    "type": 131072, 
+                    "size": 45056
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57b6a000", 
+                    "addr": "0x57b60000", 
+                    "state": 4096, 
+                    "offset": 22809072, 
+                    "type": 131072, 
+                    "size": 40960
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57bf4000", 
+                    "addr": "0x57bf0000", 
+                    "state": 4096, 
+                    "offset": 22850056, 
+                    "type": 131072, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x57c04000", 
+                    "addr": "0x57c00000", 
+                    "state": 4096, 
+                    "offset": 22866464, 
+                    "type": 131072, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x75231000", 
+                    "addr": "0x75230000", 
+                    "state": 4096, 
+                    "offset": 22882872, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7526c000", 
+                    "addr": "0x75231000", 
+                    "state": 4096, 
+                    "offset": 22886992, 
+                    "type": 16777216, 
+                    "size": 241664
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7527a000", 
+                    "addr": "0x7526c000", 
+                    "state": 4096, 
+                    "offset": 23128680, 
+                    "type": 16777216, 
+                    "size": 57344
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x75285000", 
+                    "addr": "0x7527a000", 
+                    "state": 4096, 
+                    "offset": 23186048, 
+                    "type": 16777216, 
+                    "size": 45056
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7528a000", 
+                    "addr": "0x75285000", 
+                    "state": 4096, 
+                    "offset": 23231128, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7528b000", 
+                    "addr": "0x7528a000", 
+                    "state": 4096, 
+                    "offset": 23251632, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7529f000", 
+                    "addr": "0x7528b000", 
+                    "state": 4096, 
+                    "offset": 23255752, 
+                    "type": 16777216, 
+                    "size": 81920
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x752a0000", 
+                    "addr": "0x7529f000", 
+                    "state": 4096, 
+                    "offset": 23337696, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x752e3000", 
+                    "addr": "0x752a0000", 
+                    "state": 4096, 
+                    "offset": 23341816, 
+                    "type": 16777216, 
+                    "size": 274432
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x752e4000", 
+                    "addr": "0x752e3000", 
+                    "state": 4096, 
+                    "offset": 23616272, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x752eb000", 
+                    "addr": "0x752e4000", 
+                    "state": 4096, 
+                    "offset": 23620392, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x752fc000", 
+                    "addr": "0x752eb000", 
+                    "state": 4096, 
+                    "offset": 23649088, 
+                    "type": 16777216, 
+                    "size": 69632
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7530b000", 
+                    "addr": "0x752fc000", 
+                    "state": 4096, 
+                    "offset": 23718744, 
+                    "type": 16777216, 
+                    "size": 61440
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7530c000", 
+                    "addr": "0x7530b000", 
+                    "state": 4096, 
+                    "offset": 23780208, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7530d000", 
+                    "addr": "0x7530c000", 
+                    "state": 4096, 
+                    "offset": 23784328, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x75340000", 
+                    "addr": "0x7530d000", 
+                    "state": 4096, 
+                    "offset": 23788448, 
+                    "type": 16777216, 
+                    "size": 208896
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x75439000", 
+                    "addr": "0x75340000", 
+                    "state": 4096, 
+                    "offset": 23997368, 
+                    "type": 16777216, 
+                    "size": 1019904
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7543b000", 
+                    "addr": "0x75439000", 
+                    "state": 4096, 
+                    "offset": 25017296, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x75449000", 
+                    "addr": "0x7543b000", 
+                    "state": 4096, 
+                    "offset": 25025512, 
+                    "type": 16777216, 
+                    "size": 57344
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7544c000", 
+                    "addr": "0x75449000", 
+                    "state": 4096, 
+                    "offset": 25082880, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x75453000", 
+                    "addr": "0x7544c000", 
+                    "state": 4096, 
+                    "offset": 25095192, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x75454000", 
+                    "addr": "0x75453000", 
+                    "state": 4096, 
+                    "offset": 25123888, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x75456000", 
+                    "addr": "0x75454000", 
+                    "state": 4096, 
+                    "offset": 25128008, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7545a000", 
+                    "addr": "0x75456000", 
+                    "state": 4096, 
+                    "offset": 25136224, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x778f1000", 
+                    "addr": "0x778f0000", 
+                    "state": 4096, 
+                    "offset": 25152632, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77972000", 
+                    "addr": "0x778f1000", 
+                    "state": 4096, 
+                    "offset": 25156752, 
+                    "type": 16777216, 
+                    "size": 528384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77982000", 
+                    "addr": "0x77972000", 
+                    "state": 4096, 
+                    "offset": 25685160, 
+                    "type": 16777216, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77984000", 
+                    "addr": "0x77982000", 
+                    "state": 4096, 
+                    "offset": 25750720, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x779ea000", 
+                    "addr": "0x77984000", 
+                    "state": 4096, 
+                    "offset": 25758936, 
+                    "type": 16777216, 
+                    "size": 417792
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x779f1000", 
+                    "addr": "0x779f0000", 
+                    "state": 4096, 
+                    "offset": 26176752, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77a8c000", 
+                    "addr": "0x779f1000", 
+                    "state": 4096, 
+                    "offset": 26180872, 
+                    "type": 16777216, 
+                    "size": 634880
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77afa000", 
+                    "addr": "0x77a8c000", 
+                    "state": 4096, 
+                    "offset": 26815776, 
+                    "type": 16777216, 
+                    "size": 450560
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77afc000", 
+                    "addr": "0x77afa000", 
+                    "state": 4096, 
+                    "offset": 27266360, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77b0f000", 
+                    "addr": "0x77afc000", 
+                    "state": 4096, 
+                    "offset": 27274576, 
+                    "type": 16777216, 
+                    "size": 77824
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77b11000", 
+                    "addr": "0x77b10000", 
+                    "state": 4096, 
+                    "offset": 27352424, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77c13000", 
+                    "addr": "0x77b11000", 
+                    "state": 4096, 
+                    "offset": 27356544, 
+                    "type": 16777216, 
+                    "size": 1056768
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77c42000", 
+                    "addr": "0x77c13000", 
+                    "state": 4096, 
+                    "offset": 28413336, 
+                    "type": 16777216, 
+                    "size": 192512
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77c43000", 
+                    "addr": "0x77c42000", 
+                    "state": 4096, 
+                    "offset": 28605872, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77c44000", 
+                    "addr": "0x77c43000", 
+                    "state": 4096, 
+                    "offset": 28609992, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77c45000", 
+                    "addr": "0x77c44000", 
+                    "state": 4096, 
+                    "offset": 28614112, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77c47000", 
+                    "addr": "0x77c45000", 
+                    "state": 4096, 
+                    "offset": 28618232, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77c48000", 
+                    "addr": "0x77c47000", 
+                    "state": 4096, 
+                    "offset": 28626448, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77c49000", 
+                    "addr": "0x77c48000", 
+                    "state": 4096, 
+                    "offset": 28630568, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77c4b000", 
+                    "addr": "0x77c49000", 
+                    "state": 4096, 
+                    "offset": 28634688, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77c4d000", 
+                    "addr": "0x77c4b000", 
+                    "state": 4096, 
+                    "offset": 28642904, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77c4e000", 
+                    "addr": "0x77c4d000", 
+                    "state": 4096, 
+                    "offset": 28651120, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77cb9000", 
+                    "addr": "0x77c4e000", 
+                    "state": 4096, 
+                    "offset": 28655240, 
+                    "type": 16777216, 
+                    "size": 438272
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7efe5000", 
+                    "addr": "0x7efe0000", 
+                    "state": 4096, 
+                    "offset": 29093536, 
+                    "type": 262144, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7ffe1000", 
+                    "addr": "0x7ffe0000", 
+                    "state": 4096, 
+                    "offset": 29114040, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedddca000", 
+                    "addr": "0x7fedddc0000", 
+                    "state": 4096, 
+                    "offset": 29118160, 
+                    "type": 131072, 
+                    "size": 40960
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7feddddc000", 
+                    "addr": "0x7fedddd0000", 
+                    "state": 4096, 
+                    "offset": 29159144, 
+                    "type": 131072, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7feddde7000", 
+                    "addr": "0x7feddde0000", 
+                    "state": 4096, 
+                    "offset": 29208320, 
+                    "type": 131072, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedddfb000", 
+                    "addr": "0x7fedddf0000", 
+                    "state": 4096, 
+                    "offset": 29237016, 
+                    "type": 131072, 
+                    "size": 45056
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde09000", 
+                    "addr": "0x7fedde00000", 
+                    "state": 4096, 
+                    "offset": 29282096, 
+                    "type": 131072, 
+                    "size": 36864
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde16000", 
+                    "addr": "0x7fedde10000", 
+                    "state": 4096, 
+                    "offset": 29318984, 
+                    "type": 131072, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde26000", 
+                    "addr": "0x7fedde20000", 
+                    "state": 4096, 
+                    "offset": 29343584, 
+                    "type": 131072, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde3d000", 
+                    "addr": "0x7fedde30000", 
+                    "state": 4096, 
+                    "offset": 29368184, 
+                    "type": 131072, 
+                    "size": 53248
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde42000", 
+                    "addr": "0x7fedde40000", 
+                    "state": 4096, 
+                    "offset": 29421456, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde57000", 
+                    "addr": "0x7fedde50000", 
+                    "state": 4096, 
+                    "offset": 29429672, 
+                    "type": 131072, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde6c000", 
+                    "addr": "0x7fedde60000", 
+                    "state": 4096, 
+                    "offset": 29458368, 
+                    "type": 131072, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde77000", 
+                    "addr": "0x7fedde70000", 
+                    "state": 4096, 
+                    "offset": 29507544, 
+                    "type": 131072, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde8b000", 
+                    "addr": "0x7fedde80000", 
+                    "state": 4096, 
+                    "offset": 29536240, 
+                    "type": 131072, 
+                    "size": 45056
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedde9a000", 
+                    "addr": "0x7fedde90000", 
+                    "state": 4096, 
+                    "offset": 29581320, 
+                    "type": 131072, 
+                    "size": 40960
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7feddea8000", 
+                    "addr": "0x7feddea0000", 
+                    "state": 4096, 
+                    "offset": 29622304, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fede369000", 
+                    "addr": "0x7fede360000", 
+                    "state": 4096, 
+                    "offset": 29655096, 
+                    "type": 131072, 
+                    "size": 36864
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedf008000", 
+                    "addr": "0x7fedf000000", 
+                    "state": 4096, 
+                    "offset": 29691984, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedf013000", 
+                    "addr": "0x7fedf010000", 
+                    "state": 4096, 
+                    "offset": 29724776, 
+                    "type": 131072, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedf136000", 
+                    "addr": "0x7fedf130000", 
+                    "state": 4096, 
+                    "offset": 29737088, 
+                    "type": 131072, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedf142000", 
+                    "addr": "0x7fedf140000", 
+                    "state": 4096, 
+                    "offset": 29761688, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedf2e6000", 
+                    "addr": "0x7fedf2e0000", 
+                    "state": 4096, 
+                    "offset": 29769904, 
+                    "type": 131072, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x7fedfd41000", 
+                    "addr": "0x7fedfd40000", 
+                    "state": 4096, 
+                    "offset": 29794504, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fef8a01000", 
+                    "addr": "0x7fef8a00000", 
+                    "state": 4096, 
+                    "offset": 29798624, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fef8a0c000", 
+                    "addr": "0x7fef8a01000", 
+                    "state": 4096, 
+                    "offset": 29802744, 
+                    "type": 16777216, 
+                    "size": 45056
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fef8a0d000", 
+                    "addr": "0x7fef8a0c000", 
+                    "state": 4096, 
+                    "offset": 29847824, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fef8a10000", 
+                    "addr": "0x7fef8a0d000", 
+                    "state": 4096, 
+                    "offset": 29851944, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fef8bd1000", 
+                    "addr": "0x7fef8bd0000", 
+                    "state": 4096, 
+                    "offset": 29864256, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fef8bd3000", 
+                    "addr": "0x7fef8bd1000", 
+                    "state": 4096, 
+                    "offset": 29868376, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fef8bd4000", 
+                    "addr": "0x7fef8bd3000", 
+                    "state": 4096, 
+                    "offset": 29876592, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fef8bd5000", 
+                    "addr": "0x7fef8bd4000", 
+                    "state": 4096, 
+                    "offset": 29880712, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fef8bd8000", 
+                    "addr": "0x7fef8bd5000", 
+                    "state": 4096, 
+                    "offset": 29884832, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefbeb1000", 
+                    "addr": "0x7fefbeb0000", 
+                    "state": 4096, 
+                    "offset": 29897144, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefbeef000", 
+                    "addr": "0x7fefbeb1000", 
+                    "state": 4096, 
+                    "offset": 29901264, 
+                    "type": 16777216, 
+                    "size": 253952
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefbefb000", 
+                    "addr": "0x7fefbeef000", 
+                    "state": 4096, 
+                    "offset": 30155240, 
+                    "type": 16777216, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefbefd000", 
+                    "addr": "0x7fefbefb000", 
+                    "state": 4096, 
+                    "offset": 30204416, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7fefbefe000", 
+                    "addr": "0x7fefbefd000", 
+                    "state": 4096, 
+                    "offset": 30212632, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefbf06000", 
+                    "addr": "0x7fefbefe000", 
+                    "state": 4096, 
+                    "offset": 30216752, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefc2c1000", 
+                    "addr": "0x7fefc2c0000", 
+                    "state": 4096, 
+                    "offset": 30249544, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefc45c000", 
+                    "addr": "0x7fefc2c1000", 
+                    "state": 4096, 
+                    "offset": 30253664, 
+                    "type": 16777216, 
+                    "size": 1683456
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefc460000", 
+                    "addr": "0x7fefc45c000", 
+                    "state": 4096, 
+                    "offset": 31937144, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefc4b4000", 
+                    "addr": "0x7fefc460000", 
+                    "state": 4096, 
+                    "offset": 31953552, 
+                    "type": 16777216, 
+                    "size": 344064
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefc7c1000", 
+                    "addr": "0x7fefc7c0000", 
+                    "state": 4096, 
+                    "offset": 32297640, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefc82b000", 
+                    "addr": "0x7fefc7c1000", 
+                    "state": 4096, 
+                    "offset": 32301760, 
+                    "type": 16777216, 
+                    "size": 434176
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefc869000", 
+                    "addr": "0x7fefc82b000", 
+                    "state": 4096, 
+                    "offset": 32735960, 
+                    "type": 16777216, 
+                    "size": 253952
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefc86c000", 
+                    "addr": "0x7fefc869000", 
+                    "state": 4096, 
+                    "offset": 32989936, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefc8ec000", 
+                    "addr": "0x7fefc86c000", 
+                    "state": 4096, 
+                    "offset": 33002248, 
+                    "type": 16777216, 
+                    "size": 524288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefcff1000", 
+                    "addr": "0x7fefcff0000", 
+                    "state": 4096, 
+                    "offset": 33526560, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefd021000", 
+                    "addr": "0x7fefcff1000", 
+                    "state": 4096, 
+                    "offset": 33530680, 
+                    "type": 16777216, 
+                    "size": 196608
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd02e000", 
+                    "addr": "0x7fefd021000", 
+                    "state": 4096, 
+                    "offset": 33727312, 
+                    "type": 16777216, 
+                    "size": 53248
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefd02f000", 
+                    "addr": "0x7fefd02e000", 
+                    "state": 4096, 
+                    "offset": 33780584, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7fefd030000", 
+                    "addr": "0x7fefd02f000", 
+                    "state": 4096, 
+                    "offset": 33784704, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefd031000", 
+                    "addr": "0x7fefd030000", 
+                    "state": 4096, 
+                    "offset": 33788824, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7fefd032000", 
+                    "addr": "0x7fefd031000", 
+                    "state": 4096, 
+                    "offset": 33792944, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd037000", 
+                    "addr": "0x7fefd032000", 
+                    "state": 4096, 
+                    "offset": 33797064, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd2f1000", 
+                    "addr": "0x7fefd2f0000", 
+                    "state": 4096, 
+                    "offset": 33817568, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefd303000", 
+                    "addr": "0x7fefd2f1000", 
+                    "state": 4096, 
+                    "offset": 33821688, 
+                    "type": 16777216, 
+                    "size": 73728
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefd304000", 
+                    "addr": "0x7fefd303000", 
+                    "state": 4096, 
+                    "offset": 33895440, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd307000", 
+                    "addr": "0x7fefd304000", 
+                    "state": 4096, 
+                    "offset": 33899560, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd8f1000", 
+                    "addr": "0x7fefd8f0000", 
+                    "state": 4096, 
+                    "offset": 33911872, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefd922000", 
+                    "addr": "0x7fefd8f1000", 
+                    "state": 4096, 
+                    "offset": 33915992, 
+                    "type": 16777216, 
+                    "size": 200704
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd936000", 
+                    "addr": "0x7fefd922000", 
+                    "state": 4096, 
+                    "offset": 34116720, 
+                    "type": 16777216, 
+                    "size": 81920
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefd937000", 
+                    "addr": "0x7fefd936000", 
+                    "state": 4096, 
+                    "offset": 34198664, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7fefd93a000", 
+                    "addr": "0x7fefd937000", 
+                    "state": 4096, 
+                    "offset": 34202784, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd947000", 
+                    "addr": "0x7fefd93a000", 
+                    "state": 4096, 
+                    "offset": 34215096, 
+                    "type": 16777216, 
+                    "size": 53248
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd951000", 
+                    "addr": "0x7fefd950000", 
+                    "state": 4096, 
+                    "offset": 34268368, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefd955000", 
+                    "addr": "0x7fefd951000", 
+                    "state": 4096, 
+                    "offset": 34272488, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd95b000", 
+                    "addr": "0x7fefd955000", 
+                    "state": 4096, 
+                    "offset": 34288896, 
+                    "type": 16777216, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefd95c000", 
+                    "addr": "0x7fefd95b000", 
+                    "state": 4096, 
+                    "offset": 34313496, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefd95f000", 
+                    "addr": "0x7fefd95c000", 
+                    "state": 4096, 
+                    "offset": 34317616, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefda41000", 
+                    "addr": "0x7fefda40000", 
+                    "state": 4096, 
+                    "offset": 34329928, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefda4b000", 
+                    "addr": "0x7fefda41000", 
+                    "state": 4096, 
+                    "offset": 34334048, 
+                    "type": 16777216, 
+                    "size": 40960
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefda50000", 
+                    "addr": "0x7fefda4b000", 
+                    "state": 4096, 
+                    "offset": 34375032, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefda51000", 
+                    "addr": "0x7fefda50000", 
+                    "state": 4096, 
+                    "offset": 34395536, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefda54000", 
+                    "addr": "0x7fefda51000", 
+                    "state": 4096, 
+                    "offset": 34399656, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefda61000", 
+                    "addr": "0x7fefda60000", 
+                    "state": 4096, 
+                    "offset": 34411968, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefda68000", 
+                    "addr": "0x7fefda61000", 
+                    "state": 4096, 
+                    "offset": 34416088, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefda6b000", 
+                    "addr": "0x7fefda68000", 
+                    "state": 4096, 
+                    "offset": 34444784, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefda6c000", 
+                    "addr": "0x7fefda6b000", 
+                    "state": 4096, 
+                    "offset": 34457096, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefda6f000", 
+                    "addr": "0x7fefda6c000", 
+                    "state": 4096, 
+                    "offset": 34461216, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefdbb1000", 
+                    "addr": "0x7fefdbb0000", 
+                    "state": 4096, 
+                    "offset": 34473528, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefdbc1000", 
+                    "addr": "0x7fefdbb1000", 
+                    "state": 4096, 
+                    "offset": 34477648, 
+                    "type": 16777216, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefdbc6000", 
+                    "addr": "0x7fefdbc1000", 
+                    "state": 4096, 
+                    "offset": 34543208, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefdbc7000", 
+                    "addr": "0x7fefdbc6000", 
+                    "state": 4096, 
+                    "offset": 34563712, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefdbca000", 
+                    "addr": "0x7fefdbc7000", 
+                    "state": 4096, 
+                    "offset": 34567832, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefdd41000", 
+                    "addr": "0x7fefdd40000", 
+                    "state": 4096, 
+                    "offset": 34580144, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefdd61000", 
+                    "addr": "0x7fefdd41000", 
+                    "state": 4096, 
+                    "offset": 34584264, 
+                    "type": 16777216, 
+                    "size": 131072
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefdd71000", 
+                    "addr": "0x7fefdd61000", 
+                    "state": 4096, 
+                    "offset": 34715360, 
+                    "type": 16777216, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefdd72000", 
+                    "addr": "0x7fefdd71000", 
+                    "state": 4096, 
+                    "offset": 34780920, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefdd76000", 
+                    "addr": "0x7fefdd72000", 
+                    "state": 4096, 
+                    "offset": 34785040, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefddc1000", 
+                    "addr": "0x7fefddc0000", 
+                    "state": 4096, 
+                    "offset": 34801448, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefde0a000", 
+                    "addr": "0x7fefddc1000", 
+                    "state": 4096, 
+                    "offset": 34805568, 
+                    "type": 16777216, 
+                    "size": 299008
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefde20000", 
+                    "addr": "0x7fefde0a000", 
+                    "state": 4096, 
+                    "offset": 35104600, 
+                    "type": 16777216, 
+                    "size": 90112
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefde22000", 
+                    "addr": "0x7fefde20000", 
+                    "state": 4096, 
+                    "offset": 35194736, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefde2b000", 
+                    "addr": "0x7fefde22000", 
+                    "state": 4096, 
+                    "offset": 35202952, 
+                    "type": 16777216, 
+                    "size": 36864
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefe091000", 
+                    "addr": "0x7fefe090000", 
+                    "state": 4096, 
+                    "offset": 35239840, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefe0ad000", 
+                    "addr": "0x7fefe091000", 
+                    "state": 4096, 
+                    "offset": 35243960, 
+                    "type": 16777216, 
+                    "size": 114688
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefe0b2000", 
+                    "addr": "0x7fefe0ad000", 
+                    "state": 4096, 
+                    "offset": 35358672, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefe0b3000", 
+                    "addr": "0x7fefe0b2000", 
+                    "state": 4096, 
+                    "offset": 35379176, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7fefe0b4000", 
+                    "addr": "0x7fefe0b3000", 
+                    "state": 4096, 
+                    "offset": 35383296, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefe0be000", 
+                    "addr": "0x7fefe0b4000", 
+                    "state": 4096, 
+                    "offset": 35387416, 
+                    "type": 16777216, 
+                    "size": 40960
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefe241000", 
+                    "addr": "0x7fefe240000", 
+                    "state": 4096, 
+                    "offset": 35428400, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefe248000", 
+                    "addr": "0x7fefe241000", 
+                    "state": 4096, 
+                    "offset": 35432520, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefe24a000", 
+                    "addr": "0x7fefe248000", 
+                    "state": 4096, 
+                    "offset": 35461216, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefe24b000", 
+                    "addr": "0x7fefe24a000", 
+                    "state": 4096, 
+                    "offset": 35469432, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefe24e000", 
+                    "addr": "0x7fefe24b000", 
+                    "state": 4096, 
+                    "offset": 35473552, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefe251000", 
+                    "addr": "0x7fefe250000", 
+                    "state": 4096, 
+                    "offset": 35485864, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7fefe67e000", 
+                    "addr": "0x7fefe251000", 
+                    "state": 4096, 
+                    "offset": 35489984, 
+                    "type": 16777216, 
+                    "size": 4378624
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefe730000", 
+                    "addr": "0x7fefe67e000", 
+                    "state": 4096, 
+                    "offset": 39868632, 
+                    "type": 16777216, 
+                    "size": 729088
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fefe737000", 
+                    "addr": "0x7fefe730000", 
+                    "state": 4096, 
+                    "offset": 40597744, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7fefe73a000", 
+                    "addr": "0x7fefe737000", 
+                    "state": 4096, 
+                    "offset": 40626440, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefefd8000", 
+                    "addr": "0x7fefe73a000", 
+                    "state": 4096, 
+                    "offset": 40638752, 
+                    "type": 16777216, 
+                    "size": 9035776
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fefefe1000", 
+                    "addr": "0x7fefefe0000", 
+                    "state": 4096, 
+                    "offset": 49674552, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feff15f000", 
+                    "addr": "0x7fefefe1000", 
+                    "state": 4096, 
+                    "offset": 49678672, 
+                    "type": 16777216, 
+                    "size": 1564672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff1b5000", 
+                    "addr": "0x7feff15f000", 
+                    "state": 4096, 
+                    "offset": 51243368, 
+                    "type": 16777216, 
+                    "size": 352256
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff1bc000", 
+                    "addr": "0x7feff1b5000", 
+                    "state": 4096, 
+                    "offset": 51595648, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff1e3000", 
+                    "addr": "0x7feff1bc000", 
+                    "state": 4096, 
+                    "offset": 51624344, 
+                    "type": 16777216, 
+                    "size": 159744
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff211000", 
+                    "addr": "0x7feff210000", 
+                    "state": 4096, 
+                    "offset": 51784112, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feff273000", 
+                    "addr": "0x7feff211000", 
+                    "state": 4096, 
+                    "offset": 51788232, 
+                    "type": 16777216, 
+                    "size": 401408
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff29b000", 
+                    "addr": "0x7feff273000", 
+                    "state": 4096, 
+                    "offset": 52189664, 
+                    "type": 16777216, 
+                    "size": 163840
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff29e000", 
+                    "addr": "0x7feff29b000", 
+                    "state": 4096, 
+                    "offset": 52353528, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7feff2a1000", 
+                    "addr": "0x7feff29e000", 
+                    "state": 4096, 
+                    "offset": 52365840, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff2a9000", 
+                    "addr": "0x7feff2a1000", 
+                    "state": 4096, 
+                    "offset": 52378152, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff2b1000", 
+                    "addr": "0x7feff2b0000", 
+                    "state": 4096, 
+                    "offset": 52410944, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feff32a000", 
+                    "addr": "0x7feff2b1000", 
+                    "state": 4096, 
+                    "offset": 52415064, 
+                    "type": 16777216, 
+                    "size": 495616
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff341000", 
+                    "addr": "0x7feff32a000", 
+                    "state": 4096, 
+                    "offset": 52910704, 
+                    "type": 16777216, 
+                    "size": 94208
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff345000", 
+                    "addr": "0x7feff341000", 
+                    "state": 4096, 
+                    "offset": 53004936, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7feff347000", 
+                    "addr": "0x7feff345000", 
+                    "state": 4096, 
+                    "offset": 53021344, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff34f000", 
+                    "addr": "0x7feff347000", 
+                    "state": 4096, 
+                    "offset": 53029560, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff351000", 
+                    "addr": "0x7feff350000", 
+                    "state": 4096, 
+                    "offset": 53062352, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feff3d3000", 
+                    "addr": "0x7feff351000", 
+                    "state": 4096, 
+                    "offset": 53066472, 
+                    "type": 16777216, 
+                    "size": 532480
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff3d4000", 
+                    "addr": "0x7feff3d3000", 
+                    "state": 4096, 
+                    "offset": 53598976, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7feff3d5000", 
+                    "addr": "0x7feff3d4000", 
+                    "state": 4096, 
+                    "offset": 53603096, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff3d6000", 
+                    "addr": "0x7feff3d5000", 
+                    "state": 4096, 
+                    "offset": 53607216, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff419000", 
+                    "addr": "0x7feff3d6000", 
+                    "state": 4096, 
+                    "offset": 53611336, 
+                    "type": 16777216, 
+                    "size": 274432
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff421000", 
+                    "addr": "0x7feff420000", 
+                    "state": 4096, 
+                    "offset": 53885792, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feff439000", 
+                    "addr": "0x7feff421000", 
+                    "state": 4096, 
+                    "offset": 53889912, 
+                    "type": 16777216, 
+                    "size": 98304
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff43a000", 
+                    "addr": "0x7feff439000", 
+                    "state": 4096, 
+                    "offset": 53988240, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7feff43b000", 
+                    "addr": "0x7feff43a000", 
+                    "state": 4096, 
+                    "offset": 53992360, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff43c000", 
+                    "addr": "0x7feff43b000", 
+                    "state": 4096, 
+                    "offset": 53996480, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff43f000", 
+                    "addr": "0x7feff43c000", 
+                    "state": 4096, 
+                    "offset": 54000600, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff441000", 
+                    "addr": "0x7feff440000", 
+                    "state": 4096, 
+                    "offset": 54012912, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feff4b6000", 
+                    "addr": "0x7feff441000", 
+                    "state": 4096, 
+                    "offset": 54017032, 
+                    "type": 16777216, 
+                    "size": 479232
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff4e8000", 
+                    "addr": "0x7feff4b6000", 
+                    "state": 4096, 
+                    "offset": 54496288, 
+                    "type": 16777216, 
+                    "size": 204800
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff4eb000", 
+                    "addr": "0x7feff4e8000", 
+                    "state": 4096, 
+                    "offset": 54701112, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7feff4ed000", 
+                    "addr": "0x7feff4eb000", 
+                    "state": 4096, 
+                    "offset": 54713424, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff51b000", 
+                    "addr": "0x7feff4ed000", 
+                    "state": 4096, 
+                    "offset": 54721640, 
+                    "type": 16777216, 
+                    "size": 188416
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff521000", 
+                    "addr": "0x7feff520000", 
+                    "state": 4096, 
+                    "offset": 54910080, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feff572000", 
+                    "addr": "0x7feff521000", 
+                    "state": 4096, 
+                    "offset": 54914200, 
+                    "type": 16777216, 
+                    "size": 331776
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff57c000", 
+                    "addr": "0x7feff572000", 
+                    "state": 4096, 
+                    "offset": 55246000, 
+                    "type": 16777216, 
+                    "size": 40960
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff57d000", 
+                    "addr": "0x7feff57c000", 
+                    "state": 4096, 
+                    "offset": 55286984, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7feff57e000", 
+                    "addr": "0x7feff57d000", 
+                    "state": 4096, 
+                    "offset": 55291104, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff587000", 
+                    "addr": "0x7feff57e000", 
+                    "state": 4096, 
+                    "offset": 55295224, 
+                    "type": 16777216, 
+                    "size": 36864
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff591000", 
+                    "addr": "0x7feff590000", 
+                    "state": 4096, 
+                    "offset": 55332112, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feff5d5000", 
+                    "addr": "0x7feff591000", 
+                    "state": 4096, 
+                    "offset": 55336232, 
+                    "type": 16777216, 
+                    "size": 278528
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff5f7000", 
+                    "addr": "0x7feff5d5000", 
+                    "state": 4096, 
+                    "offset": 55614784, 
+                    "type": 16777216, 
+                    "size": 139264
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff5f8000", 
+                    "addr": "0x7feff5f7000", 
+                    "state": 4096, 
+                    "offset": 55754072, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7feff5f9000", 
+                    "addr": "0x7feff5f8000", 
+                    "state": 4096, 
+                    "offset": 55758192, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff601000", 
+                    "addr": "0x7feff5f9000", 
+                    "state": 4096, 
+                    "offset": 55762312, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff781000", 
+                    "addr": "0x7feff780000", 
+                    "state": 4096, 
+                    "offset": 55795104, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feff83b000", 
+                    "addr": "0x7feff781000", 
+                    "state": 4096, 
+                    "offset": 55799224, 
+                    "type": 16777216, 
+                    "size": 761856
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff86a000", 
+                    "addr": "0x7feff83b000", 
+                    "state": 4096, 
+                    "offset": 56561104, 
+                    "type": 16777216, 
+                    "size": 192512
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feff86c000", 
+                    "addr": "0x7feff86a000", 
+                    "state": 4096, 
+                    "offset": 56753640, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7feff870000", 
+                    "addr": "0x7feff86c000", 
+                    "state": 4096, 
+                    "offset": 56761856, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feff957000", 
+                    "addr": "0x7feff870000", 
+                    "state": 4096, 
+                    "offset": 56778264, 
+                    "type": 16777216, 
+                    "size": 946176
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffa91000", 
+                    "addr": "0x7feffa90000", 
+                    "state": 4096, 
+                    "offset": 57724464, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feffb2d000", 
+                    "addr": "0x7feffa91000", 
+                    "state": 4096, 
+                    "offset": 57728584, 
+                    "type": 16777216, 
+                    "size": 638976
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffb53000", 
+                    "addr": "0x7feffb2d000", 
+                    "state": 4096, 
+                    "offset": 58367584, 
+                    "type": 16777216, 
+                    "size": 155648
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feffb56000", 
+                    "addr": "0x7feffb53000", 
+                    "state": 4096, 
+                    "offset": 58523256, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffb67000", 
+                    "addr": "0x7feffb56000", 
+                    "state": 4096, 
+                    "offset": 58535568, 
+                    "type": 16777216, 
+                    "size": 69632
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffb81000", 
+                    "addr": "0x7feffb80000", 
+                    "state": 4096, 
+                    "offset": 58605224, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feffc21000", 
+                    "addr": "0x7feffb81000", 
+                    "state": 4096, 
+                    "offset": 58609344, 
+                    "type": 16777216, 
+                    "size": 655360
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffc39000", 
+                    "addr": "0x7feffc21000", 
+                    "state": 4096, 
+                    "offset": 59264728, 
+                    "type": 16777216, 
+                    "size": 98304
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feffc3a000", 
+                    "addr": "0x7feffc39000", 
+                    "state": 4096, 
+                    "offset": 59363056, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7feffc3c000", 
+                    "addr": "0x7feffc3a000", 
+                    "state": 4096, 
+                    "offset": 59367176, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffc89000", 
+                    "addr": "0x7feffc3c000", 
+                    "state": 4096, 
+                    "offset": 59375392, 
+                    "type": 16777216, 
+                    "size": 315392
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffcf1000", 
+                    "addr": "0x7feffcf0000", 
+                    "state": 4096, 
+                    "offset": 59690808, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7feffdd3000", 
+                    "addr": "0x7feffcf1000", 
+                    "state": 4096, 
+                    "offset": 59694928, 
+                    "type": 16777216, 
+                    "size": 925696
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffdff000", 
+                    "addr": "0x7feffdd3000", 
+                    "state": 4096, 
+                    "offset": 60620648, 
+                    "type": 16777216, 
+                    "size": 180224
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7feffe01000", 
+                    "addr": "0x7feffdff000", 
+                    "state": 4096, 
+                    "offset": 60800896, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffe1d000", 
+                    "addr": "0x7feffe01000", 
+                    "state": 4096, 
+                    "offset": 60809112, 
+                    "type": 16777216, 
+                    "size": 114688
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7feffe31000", 
+                    "addr": "0x7feffe30000", 
+                    "state": 4096, 
+                    "offset": 60923824, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fffffb0000", 
+                    "addr": "0x7fffffae000", 
+                    "state": 4096, 
+                    "offset": 60927944, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7fffffd3000", 
+                    "addr": "0x7fffffb0000", 
+                    "state": 4096, 
+                    "offset": 60936160, 
+                    "type": 262144, 
+                    "size": 143360
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fffffd5000", 
+                    "addr": "0x7fffffd3000", 
+                    "state": 4096, 
+                    "offset": 61079544, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fffffd6000", 
+                    "addr": "0x7fffffd5000", 
+                    "state": 4096, 
+                    "offset": 61087760, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fffffd8000", 
+                    "addr": "0x7fffffd6000", 
+                    "state": 4096, 
+                    "offset": 61091880, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fffffda000", 
+                    "addr": "0x7fffffd8000", 
+                    "state": 4096, 
+                    "offset": 61100096, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fffffdc000", 
+                    "addr": "0x7fffffda000", 
+                    "state": 4096, 
+                    "offset": 61108312, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7fffffe0000", 
+                    "addr": "0x7fffffde000", 
+                    "state": 4096, 
+                    "offset": 61116528, 
+                    "type": 131072, 
+                    "size": 8192
+                }
+            ], 
+            "yara": [], 
+            "num": 1, 
+            "file": "/home/cuckoo/.cuckoo/storage/analyses/23/memory/2720-1.dmp", 
+            "urls": [
+                "http://www.expedia.com/favicon.ico", 
+                "http://uk.ask.com/favicon.ico", 
+                "http://www.priceminister.com/", 
+                "http://www.iask.com/favicon.ico", 
+                "http://www.merlin.com.pl/favicon.ico", 
+                "http://www.cnet.com/favicon.ico", 
+                "http://search.nifty.com/", 
+                "http://ns.adobe.com/exif/1.0/", 
+                "http://www.etmall.com.tw/", 
+                "http://search.goo.ne.jp/", 
+                "http://fr.wikipedia.org/favicon.ico", 
+                "http://busca.estadao.com.br/favicon.ico", 
+                "http://search.hanafos.com/favicon.ico", 
+                "http://search.chol.com/favicon.ico", 
+                "http://amazon.fr/", 
+                "http://www.amazon.co.jp/", 
+                "http://www.mtv.com/favicon.ico", 
+                "http://busqueda.aol.com.mx/", 
+                "http://search.live.com/results.aspx?FORM=SOLTDF", 
+                "http://msdn.microsoft.com/", 
+                "http://msdn.microsoft.com/workshop/security/privacy/overview/privacyimportxml.asp)", 
+                "http://www.sify.com/favicon.ico", 
+                "http://yellowpages.superpages.com/", 
+                "http://suche.freenet.de/", 
+                "http://search.aol.com/", 
+                "http://browse.guardian.co.uk/", 
+                "http://www.mercadolibre.com.mx/", 
+                "http://www.asharqalawsat.com/", 
+                "http://www.facebook.com/", 
+                "http://si.wikipedia.org/favicon.ico", 
+                "http://www.rtl.de/favicon.ico", 
+                "http://search.msn.com/results.aspx?q=", 
+                "http://www.microsoft.com.", 
+                "http://search.naver.com/favicon.ico", 
+                "http://en.wikipedia.org/favicon.ico", 
+                "http://si.wikipedia.org/w/api.php?action=opensearch", 
+                "http://udn.com/favicon.ico", 
+                "http://rover.ebay.com", 
+                "http://search.ebay.fr/", 
+                "http://www.univision.com/", 
+                "http://pt.wikipedia.org/w/api.php?action=opensearch", 
+                "http://it.wikipedia.org/favicon.ico", 
+                "http://uk.ask.com/", 
+                "http://www.google.co.uk/", 
+                "http://cnweb.search.live.com/results.aspx?q=", 
+                "http://www.google.cz/", 
+                "http://www.google.co.jp/", 
+                "http://search.ebay.co.uk/", 
+                "http://www.weather.com/", 
+                "http://www.taobao.com/favicon.ico", 
+                "http://www.news.com.au/favicon.ico", 
+                "http://search.orange.co.uk/favicon.ico", 
+                "http://video.globo.com/", 
+                "http://search.ebay.de/", 
+                "http://www.taobao.com/", 
+                "http://corp.naukri.com/favicon.ico", 
+                "http://www.servicios.clarin.com/", 
+                "http://localhost", 
+                "http://www.rambler.ru/favicon.ico", 
+                "http://www.linternaute.com/favicon.ico", 
+                "http://ns.adobe.com/photoshop/1.0/", 
+                "http://www.shopzilla.com/", 
+                "http://www.amazon.com/gp/search?ie=UTF8", 
+                "http://search.live.com/results.aspx?FORM=SO2TDF", 
+                "http://busca.orange.es/", 
+                "http://www.excite.co.jp/", 
+                "http://cs.wikipedia.org/", 
+                "http://www.gismeteo.ru/favicon.ico", 
+                "http://www.cjmall.com/favicon.ico", 
+                "http://suche.t-online.de/", 
+                "http://www.ya.com/favicon.ico", 
+                "http://www.priceminister.com/favicon.ico", 
+                "http://www.mercadolibre.com.mx/favicon.ico", 
+                "http://ns.adobe.com/tiff/1.0/", 
+                "http://www.otto.de/favicon.ico", 
+                "http://www.iask.com/", 
+                "http://www.arrakis.com/", 
+                "http://www.microsofttranslator.com/BVPrev.aspx?ref=IE8Activity", 
+                "http://search.hanafos.com/", 
+                "http://search.gamer.com.tw/", 
+                "http://www.tiscali.it/favicon.ico", 
+                "http://ns.adobe.com/xap/1.0/", 
+                "http://www.soso.com/favicon.ico", 
+                "http://microsoft.com0", 
+                "http://recherche.tf1.fr/", 
+                "http://si.wikipedia.org/", 
+                "http://search.livedoor.com/", 
+                "http://search.centrum.cz/", 
+                "http://www.auction.co.kr/auction.ico", 
+                "http://www.t-online.de/favicon.ico", 
+                "http://ja.wikipedia.org/favicon.ico", 
+                "http://www.abril.com.br/favicon.ico", 
+                "http://clients5.google.com/complete/search?hl=", 
+                "http://www.ozon.ru/", 
+                "http://search.alice.it/", 
+                "http://www.microsoft.com/windowsxp/expertzone/", 
+                "http://search.yahoo.co.jp/favicon.ico", 
+                "http://cnet.search.com/", 
+                "http://www.walmart.com/", 
+                "http://espn.go.com/favicon.ico", 
+                "http://msdn.microsoft.com/workshop/security/szone/overview/templates.asp)", 
+                "http://search.interpark.com/", 
+                "http://www.gmarket.co.kr/favicon.ico", 
+                "http://www.neckermann.de/favicon.ico", 
+                "http://sitesearch.timesonline.co.uk/", 
+                "http://cn.bing.com/search?q=", 
+                "http://video.globo.com/favicon.ico", 
+                "http://es.wikipedia.org/", 
+                "http://img.atlas.cz/favicon.ico", 
+                "http://searchresults.news.com.au/", 
+                "http://search.rediff.com/", 
+                "http://search.lycos.co.uk/", 
+                "http://en.wikipedia.org/", 
+                "http://www.google.com.tw/", 
+                "http://www.tchibo.de/", 
+                "http://www.google.com/", 
+                "http://buscador.terra.es/", 
+                "http://search.msn.co.jp/results.aspx?q=", 
+                "http://www.mercadolivre.com.br/favicon.ico", 
+                "http://ja.wikipedia.org/", 
+                "http://search.chol.com/", 
+                "http://search.espn.go.com/", 
+                "http://www.google.com.sa/", 
+                "http://jobsearch.monster.com/", 
+                "http://buscador.terra.com/", 
+                "http://www.google.co.in/", 
+                "http://www.google.fr/", 
+                "http://www.cdiscount.com/favicon.ico", 
+                "http://asp.usatoday.com/", 
+                "http://vachercher.lycos.fr/", 
+                "http://www.yam.com/favicon.ico", 
+                "http://search.sify.com/", 
+                "http://search.ebay.com/favicon.ico", 
+                "http://www.paginasamarillas.es/", 
+                "http://nl.wikipedia.org/", 
+                "http://search.alice.it/favicon.ico", 
+                "http://www.ask.com/", 
+                "http://www.so-net.ne.jp/share/favicon.ico", 
+                "http://espanol.search.yahoo.com/", 
+                "http://www.alarabiya.net/favicon.ico", 
+                "http://ocnsearch.goo.ne.jp/", 
+                "http://list.taobao.com/", 
+                "http://buscador.terra.com.br/", 
+                "http://search.msn.co.uk/results.aspx?q=", 
+                "http://www.google.de/", 
+                "http://busca.igbusca.com.br//app/static/images/favicon.ico", 
+                "http://www.rambler.ru/", 
+                "http://purl.org/dc/elements/1.1/", 
+                "http://www.cdiscount.com/", 
+                "http://www.mercadolivre.com.br/", 
+                "http://www.facebook.com/favicon.ico", 
+                "http://search.ebay.es/", 
+                "http://sads.myspace.com/", 
+                "http://suche.web.de/", 
+                "http://recherche.tf1.fr/favicon.ico", 
+                "http://cs.wikipedia.org/w/api.php?action=opensearch", 
+                "http://search.dreamwiz.com/", 
+                "http://xml-us.amznxslt.com/onca/xml?Service=AWSECommerceService", 
+                "http://www.yandex.ru/", 
+                "http://www.baidu.com/favicon.ico", 
+                "http://ariadna.elmundo.es/", 
+                "http://www.rtl.de/", 
+                "http://es.search.yahoo.com/", 
+                "http://p.zhongsou.com/", 
+                "http://es.wikipedia.org/favicon.ico", 
+                "http://www.timesonline.co.uk/img/favicon.ico", 
+                "http://buscar.ozu.es/", 
+                "http://so-net.search.goo.ne.jp/", 
+                "http://cgi.search.biglobe.ne.jp/favicon.ico", 
+                "http://list.taobao.com/browse/search_visual.htm?n=15", 
+                "http://www.soso.com/", 
+                "http://www.afisha.ru/App_Themes/Default/images/favicon.ico", 
+                "http://img.shopzilla.com/shopzilla/shopzilla.ico", 
+                "http://wellformedweb.org/CommentAPI/", 
+                "http://search.orange.co.uk/", 
+                "http://ariadna.elmundo.es/favicon.ico", 
+                "http://it.wikipedia.org/", 
+                "http://www3.fnac.com/favicon.ico", 
+                "http://en.wikipedia.org/w/api.php?action=opensearch", 
+                "http://support.microsoft.com", 
+                "http://in.search.yahoo.com/", 
+                "http://www.etmall.com.tw/favicon.ico", 
+                "http://www.ceneo.pl/favicon.ico", 
+                "http://service2.bfast.com/", 
+                "http://tw.search.yahoo.com/", 
+                "http://es.ask.com/", 
+                "http://www.ozu.es/favicon.ico", 
+                "http://ru.wikipedia.org/", 
+                "http://google.pchome.com.tw/", 
+                "http://p.zhongsou.com/favicon.ico", 
+                "http://search.ebay.com/", 
+                "http://search1.taobao.com/", 
+                "http://br.search.yahoo.com/", 
+                "http://suche.lycos.de/", 
+                "http://www.asharqalawsat.com/favicon.ico", 
+                "http://mail.live.com/", 
+                "http://ru.search.yahoo.com", 
+                "http://de.wikipedia.org/", 
+                "http://find.joins.com/", 
+                "http://ns.adobe.com/xap/1.0/mm/", 
+                "http://www.google.ru/", 
+                "http://search.empas.com/favicon.ico", 
+                "http://search.seznam.cz/", 
+                "http://de.wikipedia.org/w/api.php?action=opensearch", 
+                "http://www.expedia.com/", 
+                "http://www.clarin.com/favicon.ico", 
+                "http://busca.uol.com.br/", 
+                "http://mail.live.com/?rru=compose%3Fsubject%3D", 
+                "http://buscador.terra.com/favicon.ico", 
+                "http://search.nate.com/", 
+                "http://purl.org/rss/1.0/modules/slash/", 
+                "http://ie8.ebay.com/open-search/output-xml.php?q=", 
+                "http://www.kkbox.com.tw/favicon.ico", 
+                "http://www.ocn.ne.jp/favicon.ico", 
+                "http://corp.naukri.com/", 
+                "http://www.amazon.com/exec/obidos/external-search/104-2981279-3455918?index=blended", 
+                "http://www.microsofttranslator.com/BV.aspx?ref=IE8Activity", 
+                "http://www.recherche.aol.fr/", 
+                "http://pl.wikipedia.org/w/api.php?action=opensearch", 
+                "http://www.weather.com/favicon.ico", 
+                "http://search.centrum.cz/favicon.ico", 
+                "http://search.yam.com/", 
+                "http://search.live.com/results.aspx?q=", 
+                "http://busca.uol.com.br/favicon.ico", 
+                "http://images.joins.com/ui_c/fvc_joins.ico", 
+                "http://cgi.search.biglobe.ne.jp/", 
+                "http://msk.afisha.ru/", 
+                "http://es.wikipedia.org/w/api.php?action=opensearch", 
+                "http://www.google.pl/", 
+                "http://www.arrakis.com/favicon.ico", 
+                "http://search.microsoft.com/", 
+                "http://search.goo.ne.jp/favicon.ico", 
+                "http://image.excite.co.jp/jp/favicon/lep.ico", 
+                "http://www.merlin.com.pl/", 
+                "http://www.amazon.de/", 
+                "http://www.sogou.com/", 
+                "http://cerca.lycos.it/", 
+                "http://www.orange.fr/", 
+                "http://spaces.live.com/BlogIt.aspx", 
+                "http://www.microsofttranslator.com/?ref=IE8Activity", 
+                "http://www.rakuten.co.jp/favicon.ico", 
+                "http://www.nate.com/favicon.ico", 
+                "http://de.wikipedia.org/favicon.ico", 
+                "http://ru.wikipedia.org/w/api.php?action=opensearch", 
+                "http://www.microsofttranslator.com/DefaultPrev.aspx?ref=IE8Activity", 
+                "http://search.daum.net/favicon.ico", 
+                "http://nl.wikipedia.org/favicon.ico", 
+                "http://it.search.yahoo.com/", 
+                "http://www.google.it/", 
+                "http://suche.web.de/favicon.ico", 
+                "http://www.paginasamarillas.es/favicon.ico", 
+                "http://search.seznam.cz/favicon.ico", 
+                "http://search.livedoor.com/favicon.ico", 
+                "http://search.lycos.com/", 
+                "http://fr.wikipedia.org/w/api.php?action=opensearch", 
+                "http://search.dreamwiz.com/favicon.ico", 
+                "http://www.kkbox.com.tw/", 
+                "http://suche.aol.de/", 
+                "http://it.search.dada.net/", 
+                "http://search.empas.com/", 
+                "http://yellowpages.superpages.com/favicon.ico", 
+                "http://arianna.libero.it/", 
+                "http://www.dailymail.co.uk/", 
+                "http://ru.wikipedia.org/favicon.ico", 
+                "http://search.auction.co.kr/", 
+                "http://search.lycos.com/favicon.ico", 
+                "http://www3.fnac.com/", 
+                "http://search.yahoo.co.jp", 
+                "http://asp.usatoday.com/favicon.ico", 
+                "http://search.msn.com.cn/results.aspx?q=", 
+                "http://cn.bing.com/favicon.ico", 
+                "http://search2.estadao.com.br/", 
+                "http://www.microsoft.com/pki/certs/tspca.crt0", 
+                "http://search.cn.yahoo.com/", 
+                "http://ie.search.yahoo.com/os?command=", 
+                "http://www.tesco.com/", 
+                "http://search-dyn.tiscali.it/", 
+                "http://search.ipop.co.kr/favicon.ico", 
+                "http://arianna.libero.it/favicon.ico", 
+                "http://www.myspace.com/favicon.ico", 
+                "http://search.gismeteo.ru/", 
+                "http://www.dailymail.co.uk/favicon.ico", 
+                "http://www.microsoft.com/schemas/rss/core/2005/internal", 
+                "http://home.altervista.org/", 
+                "http://it.search.dada.net/favicon.ico", 
+                "http://www.gmarket.co.kr/", 
+                "http://price.ru/favicon.ico", 
+                "http://www.google.com.br/", 
+                "http://buscar.ya.com/", 
+                "http://images.monster.com/favicon.ico", 
+                "http://search.ebay.it/", 
+                "http://www.alarabiya.net/", 
+                "http://www.najdi.si/", 
+                "http://www.maktoob.com/favicon.ico", 
+                "http://purl.org/rss/1.0/modules/content/", 
+                "http://ns.adobe.com/pdf/1.3/", 
+                "http://price.ru/", 
+                "http://www.najdi.si/favicon.ico", 
+                "http://kr.search.yahoo.com/", 
+                "http://www.aol.com/favicon.ico", 
+                "http://www.ozon.ru/favicon.ico", 
+                "http://pl.wikipedia.org/", 
+                "http://www.target.com/favicon.ico", 
+                "http://fr.search.yahoo.com/", 
+                "http://search.daum.net/", 
+                "http://de.search.yahoo.com/", 
+                "http://suche.freenet.de/favicon.ico", 
+                "http://busca.buscape.com.br/favicon.ico", 
+                "http://www.microsoft.com/favicon.ico", 
+                "http://auone.jp/favicon.ico", 
+                "http://buscador.lycos.es/", 
+                "http://search.yahoo.com/", 
+                "http://www.sogou.com/favicon.ico", 
+                "http://search.rediff.com/favicon.ico", 
+                "http://search.auone.jp/", 
+                "http://web.ask.com/", 
+                "http://search.books.com.tw/", 
+                "http://search.ebay.in/", 
+                "http://search.about.com/", 
+                "http://www.neckermann.de/", 
+                "http://browse.guardian.co.uk/favicon.ico", 
+                "http://www.tesco.com/favicon.ico", 
+                "http://ns.adobe.com/iX/1.0/", 
+                "https://www.example.com.", 
+                "http://www.target.com/", 
+                "http://www.amazon.com/favicon.ico", 
+                "http://recherche.linternaute.com/", 
+                "http://pt.wikipedia.org/favicon.ico", 
+                "http://openimage.interpark.com/interpark.ico", 
+                "http://www.google.si/", 
+                "http://www.yandex.ru/favicon.ico", 
+                "http://www.google.com/favicon.ico", 
+                "http://www.walmart.com/favicon.ico", 
+                "http://udn.com/", 
+                "http://esearch.rakuten.co.jp/", 
+                "http://www.google.es/", 
+                "http://www.cnet.co.uk/", 
+                "http://www.mtv.com/", 
+                "http://search.live.com/results.aspx?FORM=IEFM1", 
+                "http://www.microsoft.com/pki/certs/CSPCA.crt0", 
+                "http://www.abril.com.br/", 
+                "http://www.baidu.com/", 
+                "http://www.amazon.co.uk/", 
+                "http://it.wikipedia.org/w/api.php?action=opensearch", 
+                "http://www.tchibo.de/favicon.ico", 
+                "http://www.pchome.com.tw/favicon.ico", 
+                "http://pt.wikipedia.org/", 
+                "http://fr.wikipedia.org/", 
+                "http://ja.wikipedia.org/w/api.php?action=opensearch", 
+                "http://www.chennaionline.com/ncommon/images/collogo.ico", 
+                "http://www.cjmall.com/", 
+                "http://uk.search.yahoo.com/", 
+                "http://search.yahoo.com/favicon.ico", 
+                "http://busca.igbusca.com.br/", 
+                "https://localhost", 
+                "http://www.nifty.com/favicon.ico", 
+                "http://search.naver.com/", 
+                "http://home.altervista.org/favicon.ico", 
+                "http://search.gamer.com.tw/favicon.ico", 
+                "http://busca.buscape.com.br/", 
+                "http://search.atlas.cz/", 
+                "http://www.ceneo.pl/", 
+                "http://search.aol.co.uk/", 
+                "http://pl.wikipedia.org/favicon.ico", 
+                "http://search.ipop.co.kr/", 
+                "http://search.books.com.tw/favicon.ico", 
+                "http://search.aol.in/", 
+                "https://example.com", 
+                "http://cs.wikipedia.org/favicon.ico", 
+                "http://spaces.live.com/", 
+                "http://www.microsofttranslator.com/Default.aspx?ref=IE8Activity", 
+                "http://z.about.com/m/a08.ico", 
+                "http://www.univision.com/favicon.ico", 
+                "http://nl.wikipedia.org/w/api.php?action=opensearch"
+            ], 
+            "extracted": [
+                {
+                    "yara": [], 
+                    "sha1": "db5733351af5997f1a3541ccc01e2aeafda2f5c1", 
+                    "name": "2720-db5733351af5997f.exe_", 
+                    "type": "PE32+ executable (console) x86-64, for MS Windows", 
+                    "sha256": "bde168014f96d8a3937cfcf7be658550f640418c9706805ef6681667ef2bada9", 
+                    "urls": [], 
+                    "crc32": "C53EBDDD", 
+                    "path": "/home/cuckoo/.cuckoo/storage/analyses/23/memory/2720-db5733351af5997f.exe_", 
+                    "ssdeep": null, 
+                    "size": 364544, 
+                    "sha512": "b2a1a779003402a1f07766b1dbcb062a3ff78fab507d4acb345d3a6016ee99b190569d6f55d7be3c211955ac3635f0c92e6dc94b2113a975a565cda1d8907639", 
+                    "md5": "fcbbfa52f5d140e78996d2c3be362054"
+                }
+            ], 
+            "pid": 2720
+        }
+    ], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "yara": [], 
+            "sha1": "eac6a6586c3d731c364454d8234039fef78901dc", 
+            "name": "istockphoto-1188445864-612x612.jpg", 
+            "type": "JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=1, description=Closeup portrait of funny ginger cat wearing sunglasses isolated on light cyan. Copyspace.\\377\\341\\005yh], progressive, precision 8, 612x344, components 3", 
+            "sha256": "69f3ad423309e22491adbb317a7b12ccebe03f3d233a0ff1e45147199ceffc3f", 
+            "urls": [
+                "http://ns.adobe.com/xap/1.0/rights/", 
+                "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/", 
+                "http://ns.useplus.org/ldf/xmp/1.0/", 
+                "http://xmp.gettyimages.com/gift/1.0/", 
+                "http://purl.org/dc/elements/1.1/", 
+                "http://iptc.org/std/Iptc4xmpExt/2008-02-29/", 
+                "https://www.istockphoto.com/legal/license-agreement?utm_medium=organic", 
+                "https://www.istockphoto.com/photo/license-gm1188445864-?utm_medium=organic", 
+                "http://ns.adobe.com/photoshop/1.0/", 
+                "http://ns.adobe.com/xap/1.0/"
+            ], 
+            "crc32": "5620FA9D", 
+            "path": "/home/cuckoo/.cuckoo/storage/binaries/69f3ad423309e22491adbb317a7b12ccebe03f3d233a0ff1e45147199ceffc3f", 
+            "ssdeep": null, 
+            "size": 19310, 
+            "sha512": "96fe21f66d2e62aef55f7362c4a0fe1b72cb0c8e8ef2972346e9211c29448e6d3eb0e2a6340467f68831b35ffc6228002d9b74cac948e6a0dcf6352f2183e106", 
+            "md5": "5e3a80524bb7d23222a489aee2b8c340"
+        }
+    }, 
+    "extracted": [
+        {
+            "category": "script", 
+            "yara": [], 
+            "info": {}, 
+            "pid": 2720, 
+            "raw": "/home/cuckoo/.cuckoo/storage/analyses/23/extracted/0.bat", 
+            "program": "cmd", 
+            "first_seen": 1652375965.34375
+        }
+    ], 
+    "network": {
+        "tls": [], 
+        "udp": [
+            {
+                "src": "192.168.56.101", 
+                "dst": "192.168.56.255", 
+                "offset": 1242, 
+                "time": 6.202701807022095, 
+                "dport": 137, 
+                "sport": 137
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "192.168.56.255", 
+                "offset": 9882, 
+                "time": 12.19298791885376, 
+                "dport": 138, 
+                "sport": 138
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "224.0.0.252", 
+                "offset": 18344, 
+                "time": 8.87257695198059, 
+                "dport": 5355, 
+                "sport": 49827
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "224.0.0.252", 
+                "offset": 18664, 
+                "time": 4.528378009796143, 
+                "dport": 5355, 
+                "sport": 51444
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "224.0.0.252", 
+                "offset": 19032, 
+                "time": 4.910228967666626, 
+                "dport": 5355, 
+                "sport": 53282
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "224.0.0.252", 
+                "offset": 19360, 
+                "time": 9.093739986419678, 
+                "dport": 5355, 
+                "sport": 55706
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "224.0.0.252", 
+                "offset": 19688, 
+                "time": 6.549213886260986, 
+                "dport": 5355, 
+                "sport": 56700
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "224.0.0.252", 
+                "offset": 20056, 
+                "time": 5.314144849777222, 
+                "dport": 5355, 
+                "sport": 56849
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "224.0.0.252", 
+                "offset": 20384, 
+                "time": 11.70712685585022, 
+                "dport": 5355, 
+                "sport": 60361
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "224.0.0.252", 
+                "offset": 20712, 
+                "time": 6.539918899536133, 
+                "dport": 5355, 
+                "sport": 62494
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "224.0.0.252", 
+                "offset": 21040, 
+                "time": 5.659138917922974, 
+                "dport": 5355, 
+                "sport": 64540
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "239.255.255.250", 
+                "offset": 21368, 
+                "time": 80.51889681816101, 
+                "dport": 1900, 
+                "sport": 49527
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "8.8.8.8", 
+                "offset": 23660, 
+                "time": 13.858547925949097, 
+                "dport": 53, 
+                "sport": 49524
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "8.8.8.8", 
+                "offset": 23935, 
+                "time": 11.465039014816284, 
+                "dport": 53, 
+                "sport": 54303
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "8.8.8.8", 
+                "offset": 24225, 
+                "time": 5.653117895126343, 
+                "dport": 53, 
+                "sport": 56841
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "8.8.8.8", 
+                "offset": 24500, 
+                "time": 6.233904838562012, 
+                "dport": 53, 
+                "sport": 59781
+            }, 
+            {
+                "src": "192.168.56.101", 
+                "dst": "8.8.8.8", 
+                "offset": 24700, 
+                "time": 6.338059902191162, 
+                "dport": 53, 
+                "sport": 62947
+            }
+        ], 
+        "dns_servers": [
+            "8.8.8.8"
+        ], 
+        "http": [
+            {
+                "count": 1, 
+                "body": "", 
+                "uri": "http://www.msftncsi.com/ncsi.txt", 
+                "user-agent": "Microsoft NCSI", 
+                "method": "GET", 
+                "host": "www.msftncsi.com", 
+                "version": "1.1", 
+                "path": "/ncsi.txt", 
+                "data": "GET /ncsi.txt HTTP/1.1\r\nConnection: Close\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftncsi.com\r\n\r\n", 
+                "port": 80
+            }
+        ], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [
+            {
+                "src": "192.168.56.101", 
+                "dst": "203.69.81.51", 
+                "offset": 16668, 
+                "time": 11.555821895599365, 
+                "dport": 80, 
+                "sport": 49159
+            }
+        ], 
+        "smtp_ex": [], 
+        "mitm": [], 
+        "hosts": [
+            "203.69.81.51", 
+            "8.8.8.8"
+        ], 
+        "pcap_sha256": "1d5481eaed70579411696600eff8c6c032c031053e84177873600d0c141faf9a", 
+        "dns": [
+            {
+                "type": "A", 
+                "request": "www.msftncsi.com", 
+                "answers": [
+                    {
+                        "data": "203.69.81.51", 
+                        "type": "A"
+                    }, 
+                    {
+                        "data": "www.msftncsi.com.edgesuite.net", 
+                        "type": "CNAME"
+                    }, 
+                    {
+                        "data": "203.69.81.91", 
+                        "type": "A"
+                    }, 
+                    {
+                        "data": "a1961.g2.akamai.net", 
+                        "type": "CNAME"
+                    }
+                ]
+            }, 
+            {
+                "type": "AAAA", 
+                "request": "dns.msftncsi.com", 
+                "answers": [
+                    {
+                        "data": "fd3e:4f5a:5b81::1", 
+                        "type": "AAAA"
+                    }
+                ]
+            }, 
+            {
+                "type": "A", 
+                "request": "dns.msftncsi.com", 
+                "answers": [
+                    {
+                        "data": "131.107.255.255", 
+                        "type": "A"
+                    }
+                ]
+            }, 
+            {
+                "type": "A", 
+                "request": "teredo.ipv6.microsoft.com", 
+                "answers": []
+            }
+        ], 
+        "http_ex": [
+            {
+                "status": 200, 
+                "src": "192.168.56.101", 
+                "resp": {
+                    "path": "/home/cuckoo/.cuckoo/storage/analyses/23/network/33bf88d5b82df3723d5863c7d23445e345828904", 
+                    "sha1": "33bf88d5b82df3723d5863c7d23445e345828904", 
+                    "md5": "cd5a4d3fdd5bffc16bf959ef75cf37bc"
+                }, 
+                "sha1": "33bf88d5b82df3723d5863c7d23445e345828904", 
+                "protocol": "http", 
+                "dst": "203.69.81.51", 
+                "req": {
+                    "path": "/home/cuckoo/.cuckoo/storage/analyses/23/network/da39a3ee5e6b4b0d3255bfef95601890afd80709", 
+                    "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709", 
+                    "md5": "d41d8cd98f00b204e9800998ecf8427e"
+                }, 
+                "request": "GET /ncsi.txt HTTP/1.1\r\nConnection: Close\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftncsi.com", 
+                "uri": "/ncsi.txt", 
+                "response": "HTTP/1.1 200 OK\r\nContent-Length: 14\r\nDate: Fri, 13 May 2022 03:20:18 GMT\r\nConnection: close\r\nContent-Type: text/plain\r\nCache-Control: max-age=30, must-revalidate", 
+                "host": "www.msftncsi.com", 
+                "dport": 80, 
+                "path": "/home/cuckoo/.cuckoo/storage/analyses/23/network/33bf88d5b82df3723d5863c7d23445e345828904", 
+                "sport": 49159, 
+                "method": "GET", 
+                "md5": "cd5a4d3fdd5bffc16bf959ef75cf37bc"
+            }
+        ], 
+        "domains": [
+            {
+                "ip": "", 
+                "domain": "teredo.ipv6.microsoft.com"
+            }, 
+            {
+                "ip": "203.74.140.163", 
+                "domain": "www.msftncsi.com"
+            }, 
+            {
+                "ip": "131.107.255.255", 
+                "domain": "dns.msftncsi.com"
+            }
+        ], 
+        "dead_hosts": [], 
+        "sorted_pcap_sha256": "449e623c527402b2627650bfac12a2aa631833e99a2c0c8ea2cb62ceca865b45", 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "signatures": [
+        {
+            "families": [], 
+            "description": "Potentially malicious URLs were found in the process memory dump", 
+            "severity": 2, 
+            "ttp": {}, 
+            "markcount": 374, 
+            "references": [], 
+            "marks": [
+                {
+                    "category": "url", 
+                    "ioc": "http://www.expedia.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://uk.ask.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.priceminister.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.iask.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.merlin.com.pl/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.cnet.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.nifty.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://ns.adobe.com/exif/1.0/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.etmall.com.tw/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.goo.ne.jp/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://fr.wikipedia.org/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://busca.estadao.com.br/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.hanafos.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.chol.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://amazon.fr/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.amazon.co.jp/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.mtv.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://busqueda.aol.com.mx/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.live.com/results.aspx?FORM=SOLTDF", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://msdn.microsoft.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://msdn.microsoft.com/workshop/security/privacy/overview/privacyimportxml.asp)", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.sify.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://yellowpages.superpages.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://suche.freenet.de/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.aol.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://browse.guardian.co.uk/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.mercadolibre.com.mx/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.asharqalawsat.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.facebook.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://si.wikipedia.org/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.rtl.de/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.msn.com/results.aspx?q=", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.microsoft.com.", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.naver.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://en.wikipedia.org/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://si.wikipedia.org/w/api.php?action=opensearch", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://udn.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://rover.ebay.com", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.ebay.fr/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.univision.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://pt.wikipedia.org/w/api.php?action=opensearch", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://it.wikipedia.org/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://uk.ask.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.google.co.uk/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://cnweb.search.live.com/results.aspx?q=", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.google.cz/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.google.co.jp/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://search.ebay.co.uk/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.weather.com/", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "url", 
+                    "ioc": "http://www.taobao.com/favicon.ico", 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "name": "memdump_urls"
+        }
+    ], 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": "C:\\Windows\\System32\\lsass.exe", 
+                "process_name": "lsass.exe", 
+                "pid": 496, 
+                "summary": {}, 
+                "first_seen": 1652375963.5, 
+                "ppid": 384
+            }, 
+            {
+                "process_path": "C:\\Windows\\System32\\cmd.exe", 
+                "process_name": "cmd.exe", 
+                "pid": 2720, 
+                "summary": {}, 
+                "first_seen": 1652375965.34375, 
+                "ppid": 2696
+            }
+        ], 
+        "processes": [
+            {
+                "process_path": "C:\\Windows\\System32\\lsass.exe", 
+                "calls": [], 
+                "track": false, 
+                "pid": 496, 
+                "process_name": "lsass.exe", 
+                "command_line": "C:\\Windows\\system32\\lsass.exe", 
+                "modules": [
+                    {
+                        "basename": "lsass.exe", 
+                        "imgsize": 49152, 
+                        "baseaddr": "0xffb50000", 
+                        "filepath": "C:\\Windows\\system32\\lsass.exe"
+                    }, 
+                    {
+                        "basename": "ntdll.dll", 
+                        "imgsize": 1740800, 
+                        "baseaddr": "0x77b10000", 
+                        "filepath": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+                    }, 
+                    {
+                        "basename": "kernel32.dll", 
+                        "imgsize": 1175552, 
+                        "baseaddr": "0x779f0000", 
+                        "filepath": "C:\\Windows\\system32\\kernel32.dll"
+                    }, 
+                    {
+                        "basename": "KERNELBASE.dll", 
+                        "imgsize": 438272, 
+                        "baseaddr": "0x7fefddc0000", 
+                        "filepath": "C:\\Windows\\system32\\KERNELBASE.dll"
+                    }, 
+                    {
+                        "basename": "msvcrt.dll", 
+                        "imgsize": 651264, 
+                        "baseaddr": "0x7feff2b0000", 
+                        "filepath": "C:\\Windows\\system32\\msvcrt.dll"
+                    }, 
+                    {
+                        "basename": "RPCRT4.dll", 
+                        "imgsize": 1232896, 
+                        "baseaddr": "0x7feffcf0000", 
+                        "filepath": "C:\\Windows\\system32\\RPCRT4.dll"
+                    }, 
+                    {
+                        "basename": "SspiSrv.dll", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x7fefd8b0000", 
+                        "filepath": "C:\\Windows\\system32\\SspiSrv.dll"
+                    }, 
+                    {
+                        "basename": "lsasrv.dll", 
+                        "imgsize": 1470464, 
+                        "baseaddr": "0x7fefd730000", 
+                        "filepath": "C:\\Windows\\system32\\lsasrv.dll"
+                    }, 
+                    {
+                        "basename": "sechost.dll", 
+                        "imgsize": 126976, 
+                        "baseaddr": "0x7feff420000", 
+                        "filepath": "C:\\Windows\\SYSTEM32\\sechost.dll"
+                    }, 
+                    {
+                        "basename": "SspiCli.dll", 
+                        "imgsize": 151552, 
+                        "baseaddr": "0x7fefd8c0000", 
+                        "filepath": "C:\\Windows\\system32\\SspiCli.dll"
+                    }, 
+                    {
+                        "basename": "ADVAPI32.dll", 
+                        "imgsize": 897024, 
+                        "baseaddr": "0x7feff440000", 
+                        "filepath": "C:\\Windows\\system32\\ADVAPI32.dll"
+                    }, 
+                    {
+                        "basename": "USER32.dll", 
+                        "imgsize": 1024000, 
+                        "baseaddr": "0x778f0000", 
+                        "filepath": "C:\\Windows\\system32\\USER32.dll"
+                    }, 
+                    {
+                        "basename": "GDI32.dll", 
+                        "imgsize": 421888, 
+                        "baseaddr": "0x7feff520000", 
+                        "filepath": "C:\\Windows\\system32\\GDI32.dll"
+                    }, 
+                    {
+                        "basename": "LPK.dll", 
+                        "imgsize": 57344, 
+                        "baseaddr": "0x7fefe240000", 
+                        "filepath": "C:\\Windows\\system32\\LPK.dll"
+                    }, 
+                    {
+                        "basename": "USP10.dll", 
+                        "imgsize": 823296, 
+                        "baseaddr": "0x7feff350000", 
+                        "filepath": "C:\\Windows\\system32\\USP10.dll"
+                    }, 
+                    {
+                        "basename": "SAMSRV.dll", 
+                        "imgsize": 774144, 
+                        "baseaddr": "0x7fefd630000", 
+                        "filepath": "C:\\Windows\\system32\\SAMSRV.dll"
+                    }, 
+                    {
+                        "basename": "cryptdll.dll", 
+                        "imgsize": 81920, 
+                        "baseaddr": "0x7fefd5a0000", 
+                        "filepath": "C:\\Windows\\system32\\cryptdll.dll"
+                    }, 
+                    {
+                        "basename": "MSASN1.dll", 
+                        "imgsize": 61440, 
+                        "baseaddr": "0x7fefdb00000", 
+                        "filepath": "C:\\Windows\\system32\\MSASN1.dll"
+                    }, 
+                    {
+                        "basename": "wevtapi.dll", 
+                        "imgsize": 446464, 
+                        "baseaddr": "0x7fefd500000", 
+                        "filepath": "C:\\Windows\\system32\\wevtapi.dll"
+                    }, 
+                    {
+                        "basename": "IMM32.DLL", 
+                        "imgsize": 188416, 
+                        "baseaddr": "0x7fefe090000", 
+                        "filepath": "C:\\Windows\\system32\\IMM32.DLL"
+                    }, 
+                    {
+                        "basename": "MSCTF.dll", 
+                        "imgsize": 1085440, 
+                        "baseaddr": "0x7feffb80000", 
+                        "filepath": "C:\\Windows\\system32\\MSCTF.dll"
+                    }, 
+                    {
+                        "basename": "cngaudit.dll", 
+                        "imgsize": 36864, 
+                        "baseaddr": "0x7fefd4f0000", 
+                        "filepath": "C:\\Windows\\system32\\cngaudit.dll"
+                    }, 
+                    {
+                        "basename": "AUTHZ.dll", 
+                        "imgsize": 192512, 
+                        "baseaddr": "0x7fefd4c0000", 
+                        "filepath": "C:\\Windows\\system32\\AUTHZ.dll"
+                    }, 
+                    {
+                        "basename": "ncrypt.dll", 
+                        "imgsize": 319488, 
+                        "baseaddr": "0x7fefd470000", 
+                        "filepath": "C:\\Windows\\system32\\ncrypt.dll"
+                    }, 
+                    {
+                        "basename": "bcrypt.dll", 
+                        "imgsize": 139264, 
+                        "baseaddr": "0x7fefd440000", 
+                        "filepath": "C:\\Windows\\system32\\bcrypt.dll"
+                    }, 
+                    {
+                        "basename": "msprivs.DLL", 
+                        "imgsize": 8192, 
+                        "baseaddr": "0x75830000", 
+                        "filepath": "C:\\Windows\\system32\\msprivs.DLL"
+                    }, 
+                    {
+                        "basename": "netjoin.dll", 
+                        "imgsize": 204800, 
+                        "baseaddr": "0x7fefd400000", 
+                        "filepath": "C:\\Windows\\system32\\netjoin.dll"
+                    }, 
+                    {
+                        "basename": "negoexts.DLL", 
+                        "imgsize": 147456, 
+                        "baseaddr": "0x7fefd3d0000", 
+                        "filepath": "C:\\Windows\\system32\\negoexts.DLL"
+                    }, 
+                    {
+                        "basename": "Secur32.dll", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x7fefd6f0000", 
+                        "filepath": "C:\\Windows\\system32\\Secur32.dll"
+                    }, 
+                    {
+                        "basename": "cryptbase.dll", 
+                        "imgsize": 61440, 
+                        "baseaddr": "0x7fefd950000", 
+                        "filepath": "C:\\Windows\\system32\\cryptbase.dll"
+                    }, 
+                    {
+                        "basename": "kerberos.DLL", 
+                        "imgsize": 737280, 
+                        "baseaddr": "0x7fefd310000", 
+                        "filepath": "C:\\Windows\\system32\\kerberos.DLL"
+                    }, 
+                    {
+                        "basename": "CRYPTSP.dll", 
+                        "imgsize": 94208, 
+                        "baseaddr": "0x7fefd2f0000", 
+                        "filepath": "C:\\Windows\\system32\\CRYPTSP.dll"
+                    }, 
+                    {
+                        "basename": "WS2_32.dll", 
+                        "imgsize": 315392, 
+                        "baseaddr": "0x7feff6b0000", 
+                        "filepath": "C:\\Windows\\system32\\WS2_32.dll"
+                    }, 
+                    {
+                        "basename": "NSI.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x7feffb70000", 
+                        "filepath": "C:\\Windows\\system32\\NSI.dll"
+                    }, 
+                    {
+                        "basename": "mswsock.dll", 
+                        "imgsize": 348160, 
+                        "baseaddr": "0x7fefd290000", 
+                        "filepath": "C:\\Windows\\system32\\mswsock.dll"
+                    }, 
+                    {
+                        "basename": "wship6.dll", 
+                        "imgsize": 28672, 
+                        "baseaddr": "0x7fefd280000", 
+                        "filepath": "C:\\Windows\\System32\\wship6.dll"
+                    }, 
+                    {
+                        "basename": "msv1_0.DLL", 
+                        "imgsize": 331776, 
+                        "baseaddr": "0x7fefd220000", 
+                        "filepath": "C:\\Windows\\system32\\msv1_0.DLL"
+                    }, 
+                    {
+                        "basename": "netlogon.DLL", 
+                        "imgsize": 712704, 
+                        "baseaddr": "0x7fefd170000", 
+                        "filepath": "C:\\Windows\\system32\\netlogon.DLL"
+                    }, 
+                    {
+                        "basename": "DNSAPI.dll", 
+                        "imgsize": 372736, 
+                        "baseaddr": "0x7fefd110000", 
+                        "filepath": "C:\\Windows\\system32\\DNSAPI.dll"
+                    }, 
+                    {
+                        "basename": "logoncli.dll", 
+                        "imgsize": 196608, 
+                        "baseaddr": "0x7fefd0e0000", 
+                        "filepath": "C:\\Windows\\system32\\logoncli.dll"
+                    }, 
+                    {
+                        "basename": "schannel.DLL", 
+                        "imgsize": 356352, 
+                        "baseaddr": "0x7fefd080000", 
+                        "filepath": "C:\\Windows\\system32\\schannel.DLL"
+                    }, 
+                    {
+                        "basename": "CRYPT32.dll", 
+                        "imgsize": 1470464, 
+                        "baseaddr": "0x7fefdbd0000", 
+                        "filepath": "C:\\Windows\\system32\\CRYPT32.dll"
+                    }, 
+                    {
+                        "basename": "wdigest.DLL", 
+                        "imgsize": 221184, 
+                        "baseaddr": "0x7fefd040000", 
+                        "filepath": "C:\\Windows\\system32\\wdigest.DLL"
+                    }, 
+                    {
+                        "basename": "rsaenh.dll", 
+                        "imgsize": 290816, 
+                        "baseaddr": "0x7fefcff0000", 
+                        "filepath": "C:\\Windows\\system32\\rsaenh.dll"
+                    }, 
+                    {
+                        "basename": "tspkg.DLL", 
+                        "imgsize": 98304, 
+                        "baseaddr": "0x7fefcfd0000", 
+                        "filepath": "C:\\Windows\\system32\\tspkg.DLL"
+                    }, 
+                    {
+                        "basename": "pku2u.DLL", 
+                        "imgsize": 282624, 
+                        "baseaddr": "0x7fefcf80000", 
+                        "filepath": "C:\\Windows\\system32\\pku2u.DLL"
+                    }, 
+                    {
+                        "basename": "bcryptprimitives.dll", 
+                        "imgsize": 311296, 
+                        "baseaddr": "0x7fefcf30000", 
+                        "filepath": "C:\\Windows\\system32\\bcryptprimitives.dll"
+                    }, 
+                    {
+                        "basename": "RpcRtRemote.dll", 
+                        "imgsize": 81920, 
+                        "baseaddr": "0x7fefda40000", 
+                        "filepath": "C:\\Windows\\system32\\RpcRtRemote.dll"
+                    }, 
+                    {
+                        "basename": "efslsaext.dll", 
+                        "imgsize": 73728, 
+                        "baseaddr": "0x7fefcf10000", 
+                        "filepath": "C:\\Windows\\system32\\efslsaext.dll"
+                    }, 
+                    {
+                        "basename": "scecli.DLL", 
+                        "imgsize": 253952, 
+                        "baseaddr": "0x7fefced0000", 
+                        "filepath": "C:\\Windows\\system32\\scecli.DLL"
+                    }, 
+                    {
+                        "basename": "credssp.dll", 
+                        "imgsize": 40960, 
+                        "baseaddr": "0x7fefcec0000", 
+                        "filepath": "C:\\Windows\\system32\\credssp.dll"
+                    }, 
+                    {
+                        "basename": "WINSTA.dll", 
+                        "imgsize": 249856, 
+                        "baseaddr": "0x7fefda00000", 
+                        "filepath": "C:\\Windows\\system32\\WINSTA.dll"
+                    }, 
+                    {
+                        "basename": "wshtcpip.dll", 
+                        "imgsize": 28672, 
+                        "baseaddr": "0x7fefcc90000", 
+                        "filepath": "C:\\Windows\\System32\\wshtcpip.dll"
+                    }, 
+                    {
+                        "basename": "IPHLPAPI.DLL", 
+                        "imgsize": 159744, 
+                        "baseaddr": "0x7fefb8f0000", 
+                        "filepath": "C:\\Windows\\system32\\IPHLPAPI.DLL"
+                    }, 
+                    {
+                        "basename": "WINNSI.DLL", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x7fefb780000", 
+                        "filepath": "C:\\Windows\\system32\\WINNSI.DLL"
+                    }, 
+                    {
+                        "basename": "netutils.dll", 
+                        "imgsize": 49152, 
+                        "baseaddr": "0x7fefb470000", 
+                        "filepath": "C:\\Windows\\system32\\netutils.dll"
+                    }, 
+                    {
+                        "basename": "USERENV.dll", 
+                        "imgsize": 122880, 
+                        "baseaddr": "0x7fefcdb0000", 
+                        "filepath": "C:\\Windows\\system32\\USERENV.dll"
+                    }, 
+                    {
+                        "basename": "profapi.dll", 
+                        "imgsize": 61440, 
+                        "baseaddr": "0x7fefda60000", 
+                        "filepath": "C:\\Windows\\system32\\profapi.dll"
+                    }, 
+                    {
+                        "basename": "monitor-x64.dll", 
+                        "imgsize": 2269184, 
+                        "baseaddr": "0x75230000", 
+                        "filepath": "C:\\tmpy1hzlw\\bin\\monitor-x64.dll"
+                    }
+                ], 
+                "time": 78, 
+                "tid": 2676, 
+                "first_seen": 1652375963.5, 
+                "ppid": 384, 
+                "type": "process"
+            }, 
+            {
+                "process_path": "C:\\Windows\\System32\\cmd.exe", 
+                "calls": [], 
+                "track": true, 
+                "pid": 2720, 
+                "process_name": "cmd.exe", 
+                "command_line": "\"C:\\Windows\\System32\\cmd.exe\" /c start /wait \"kDLOJk\" C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\istockphoto-1188445864-612x612.jpg", 
+                "modules": [
+                    {
+                        "basename": "cmd.exe", 
+                        "imgsize": 364544, 
+                        "baseaddr": "0x4ab40000", 
+                        "filepath": "C:\\Windows\\System32\\cmd.exe"
+                    }, 
+                    {
+                        "basename": "ntdll.dll", 
+                        "imgsize": 1740800, 
+                        "baseaddr": "0x77b10000", 
+                        "filepath": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+                    }, 
+                    {
+                        "basename": "kernel32.dll", 
+                        "imgsize": 1175552, 
+                        "baseaddr": "0x779f0000", 
+                        "filepath": "C:\\Windows\\system32\\kernel32.dll"
+                    }, 
+                    {
+                        "basename": "KERNELBASE.dll", 
+                        "imgsize": 438272, 
+                        "baseaddr": "0x7fefddc0000", 
+                        "filepath": "C:\\Windows\\system32\\KERNELBASE.dll"
+                    }, 
+                    {
+                        "basename": "msvcrt.dll", 
+                        "imgsize": 651264, 
+                        "baseaddr": "0x7feff2b0000", 
+                        "filepath": "C:\\Windows\\system32\\msvcrt.dll"
+                    }, 
+                    {
+                        "basename": "WINBRAND.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x7fef8bd0000", 
+                        "filepath": "C:\\Windows\\System32\\WINBRAND.dll"
+                    }, 
+                    {
+                        "basename": "USER32.dll", 
+                        "imgsize": 1024000, 
+                        "baseaddr": "0x778f0000", 
+                        "filepath": "C:\\Windows\\system32\\USER32.dll"
+                    }, 
+                    {
+                        "basename": "GDI32.dll", 
+                        "imgsize": 421888, 
+                        "baseaddr": "0x7feff520000", 
+                        "filepath": "C:\\Windows\\system32\\GDI32.dll"
+                    }, 
+                    {
+                        "basename": "LPK.dll", 
+                        "imgsize": 57344, 
+                        "baseaddr": "0x7fefe240000", 
+                        "filepath": "C:\\Windows\\system32\\LPK.dll"
+                    }, 
+                    {
+                        "basename": "USP10.dll", 
+                        "imgsize": 823296, 
+                        "baseaddr": "0x7feff350000", 
+                        "filepath": "C:\\Windows\\system32\\USP10.dll"
+                    }, 
+                    {
+                        "basename": "IMM32.DLL", 
+                        "imgsize": 188416, 
+                        "baseaddr": "0x7fefe090000", 
+                        "filepath": "C:\\Windows\\system32\\IMM32.DLL"
+                    }, 
+                    {
+                        "basename": "MSCTF.dll", 
+                        "imgsize": 1085440, 
+                        "baseaddr": "0x7feffb80000", 
+                        "filepath": "C:\\Windows\\system32\\MSCTF.dll"
+                    }, 
+                    {
+                        "basename": "monitor-x64.dll", 
+                        "imgsize": 2269184, 
+                        "baseaddr": "0x75230000", 
+                        "filepath": "C:\\tmpy1hzlw\\bin\\monitor-x64.dll"
+                    }
+                ], 
+                "time": 15, 
+                "tid": 2724, 
+                "first_seen": 1652375965.34375, 
+                "ppid": 2696, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": false, 
+                "pid": 496, 
+                "process_name": "lsass.exe", 
+                "command_line": "C:\\Windows\\system32\\lsass.exe", 
+                "first_seen": 1652375963.5, 
+                "ppid": 384, 
+                "children": []
+            }, 
+            {
+                "track": true, 
+                "pid": 2720, 
+                "process_name": "cmd.exe", 
+                "command_line": "\"C:\\Windows\\System32\\cmd.exe\" /c start /wait \"kDLOJk\" C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\istockphoto-1188445864-612x612.jpg", 
+                "first_seen": 1652375965.34375, 
+                "ppid": 2696, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-05-12 23:18:59,030 [analyzer] DEBUG: Starting analyzer from: C:\\tmpy1hzlw\n", 
+            "2022-05-12 23:18:59,030 [analyzer] DEBUG: Pipe server name: \\??\\PIPE\\WcUPQsLRrqpcCyMmsBTnBHkKjMyhZgB\n", 
+            "2022-05-12 23:18:59,030 [analyzer] DEBUG: Log pipe server name: \\??\\PIPE\\KhRXUmIrrBXQZPCK\n", 
+            "2022-05-12 23:18:59,030 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.\n", 
+            "2022-05-12 23:18:59,030 [analyzer] INFO: Automatically selected analysis package \"generic\"\n", 
+            "2022-05-12 23:19:01,155 [analyzer] DEBUG: Started auxiliary module DbgView\n", 
+            "2022-05-12 23:19:22,671 [analyzer] DEBUG: Started auxiliary module Disguise\n", 
+            "2022-05-12 23:19:23,671 [analyzer] DEBUG: Loaded monitor into process with pid 496\n", 
+            "2022-05-12 23:19:23,750 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets\n", 
+            "2022-05-12 23:19:23,765 [analyzer] DEBUG: Started auxiliary module Human\n", 
+            "2022-05-12 23:19:23,765 [analyzer] DEBUG: Started auxiliary module InstallCertificate\n", 
+            "2022-05-12 23:19:23,765 [analyzer] DEBUG: Started auxiliary module Reboot\n", 
+            "2022-05-12 23:19:24,296 [analyzer] DEBUG: Started auxiliary module RecentFiles\n", 
+            "2022-05-12 23:19:24,296 [analyzer] DEBUG: Started auxiliary module Screenshots\n", 
+            "2022-05-12 23:19:24,296 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n\n", 
+            "2022-05-12 23:19:24,937 [lib.api.process] INFO: Successfully executed process from path 'C:\\\\Windows\\\\System32\\\\cmd.exe' with arguments ['/c', 'start', '/wait', '\"kDLOJk\"', u'C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\istockphoto-1188445864-612x612.jpg'] and pid 2720\n", 
+            "2022-05-12 23:19:26,296 [analyzer] DEBUG: Loaded monitor into process with pid 2720\n", 
+            "2022-05-12 23:20:06,625 [modules.auxiliary.human] INFO: Found button u'&File', clicking it\n", 
+            "2022-05-12 23:20:15,828 [lib.api.process] INFO: Memory dump of process with pid 2720 completed\n", 
+            "2022-05-12 23:20:16,342 [analyzer] INFO: Process with pid 2720 has terminated\n", 
+            "2022-05-12 23:20:16,342 [analyzer] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-05-12 23:20:17,390 [analyzer] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-05-12 23:19:00,311 [cuckoo.core.scheduler] INFO: Task #23: acquired machine 192.168.56.102 (label=192.168.56.102)\n", 
+            "2022-05-12 23:19:00,312 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #23\n", 
+            "2022-05-12 23:19:00,312 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay\n", 
+            "2022-05-12 23:19:00,328 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 8852 (interface=vboxnet0, host=192.168.56.101)\n", 
+            "2022-05-12 23:19:00,329 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer\n", 
+            "2022-05-12 23:19:00,365 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.102\n", 
+            "2022-05-12 23:19:00,672 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.102 to its current snapshot\n", 
+            "2022-05-12 23:19:05,564 [cuckoo.core.guest] INFO: Starting analysis #23 on guest (id=192.168.56.102, ip=192.168.56.101)\n", 
+            "2022-05-12 23:19:06,571 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet\n", 
+            "2022-05-12 23:19:07,574 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet\n", 
+            "2022-05-12 23:19:08,577 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet\n", 
+            "2022-05-12 23:19:08,643 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet\n", 
+            "2022-05-12 23:19:09,672 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.102, ip=192.168.56.101)\n", 
+            "2022-05-12 23:19:09,726 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.102, ip=192.168.56.101, monitor=latest, size=3884763)\n", 
+            "2022-05-12 23:19:14,015 [cuckoo.core.resultserver] DEBUG: Task #23: live log analysis.log initialized.\n", 
+            "2022-05-12 23:19:17,653 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:19:22,719 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:19:27,837 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:19:32,879 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:19:37,953 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:19:38,560 [cuckoo.core.resultserver] DEBUG: Task #23 is sending a BSON stream\n", 
+            "2022-05-12 23:19:40,849 [cuckoo.core.resultserver] DEBUG: Task #23 is sending a BSON stream\n", 
+            "2022-05-12 23:19:41,356 [cuckoo.core.resultserver] DEBUG: Task #23: File upload for 'shots/0001.jpg'\n", 
+            "2022-05-12 23:19:41,473 [cuckoo.core.resultserver] DEBUG: Task #23 uploaded file length: 47879\n", 
+            "2022-05-12 23:19:43,025 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:19:43,551 [cuckoo.core.resultserver] DEBUG: Task #23: File upload for 'shots/0002.jpg'\n", 
+            "2022-05-12 23:19:43,581 [cuckoo.core.resultserver] DEBUG: Task #23 uploaded file length: 47441\n", 
+            "2022-05-12 23:19:48,094 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:19:53,167 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:19:58,216 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:20:04,118 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:20:09,972 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:20:15,041 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:20:20,108 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #23 still processing\n", 
+            "2022-05-12 23:20:21,539 [cuckoo.core.resultserver] DEBUG: Task #23: File upload for 'shots/0003.jpg'\n", 
+            "2022-05-12 23:20:21,641 [cuckoo.core.resultserver] DEBUG: Task #23 uploaded file length: 57006\n", 
+            "2022-05-12 23:20:23,116 [cuckoo.core.resultserver] DEBUG: Task #23: File upload for 'shots/0004.jpg'\n", 
+            "2022-05-12 23:20:23,247 [cuckoo.core.resultserver] DEBUG: Task #23 uploaded file length: 65800\n", 
+            "2022-05-12 23:20:24,698 [cuckoo.core.resultserver] DEBUG: Task #23: File upload for 'shots/0005.jpg'\n", 
+            "2022-05-12 23:20:24,847 [cuckoo.core.resultserver] DEBUG: Task #23: File upload for 'memory/2720-1.dmp'\n", 
+            "2022-05-12 23:20:24,850 [cuckoo.core.resultserver] DEBUG: Task #23 uploaded file length: 70228\n", 
+            "2022-0"
+        ]
+    }, 
+    "screenshots": [
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/23/shots/0001.jpg", 
+            "ocr": ""
+        }, 
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/23/shots/0002.jpg", 
+            "ocr": ""
+        }, 
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/23/shots/0003.jpg", 
+            "ocr": ""
+        }, 
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/23/shots/0004.jpg", 
+            "ocr": ""
+        }, 
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/23/shots/0005.jpg", 
+            "ocr": ""
+        }, 
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/23/shots/0006.jpg", 
+            "ocr": ""
+        }
+    ], 
+    "strings": [
+        "Closeup portrait of funny ginger cat wearing sunglasses isolated on light cyan. Copyspace.", 
+        "yhttp://ns.adobe.com/xap/1.0/", 
+        "<?xpacket begin=\"", 
+        "\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>", 
+        "<x:xmpmeta xmlns:x=\"adobe:ns:meta/\">", 
+        "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">", 
+        "<rdf:Description rdf:about=\"\" xmlns:photoshop=\"http://ns.adobe.com/photoshop/1.0/\" xmlns:Iptc4xmpCore=\"http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/\"   xmlns:GettyImagesGIFT=\"http://xmp.gettyimages.com/gift/1.0/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:plus=\"http://ns.useplus.org/ldf/xmp/1.0/\"  xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\" xmlns:xmpRights=\"http://ns.adobe.com/xap/1.0/rights/\" photoshop:Credit=\"Getty Images/iStockphoto\" GettyImagesGIFT:AssetID=\"1188445864\" xmpRights:WebStatement=\"https://www.istockphoto.com/legal/license-agreement?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl\" >", 
+        "<dc:creator><rdf:Seq><rdf:li>Mark_KA</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang=\"x-default\">Closeup portrait of funny ginger cat wearing sunglasses isolated on light cyan. Copyspace.</rdf:li></rdf:Alt></dc:description>", 
+        "<plus:Licensor><rdf:Seq><rdf:li rdf:parseType='Resource'><plus:LicensorURL>https://www.istockphoto.com/photo/license-gm1188445864-?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>", 
+        "</rdf:Description>", 
+        "</rdf:RDF>", 
+        "</x:xmpmeta>", 
+        "<?xpacket end=\"w\"?>", 
+        "Photoshop 3.0", 
+        "Mark_KA", 
+        "ZCloseup portrait of funny ginger cat wearing sunglasses isolated on light cyan. Copyspace.", 
+        "Getty Images/iStockphoto", 
+        "#\u001f%$\"\u001f\"!&+7/&)4)!\"0A149;>>>%.DIC<H7=>;", 
+        ";(\"(;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;", 
+        "g_LC7:", 
+        "/?K~K5", 
+        ",&M(^E", 
+        "1P\"2A ", 
+        "#0@`3B", 
+        "%1{643=", 
+        "60bZ7O", 
+        "t1z]\u001f]", 
+        " 1!P0A\"Q", 
+        "YhR7^(", 
+        "2A\"BQa@`q", 
+        "\\t'|e/", 
+        "CdSf\u001f^", 
+        " \"APa2`q", 
+        "B)Or6g", 
+        "~cd:E_", 
+        "e]Q05y", 
+        "T%\"VS-Q", 
+        "t!vm;1f0M", 
+        "0Bi!Rpj", 
+        "50e&T>", 
+        "sOru,\\", 
+        "l& BX~", 
+        "APa Qq0`", 
+        "}$I?rl", 
+        "1AP Qa0q`", 
+        "!1AQaq", 
+        "Q;G`^+", 
+        "[5P_Q2"
+    ], 
+    "metadata": {
+        "output": {
+            "memdumps": [
+                {
+                    "basename": "2720-1.dmp", 
+                    "sha256": "52a512346bf38dfe68220daae2ab8764fc3456f54bd1996e4228e5375ec6e492", 
+                    "dirname": "memory"
+                }
+            ], 
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "1d5481eaed70579411696600eff8c6c032c031053e84177873600d0c141faf9a", 
+                "dirname": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+2022-05-09 10:54:32,030 [analyzer] DEBUG: Starting analyzer from: C:\tmpy1hzlw
+2022-05-09 10:54:32,030 [analyzer] DEBUG: Pipe server name: \??\PIPE\LrlywRMBKrjNmLZJzc
+2022-05-09 10:54:32,030 [analyzer] DEBUG: Log pipe server name: \??\PIPE\SmdBxmyouAkkKTckzjrjqPailE
+2022-05-09 10:54:33,655 [analyzer] DEBUG: Started auxiliary module DbgView
+2022-05-09 10:54:52,733 [analyzer] DEBUG: Started auxiliary module Disguise
+2022-05-09 10:54:53,328 [analyzer] DEBUG: Loaded monitor into process with pid 496
+2022-05-09 10:54:53,342 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2022-05-09 10:54:53,342 [analyzer] DEBUG: Started auxiliary module Human
+2022-05-09 10:54:53,342 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2022-05-09 10:54:53,342 [analyzer] DEBUG: Started auxiliary module Reboot
+2022-05-09 10:54:53,655 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2022-05-09 10:54:53,655 [analyzer] DEBUG: Started auxiliary module Screenshots
+2022-05-09 10:54:53,671 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2022-05-09 10:54:54,640 [lib.api.process] INFO: Successfully executed process from path 'C:\\Program Files\\Internet Explorer\\iexplore.exe' with arguments ['http://www.espn.com'] and pid 2652
+2022-05-09 10:54:54,983 [analyzer] DEBUG: Loaded monitor into process with pid 2652
+2022-05-09 10:54:55,171 [analyzer] DEBUG: Ignoring process "C:\Windows\System32\ie4uinit.exe" -ShowQLIcon!
+2022-05-09 10:54:59,171 [analyzer] DEBUG: Following legitimate IE8 process: "C:\Program Files\Internet Explorer\iexplore.exe" SCODEF:2652 CREDAT:79873!
+2022-05-09 10:54:59,687 [analyzer] INFO: Injected into process with pid 2764 and name u'iexplore.exe'
+2022-05-09 10:55:00,578 [lib.api.process] INFO: Memory dump of process with pid 2764 completed
+2022-05-09 10:55:01,280 [analyzer] DEBUG: Loaded monitor into process with pid 2764
+2022-05-09 10:55:01,687 [analyzer] INFO: Added new file to list with pid 2652 and path C:\Users\Administrator\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{B26643D7-CF75-11EC-84C7-840F0C3BD90C}.dat
+2022-05-09 10:55:01,780 [analyzer] INFO: Added new file to list with pid 2652 and path C:\Users\Administrator\AppData\Local\Temp\~DFF69E803F0E9ED41D.TMP
+2022-05-09 10:55:03,280 [analyzer] INFO: Added new file to list with pid 2652 and path C:\Users\Administrator\Favorites\Links\desktop.ini
+2022-05-09 10:55:04,875 [analyzer] INFO: Added new file to list with pid 2652 and path C:\Users\Administrator\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\{B26643D8-CF75-11EC-84C7-840F0C3BD90C}.dat
+2022-05-09 10:55:04,953 [analyzer] INFO: Added new file to list with pid 2652 and path C:\Users\Administrator\AppData\Local\Temp\~DF65FE117BA1C9C162.TMP
+2022-05-09 10:55:08,546 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Cookies\administrator@www.espn[1].txt
+2022-05-09 10:55:08,608 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Cookies\administrator@www.espn[2].txt
+2022-05-09 10:55:16,217 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\94308059B57B3142E455B38A6EB92015
+2022-05-09 10:55:16,312 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\94308059B57B3142E455B38A6EB92015
+2022-05-09 10:55:16,421 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabBA9.tmp
+2022-05-09 10:55:16,500 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarBCA.tmp
+2022-05-09 10:55:30,140 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\F0ACCF77CDCBFF39F6191887F6D2D357
+2022-05-09 10:55:30,171 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\F0ACCF77CDCBFF39F6191887F6D2D357
+2022-05-09 10:55:30,312 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Cab41FE.tmp
+2022-05-09 10:55:30,358 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Tar420E.tmp
+2022-05-09 10:55:36,108 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Cab58A4.tmp
+2022-05-09 10:55:36,140 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Tar58B5.tmp
+2022-05-09 10:55:36,390 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Cab59C0.tmp
+2022-05-09 10:55:36,437 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Tar59D0.tmp
+2022-05-09 10:55:42,546 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Cab7161.tmp
+2022-05-09 10:55:42,592 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Tar7162.tmp
+2022-05-09 10:55:42,953 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Cab7366.tmp
+2022-05-09 10:55:43,015 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Tar7377.tmp
+2022-05-09 10:55:48,796 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Cab8A3C.tmp
+2022-05-09 10:55:48,842 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Tar8A3D.tmp
+2022-05-09 10:55:49,140 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Cab8BA5.tmp
+2022-05-09 10:55:49,171 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\Tar8BB6.tmp
+2022-05-09 10:55:55,000 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabA28B.tmp
+2022-05-09 10:55:55,030 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarA28C.tmp
+2022-05-09 10:55:55,296 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabA3B6.tmp
+2022-05-09 10:55:55,328 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarA3B7.tmp
+2022-05-09 10:56:00,890 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabB991.tmp
+2022-05-09 10:56:00,921 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarB9A2.tmp
+2022-05-09 10:56:01,546 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabBC14.tmp
+2022-05-09 10:56:01,592 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarBC15.tmp
+2022-05-09 10:56:02,125 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabBE58.tmp
+2022-05-09 10:56:02,155 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarBE69.tmp
+2022-05-09 10:56:02,405 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabBF83.tmp
+2022-05-09 10:56:02,717 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarBF84.tmp
+2022-05-09 10:56:03,280 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabC2F0.tmp
+2022-05-09 10:56:03,328 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarC301.tmp
+2022-05-09 10:56:03,515 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabC3EC.tmp
+2022-05-09 10:56:03,562 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarC3ED.tmp
+2022-05-09 10:56:04,171 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabC620.tmp
+2022-05-09 10:56:04,203 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarC621.tmp
+2022-05-09 10:56:04,405 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabC73C.tmp
+2022-05-09 10:56:04,437 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarC75C.tmp
+2022-05-09 10:56:04,983 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabC98F.tmp
+2022-05-09 10:56:05,015 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarC9A0.tmp
+2022-05-09 10:56:05,530 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabCAF9.tmp
+2022-05-09 10:56:05,655 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarCAFA.tmp
+2022-05-09 10:56:06,187 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabCE56.tmp
+2022-05-09 10:56:06,217 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarCE67.tmp
+2022-05-09 10:56:06,405 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabCF33.tmp
+2022-05-09 10:56:06,453 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarCF34.tmp
+2022-05-09 10:56:07,546 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\CabD3AA.tmp
+2022-05-09 10:56:07,578 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Temp\TarD3AB.tmp
+2022-05-09 10:56:08,296 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\invalidcert[1]
+2022-05-09 10:56:08,812 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\IBBL5OJZ\ErrorPageTemplate[1]
+2022-05-09 10:56:09,030 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\1930N1EX\errorPageStrings[1]
+2022-05-09 10:56:09,342 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\0CXDFCDX\httpErrorPagesScripts[1]
+2022-05-09 10:56:09,421 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\invalidcert[2]
+2022-05-09 10:56:09,625 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\IBBL5OJZ\background_gradient_red[1]
+2022-05-09 10:56:09,717 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\1930N1EX\red_shield_48[1]
+2022-05-09 10:56:09,937 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\0CXDFCDX\green_shield[1]
+2022-05-09 10:56:10,140 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\red_shield[1]
+2022-05-09 10:56:10,265 [analyzer] INFO: Added new file to list with pid 2764 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\IBBL5OJZ\down[1]
+2022-05-09 10:56:16,342 [analyzer] INFO: Added new file to list with pid 2652 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\Internet Explorer\Services\search_{0633EE93-D776-472f-A0FF-E1416B8B2E3A}.ico
+2022-05-09 10:56:57,483 [analyzer] INFO: Analysis timeout hit, terminating analysis.
+2022-05-09 10:57:28,483 [lib.api.process] INFO: Memory dump of process with pid 2652 completed

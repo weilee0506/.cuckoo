@@ -1,0 +1,33 @@
+2022-05-08 09:36:57,030 [analyzer] DEBUG: Starting analyzer from: C:\tmpijiehg
+2022-05-08 09:36:57,046 [analyzer] DEBUG: Pipe server name: \??\PIPE\DiwuOQmnoakJYFbHWcKhMoUFNRm
+2022-05-08 09:36:57,046 [analyzer] DEBUG: Log pipe server name: \??\PIPE\VuaLAAQNVDlxLbjWvNXHItQMl
+2022-05-08 09:36:57,046 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.
+2022-05-08 09:36:57,046 [analyzer] INFO: Automatically selected analysis package "generic"
+2022-05-08 09:36:57,717 [analyzer] DEBUG: Started auxiliary module DbgView
+2022-05-08 09:37:13,046 [analyzer] DEBUG: Started auxiliary module Disguise
+2022-05-08 09:37:13,578 [analyzer] DEBUG: Loaded monitor into process with pid 516
+2022-05-08 09:37:13,608 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2022-05-08 09:37:13,608 [analyzer] DEBUG: Started auxiliary module Human
+2022-05-08 09:37:13,608 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2022-05-08 09:37:13,608 [analyzer] DEBUG: Started auxiliary module Reboot
+2022-05-08 09:37:14,312 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2022-05-08 09:37:14,328 [analyzer] DEBUG: Started auxiliary module Screenshots
+2022-05-08 09:37:14,328 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2022-05-08 09:37:14,328 [modules.auxiliary.screenshots] INFO: Python Image Library (either PIL or Pillow) is not installed, screenshots are disabled.
+2022-05-08 09:37:14,812 [lib.api.process] INFO: Successfully executed process from path 'C:\\Windows\\System32\\cmd.exe' with arguments ['/c', 'start', '/wait', '"UTxWivISB"', u'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\sources.list'] and pid 1460
+2022-05-08 09:37:15,578 [analyzer] DEBUG: Loaded monitor into process with pid 1460
+2022-05-08 09:37:22,140 [analyzer] INFO: Injected into process with pid 1388 and name u'rundll32.exe'
+2022-05-08 09:37:22,828 [lib.api.process] INFO: Memory dump of process with pid 1388 completed
+2022-05-08 09:37:23,405 [analyzer] DEBUG: Loaded monitor into process with pid 1388
+2022-05-08 09:37:25,437 [modules.auxiliary.human] INFO: Found button u'Use the &Web service to find the correct program', clicking it
+2022-05-08 09:37:28,421 [modules.auxiliary.human] INFO: Found button u'&Select a program from a list of installed programs', clicking it
+2022-05-08 09:37:29,421 [modules.auxiliary.human] INFO: Found button u'OK', clicking it
+2022-05-08 09:37:57,312 [modules.auxiliary.human] INFO: Found button u'&Always use the selected program to open this kind of file', clicking it
+2022-05-08 09:38:01,046 [modules.auxiliary.human] INFO: Found button u'&Always use the selected program to open this kind of file', clicking it
+2022-05-08 09:38:04,437 [modules.auxiliary.human] INFO: Found button u'OK', clicking it
+2022-05-08 09:38:09,062 [analyzer] INFO: Injected into process with pid 1912 and name u'explorer.exe'
+2022-05-08 09:38:10,062 [analyzer] DEBUG: Loaded monitor into process with pid 1912
+2022-05-08 09:38:16,828 [analyzer] INFO: Added new file to list with pid 1912 and path \Device\NamedPipe\lsass
+2022-05-08 09:38:56,828 [analyzer] INFO: Injected into process with pid 2228 and name u'ehshell.exe'
+2022-05-08 09:38:58,530 [analyzer] DEBUG: Loaded monitor into process with pid 2228
+2022-05-08 09:39:20,483 [analyzer] INFO: Analysis timeout hit, terminating analysis.

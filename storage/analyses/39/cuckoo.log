@@ -1,0 +1,62 @@
+2022-05-14 04:04:11,096 [cuckoo.core.scheduler] INFO: Task #39: acquired machine 192.168.56.102 (label=192.168.56.102)
+2022-05-14 04:04:11,096 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #39
+2022-05-14 04:04:11,097 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-14 04:04:11,109 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2421 (interface=vboxnet0, host=192.168.56.101)
+2022-05-14 04:04:11,109 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-14 04:04:11,140 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.102
+2022-05-14 04:04:11,460 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.102 to its current snapshot
+2022-05-14 04:04:16,932 [cuckoo.core.guest] INFO: Starting analysis #39 on guest (id=192.168.56.102, ip=192.168.56.101)
+2022-05-14 04:04:17,935 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-14 04:04:18,938 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-14 04:04:19,941 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-14 04:04:19,989 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-14 04:04:21,035 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.102, ip=192.168.56.101)
+2022-05-14 04:04:21,120 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.102, ip=192.168.56.101, monitor=latest, size=3884763)
+2022-05-14 04:04:25,608 [cuckoo.core.resultserver] DEBUG: Task #39: live log analysis.log initialized.
+2022-05-14 04:04:29,177 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:04:34,256 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:04:39,325 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:04:44,372 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:04:47,979 [cuckoo.core.resultserver] DEBUG: Task #39 is sending a BSON stream
+2022-05-14 04:04:49,453 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:04:50,021 [cuckoo.core.resultserver] DEBUG: Task #39 is sending a BSON stream
+2022-05-14 04:04:50,189 [cuckoo.core.resultserver] DEBUG: Task #39: File upload for 'shots/0001.jpg'
+2022-05-14 04:04:50,267 [cuckoo.core.resultserver] DEBUG: Task #39 uploaded file length: 47815
+2022-05-14 04:04:54,513 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:04:59,575 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:05:04,635 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:05:09,676 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:05:17,799 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:05:19,708 [cuckoo.core.resultserver] DEBUG: Task #39: File upload for 'memory/2728-1.dmp'
+2022-05-14 04:05:22,910 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #39 still processing
+2022-05-14 04:05:25,125 [cuckoo.core.resultserver] DEBUG: Task #39 uploaded file length: 69498432
+2022-05-14 04:05:26,956 [cuckoo.core.guest] INFO: 192.168.56.102: analysis completed successfully
+2022-05-14 04:05:26,964 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2022-05-14 04:05:26,967 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer
+2022-05-14 04:05:26,967 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.102
+2022-05-14 04:05:28,306 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #39
+2022-05-14 04:05:28,306 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 39
+2022-05-14 04:05:28,313 [cuckoo.core.scheduler] DEBUG: Released database task #39
+2022-05-14 04:05:28,349 [cuckoo.core.plugins] DEBUG: Executed processing module "AnalysisInfo" for task #39
+2022-05-14 04:05:28,355 [cuckoo.core.plugins] DEBUG: Executed processing module "BehaviorAnalysis" for task #39
+2022-05-14 04:05:28,355 [cuckoo.core.plugins] DEBUG: Executed processing module "Dropped" for task #39
+2022-05-14 04:05:28,358 [cuckoo.core.plugins] DEBUG: Executed processing module "DroppedBuffer" for task #39
+2022-05-14 04:05:29,140 [cuckoo.core.plugins] DEBUG: Executed processing module "MetaInfo" for task #39
+2022-05-14 04:05:31,297 [cuckoo.core.plugins] DEBUG: Executed processing module "ProcessMemory" for task #39
+2022-05-14 04:05:31,297 [cuckoo.core.plugins] DEBUG: Executed processing module "Procmon" for task #39
+2022-05-14 04:05:31,324 [cuckoo.core.plugins] DEBUG: Executed processing module "Screenshots" for task #39
+2022-05-14 04:05:31,328 [cuckoo.core.plugins] DEBUG: Executed processing module "Static" for task #39
+2022-05-14 04:05:31,333 [cuckoo.core.plugins] DEBUG: Executed processing module "Strings" for task #39
+2022-05-14 04:05:31,339 [cuckoo.core.plugins] DEBUG: Executed processing module "TargetInfo" for task #39
+2022-05-14 04:05:31,433 [cuckoo.core.plugins] DEBUG: Executed processing module "NetworkAnalysis" for task #39
+2022-05-14 04:05:31,438 [cuckoo.core.plugins] DEBUG: Executed processing module "Extracted" for task #39
+2022-05-14 04:05:31,439 [cuckoo.core.plugins] DEBUG: Executed processing module "TLSMasterSecrets" for task #39
+2022-05-14 04:05:31,444 [cuckoo.core.plugins] DEBUG: Executed processing module "Debug" for task #39
+2022-05-14 04:05:31,445 [cuckoo.core.plugins] WARNING: 5e3a80524bb7d23222a489aee2b8c340
+2022-05-14 04:05:31,445 [cuckoo.core.plugins] WARNING: {'tls': [], 'udp': [{'src': '192.168.56.101', 'dst': '192.168.56.255', 'offset': 1242, 'time': 6.208005905151367, 'dport': 137, 'sport': 137}, {'src': '192.168.56.101', 'dst': '192.168.56.255', 'offset': 8586, 'time': 12.247430086135864, 'dport': 138, 'sport': 138}, {'src': '192.168.56.101', 'dst': '224.0.0.252', 'offset': 16838, 'time': 5.400080919265747, 'dport': 5355, 'sport': 49185}, {'src': '192.168.56.101', 'dst': '224.0.0.252', 'offset': 17166, 'time': 6.669367074966431, 'dport': 5355, 'sport': 49827}, {'src': '192.168.56.101', 'dst': '224.0.0.252', 'offset': 17494, 'time': 4.035238981246948, 'dport': 5355, 'sport': 51444}, {'src': '192.168.56.101', 'dst': '224.0.0.252', 'offset': 17822, 'time': 4.684062957763672, 'dport': 5355, 'sport': 53282}, {'src': '192.168.56.101', 'dst': '224.0.0.252', 'offset': 18150, 'time': 6.674133062362671, 'dport': 5355, 'sport': 55706}, {'src': '192.168.56.101', 'dst': '224.0.0.252', 'offset': 18518, 'time': 4.716662883758545, 'dport': 5355, 'sport': 56849}, {'src': '192.168.56.101', 'dst': '224.0.0.252', 'offset': 18886, 'time': 8.913043022155762, 'dport': 5355, 'sport': 57010}, {'src': '192.168.56.101', 'dst': '224.0.0.252', 'offset': 19206, 'time': 5.742920875549316, 'dport': 5355, 'sport': 62376}, {'src': '192.168.56.101', 'dst': '224.0.0.252', 'offset': 19534, 'time': 5.044785022735596, 'dport': 5355, 'sport': 64540}, {'src': '192.168.56.101', 'dst': '8.8.8.8', 'offset': 19862, 'time': 13.401880025863647, 'dport': 53, 'sport': 49524}, {'src': '192.168.56.101', 'dst': '8.8.8.8', 'offset': 20137, 'time': 6.251817941665649, 'dport': 53, 'sport': 56700}, {'src': '192.168.56.101', 'dst': '8.8.8.8', 'offset': 20349, 'time': 5.6356799602508545, 'dport': 53, 'sport': 56841}, {'src': '192.168.56.101', 'dst': '8.8.8.8', 'offset': 20624, 'time': 6.2321600914001465, 'dport': 53, 'sport': 59781}, {'src': '192.168.56.101', 'dst': '8.8.8.8', 'offset': 20824, 'time': 11.501821994781494, 'dport': 53, 'sport': 60361}], 'dns_servers': ['8.8.8.8'], 'http': [{'count': 1, 'body': '', 'uri': 'http://www.msftncsi.com/ncsi.txt', 'user-agent': 'Microsoft NCSI', 'method': 'GET', 'host': 'www.msftncsi.com', 'version': '1.1', 'path': '/ncsi.txt', 'data': 'GET /ncsi.txt HTTP/1.1\r\nConnection: Close\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftncsi.com\r\n\r\n', 'port': 80}], 'icmp': [], 'smtp': [], 'tcp': [{'src': '192.168.56.101', 'dst': '203.69.81.51', 'offset': 15372, 'time': 11.688124895095825, 'dport': 80, 'sport': 49159}], 'smtp_ex': [], 'mitm': [], 'hosts': ['203.69.81.51', '8.8.8.8'], 'pcap_sha256': '6981fc13617475bde0b2261e74c231e8c6a93487dafb94f862010039697292f2', 'dns': [{'type': 'A', 'request': 'www.msftncsi.com', 'answers': [{'data': '203.69.81.51', 'type': 'A'}, {'data': 'www.msftncsi.com.edgesuite.net', 'type': 'CNAME'}, {'data': '203.69.81.91', 'type': 'A'}, {'data': 'a1961.g2.akamai.net', 'type': 'CNAME'}]}, {'type': 'A', 'request': 'dns.msftncsi.com', 'answers': [{'data': '131.107.255.255', 'type': 'A'}]}, {'type': 'AAAA', 'request': 'dns.msftncsi.com', 'answers': [{'data': 'fd3e:4f5a:5b81::1', 'type': 'AAAA'}]}, {'type': 'A', 'request': 'teredo.ipv6.microsoft.com', 'answers': []}], 'http_ex': [{'status': 200, 'src': '192.168.56.101', 'resp': {'path': '/home/cuckoo/.cuckoo/storage/analyses/39/network/33bf88d5b82df3723d5863c7d23445e345828904', 'sha1': '33bf88d5b82df3723d5863c7d23445e345828904', 'md5': 'cd5a4d3fdd5bffc16bf959ef75cf37bc'}, 'sha1': '33bf88d5b82df3723d5863c7d23445e345828904', 'protocol': 'http', 'dst': '203.69.81.51', 'req': {'path': '/home/cuckoo/.cuckoo/storage/analyses/39/network/da39a3ee5e6b4b0d3255bfef95601890afd80709', 'sha1': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'md5': 'd41d8cd98f00b204e9800998ecf8427e'}, 'request': u'GET /ncsi.txt HTTP/1.1\r\nConnection: Close\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftncsi.com', 'uri': '/ncsi.txt', 'response': u'HTTP/1.1 200 OK\r\nContent-Length: 14\r\nDate: Sat, 14 May 2022 08:04:27 GMT\r\nConnection: close\r\nContent-Type: text/plain\r\nCache-Control: max-age=30, must-revalidate', 'host': 'www.msftncsi.com', 'dport': 80, 'path': '/home/cuckoo/.cuckoo/storage/analyses/39/network/33bf88d5b82df3723d5863c7d23445e345828904', 'sport': 49159, 'method': 'GET', 'md5': 'cd5a4d3fdd5bffc16bf959ef75cf37bc'}], 'domains': [{'ip': '', 'domain': 'teredo.ipv6.microsoft.com'}, {'ip': '131.107.255.255', 'domain': 'dns.msftncsi.com'}, {'ip': '210.71.227.114', 'domain': 'www.msftncsi.com'}], 'dead_hosts': [], 'sorted_pcap_sha256': '8bffbe63df861c755dfed22df97483ef526aba953a79e17266f6a8701804e15f', 'irc': [], 'https_ex': []}
+2022-05-14 04:05:31,513 [cuckoo.core.plugins] DEBUG: Running 542 signatures
+2022-05-14 04:05:31,826 [cuckoo.core.plugins] DEBUG: Analysis matched signature: memdump_urls
+2022-05-14 04:05:31,881 [cuckoo.core.plugins] DEBUG: Executed reporting module "JsonDump"
+2022-05-14 04:05:31,935 [cuckoo.core.plugins] DEBUG: Executed reporting module "MongoDB"
+2022-05-14 04:05:31,935 [cuckoo.core.scheduler] INFO: Task #39: reports generation completed
+2022-05-14 04:05:31,947 [cuckoo.core.scheduler] INFO: Task #39: analysis procedure completed

@@ -1,0 +1,62 @@
+2022-05-12 22:33:22,308 [cuckoo.core.scheduler] INFO: Task #19: acquired machine 192.168.56.102 (label=192.168.56.102)
+2022-05-12 22:33:22,308 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #19
+2022-05-12 22:33:22,308 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-12 22:33:22,320 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 5424 (interface=vboxnet0, host=192.168.56.101)
+2022-05-12 22:33:22,327 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-12 22:33:22,361 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.102
+2022-05-12 22:33:22,676 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.102 to its current snapshot
+2022-05-12 22:33:27,318 [cuckoo.core.guest] INFO: Starting analysis #19 on guest (id=192.168.56.102, ip=192.168.56.101)
+2022-05-12 22:33:28,321 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 22:33:29,323 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 22:33:30,325 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 22:33:30,371 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 22:33:31,394 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.102, ip=192.168.56.101)
+2022-05-12 22:33:31,483 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.102, ip=192.168.56.101, monitor=latest, size=3884763)
+2022-05-12 22:33:35,093 [cuckoo.core.resultserver] DEBUG: Task #19: live log analysis.log initialized.
+2022-05-12 22:33:38,967 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:33:44,014 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:33:49,079 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:33:54,120 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:33:56,151 [cuckoo.core.resultserver] DEBUG: Task #19 is sending a BSON stream
+2022-05-12 22:33:58,068 [cuckoo.core.resultserver] DEBUG: Task #19 is sending a BSON stream
+2022-05-12 22:33:58,184 [cuckoo.core.resultserver] DEBUG: Task #19: File upload for 'shots/0001.jpg'
+2022-05-12 22:33:58,247 [cuckoo.core.resultserver] DEBUG: Task #19 uploaded file length: 47941
+2022-05-12 22:33:59,172 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:34:04,219 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:34:09,266 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:34:14,308 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:34:19,361 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:34:24,480 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:34:24,729 [cuckoo.core.resultserver] DEBUG: Task #19: File upload for 'memory/2712-1.dmp'
+2022-05-12 22:34:32,127 [cuckoo.core.resultserver] DEBUG: Task #19 uploaded file length: 70530648
+2022-05-12 22:34:32,892 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #19 still processing
+2022-05-12 22:34:34,616 [cuckoo.core.resultserver] DEBUG: Task #19: File upload for 'shots/0002.jpg'
+2022-05-12 22:34:34,727 [cuckoo.core.resultserver] DEBUG: Task #19 uploaded file length: 42858
+2022-05-12 22:34:35,929 [cuckoo.core.guest] INFO: 192.168.56.102: analysis completed successfully
+2022-05-12 22:34:35,953 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2022-05-12 22:34:35,955 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer
+2022-05-12 22:34:35,955 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.102
+2022-05-12 22:34:37,340 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #19
+2022-05-12 22:34:37,341 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 19
+2022-05-12 22:34:37,346 [cuckoo.core.scheduler] DEBUG: Released database task #19
+2022-05-12 22:34:37,379 [cuckoo.core.plugins] DEBUG: Executed processing module "AnalysisInfo" for task #19
+2022-05-12 22:34:37,384 [cuckoo.core.plugins] DEBUG: Executed processing module "BehaviorAnalysis" for task #19
+2022-05-12 22:34:37,388 [cuckoo.core.plugins] DEBUG: Executed processing module "Dropped" for task #19
+2022-05-12 22:34:37,388 [cuckoo.core.plugins] DEBUG: Executed processing module "DroppedBuffer" for task #19
+2022-05-12 22:34:38,184 [cuckoo.core.plugins] DEBUG: Executed processing module "MetaInfo" for task #19
+2022-05-12 22:34:40,189 [cuckoo.core.plugins] DEBUG: Executed processing module "ProcessMemory" for task #19
+2022-05-12 22:34:40,189 [cuckoo.core.plugins] DEBUG: Executed processing module "Procmon" for task #19
+2022-05-12 22:34:40,219 [cuckoo.core.plugins] DEBUG: Executed processing module "Screenshots" for task #19
+2022-05-12 22:34:40,222 [cuckoo.core.plugins] DEBUG: Executed processing module "Static" for task #19
+2022-05-12 22:34:40,227 [cuckoo.core.plugins] DEBUG: Executed processing module "Strings" for task #19
+2022-05-12 22:34:40,231 [cuckoo.core.plugins] DEBUG: Executed processing module "TargetInfo" for task #19
+2022-05-12 22:34:40,639 [cuckoo.core.plugins] DEBUG: Executed processing module "NetworkAnalysis" for task #19
+2022-05-12 22:34:40,639 [cuckoo.core.plugins] DEBUG: Executed processing module "Extracted" for task #19
+2022-05-12 22:34:40,639 [cuckoo.core.plugins] DEBUG: Executed processing module "TLSMasterSecrets" for task #19
+2022-05-12 22:34:40,642 [cuckoo.core.plugins] DEBUG: Executed processing module "Debug" for task #19
+2022-05-12 22:34:40,702 [cuckoo.core.plugins] DEBUG: Running 542 signatures
+2022-05-12 22:34:40,966 [cuckoo.core.plugins] DEBUG: Analysis matched signature: memdump_urls
+2022-05-12 22:34:41,025 [cuckoo.core.plugins] DEBUG: Executed reporting module "JsonDump"
+2022-05-12 22:34:41,087 [cuckoo.core.plugins] DEBUG: Executed reporting module "MongoDB"
+2022-05-12 22:34:41,088 [cuckoo.core.scheduler] INFO: Task #19: reports generation completed
+2022-05-12 22:34:41,105 [cuckoo.core.scheduler] INFO: Task #19: analysis procedure completed

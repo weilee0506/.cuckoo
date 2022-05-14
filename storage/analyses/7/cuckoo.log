@@ -1,0 +1,37 @@
+2022-05-09 01:55:59,014 [cuckoo.core.scheduler] INFO: Task #7: acquired machine 192.168.56.101 (label=192.168.56.101)
+2022-05-09 01:55:59,014 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #7
+2022-05-09 01:55:59,015 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-09 01:55:59,024 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 14236 (interface=vboxnet0, host=192.168.56.101)
+2022-05-09 01:55:59,028 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-09 01:55:59,066 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.101
+2022-05-09 01:55:59,378 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.101 to its current snapshot
+2022-05-09 01:56:00,201 [cuckoo.core.scheduler] ERROR: Error starting Virtual Machine! VM: 192.168.56.101, error: VBoxManage failed starting the machine in gui mode! In case you're on a headless server, you should probably try using 'headless' mode. Error: VBoxManage: error: The virtual machine '192.168.56.101' has terminated unexpectedly during startup because of signal 6
+VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component MachineWrap, interface IMachine
+
+2022-05-09 01:56:00,202 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2022-05-09 01:56:00,203 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer
+2022-05-09 01:56:00,203 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.101
+2022-05-09 01:56:00,330 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #7
+2022-05-09 01:56:00,339 [cuckoo.core.scheduler] DEBUG: Released database task #7
+2022-05-09 01:56:00,378 [cuckoo.core.plugins] DEBUG: Executed processing module "AnalysisInfo" for task #7
+2022-05-09 01:56:00,378 [cuckoo.processing.behavior] WARNING: Analysis results folder does not contain any behavior log files.
+2022-05-09 01:56:00,379 [cuckoo.core.plugins] DEBUG: Executed processing module "BehaviorAnalysis" for task #7
+2022-05-09 01:56:00,381 [cuckoo.core.plugins] DEBUG: Executed processing module "Dropped" for task #7
+2022-05-09 01:56:00,381 [cuckoo.core.plugins] DEBUG: Executed processing module "DroppedBuffer" for task #7
+2022-05-09 01:56:00,382 [cuckoo.core.plugins] DEBUG: Executed processing module "MetaInfo" for task #7
+2022-05-09 01:56:00,382 [cuckoo.core.plugins] DEBUG: Executed processing module "ProcessMemory" for task #7
+2022-05-09 01:56:00,382 [cuckoo.core.plugins] DEBUG: Executed processing module "Procmon" for task #7
+2022-05-09 01:56:00,384 [cuckoo.core.plugins] DEBUG: Executed processing module "Screenshots" for task #7
+2022-05-09 01:56:00,385 [cuckoo.core.plugins] DEBUG: Executed processing module "Static" for task #7
+2022-05-09 01:56:00,391 [cuckoo.core.plugins] DEBUG: Executed processing module "Strings" for task #7
+2022-05-09 01:56:00,395 [cuckoo.core.plugins] DEBUG: Executed processing module "TargetInfo" for task #7
+2022-05-09 01:56:00,400 [cuckoo.core.plugins] DEBUG: Executed processing module "NetworkAnalysis" for task #7
+2022-05-09 01:56:00,406 [cuckoo.core.plugins] DEBUG: Executed processing module "Extracted" for task #7
+2022-05-09 01:56:00,408 [cuckoo.core.plugins] DEBUG: Executed processing module "TLSMasterSecrets" for task #7
+2022-05-09 01:56:00,412 [cuckoo.processing.debug] ERROR: Error processing task #7: it appears that the Virtual Machine hasn't been able to contact back to the Cuckoo Host. There could be a few reasons for this, please refer to our documentation on the matter: https://cuckoo.sh/docs/faq/index.html#troubleshooting-vm-network-configuration
+2022-05-09 01:56:00,424 [cuckoo.core.plugins] DEBUG: Executed processing module "Debug" for task #7
+2022-05-09 01:56:00,492 [cuckoo.core.plugins] DEBUG: Running 542 signatures
+2022-05-09 01:56:00,833 [cuckoo.core.plugins] DEBUG: Executed reporting module "JsonDump"
+2022-05-09 01:56:00,840 [cuckoo.core.plugins] DEBUG: Executed reporting module "MongoDB"
+2022-05-09 01:56:00,841 [cuckoo.core.scheduler] INFO: Task #7: reports generation completed
+2022-05-09 01:56:00,849 [cuckoo.core.scheduler] INFO: Task #7: analysis procedure completed

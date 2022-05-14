@@ -1,0 +1,131 @@
+2022-05-13 01:37:25,373 [cuckoo.core.scheduler] INFO: Task #33: acquired machine 192.168.56.102 (label=192.168.56.102)
+2022-05-13 01:37:25,374 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #33
+2022-05-13 01:37:25,374 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-13 01:37:25,399 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 15622 (interface=vboxnet0, host=192.168.56.101)
+2022-05-13 01:37:25,402 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-13 01:37:25,441 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.102
+2022-05-13 01:37:25,750 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.102 to its current snapshot
+2022-05-13 01:37:30,120 [cuckoo.core.guest] INFO: Starting analysis #33 on guest (id=192.168.56.102, ip=192.168.56.101)
+2022-05-13 01:37:31,124 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-13 01:37:32,127 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-13 01:37:33,130 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-13 01:37:33,138 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-13 01:37:34,164 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.102, ip=192.168.56.101)
+2022-05-13 01:37:34,209 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.102, ip=192.168.56.101, monitor=latest, size=3884763)
+2022-05-13 01:37:38,845 [cuckoo.core.resultserver] DEBUG: Task #33: live log analysis.log initialized.
+2022-05-13 01:37:42,430 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:37:47,495 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:37:52,552 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:37:57,604 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:02,547 [cuckoo.core.resultserver] DEBUG: Task #33 is sending a BSON stream
+2022-05-13 01:38:02,680 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:04,225 [cuckoo.core.resultserver] DEBUG: Task #33 is sending a BSON stream
+2022-05-13 01:38:04,755 [cuckoo.core.resultserver] DEBUG: Task #33: File upload for 'shots/0001.jpg'
+2022-05-13 01:38:04,774 [cuckoo.core.resultserver] DEBUG: Task #33 uploaded file length: 47838
+2022-05-13 01:38:06,395 [cuckoo.core.resultserver] DEBUG: Task #33: File upload for 'shots/0002.jpg'
+2022-05-13 01:38:06,432 [cuckoo.core.resultserver] DEBUG: Task #33 uploaded file length: 47396
+2022-05-13 01:38:07,737 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:12,792 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:17,832 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:22,922 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:31,155 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:36,201 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:41,250 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:41,554 [cuckoo.core.resultserver] DEBUG: Task #33: File upload for 'memory/2704-1.dmp'
+2022-05-13 01:38:45,886 [cuckoo.core.resultserver] DEBUG: Task #33 uploaded file length: 69494336
+2022-05-13 01:38:46,339 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #33 still processing
+2022-05-13 01:38:48,019 [cuckoo.core.resultserver] DEBUG: Task #33: File upload for 'shots/0003.jpg'
+2022-05-13 01:38:48,252 [cuckoo.core.resultserver] DEBUG: Task #33 uploaded file length: 42823
+2022-05-13 01:38:50,028 [cuckoo.core.resultserver] DEBUG: Task #33 had connection reset for <Context for LOG>
+2022-05-13 01:38:50,431 [cuckoo.core.guest] INFO: 192.168.56.102: analysis completed successfully
+2022-05-13 01:38:50,448 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2022-05-13 01:38:50,450 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer
+2022-05-13 01:38:50,451 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.102
+2022-05-13 01:38:51,792 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #33
+2022-05-13 01:38:51,798 [cuckoo.core.scheduler] DEBUG: Released database task #33
+2022-05-13 01:38:51,846 [cuckoo.core.plugins] DEBUG: Executed processing module "AnalysisInfo" for task #33
+2022-05-13 01:38:51,852 [cuckoo.core.plugins] DEBUG: Executed processing module "BehaviorAnalysis" for task #33
+2022-05-13 01:38:51,858 [cuckoo.core.plugins] DEBUG: Executed processing module "Dropped" for task #33
+2022-05-13 01:38:51,860 [cuckoo.core.plugins] DEBUG: Executed processing module "DroppedBuffer" for task #33
+2022-05-13 01:38:52,619 [cuckoo.core.plugins] DEBUG: Executed processing module "MetaInfo" for task #33
+2022-05-13 01:38:54,746 [cuckoo.core.plugins] DEBUG: Executed processing module "ProcessMemory" for task #33
+2022-05-13 01:38:54,746 [cuckoo.core.plugins] DEBUG: Executed processing module "Procmon" for task #33
+2022-05-13 01:38:54,790 [cuckoo.core.plugins] DEBUG: Executed processing module "Screenshots" for task #33
+2022-05-13 01:38:54,794 [cuckoo.core.plugins] DEBUG: Executed processing module "Static" for task #33
+2022-05-13 01:38:54,801 [cuckoo.core.plugins] DEBUG: Executed processing module "Strings" for task #33
+2022-05-13 01:38:54,806 [cuckoo.core.plugins] DEBUG: Executed processing module "TargetInfo" for task #33
+2022-05-13 01:38:55,129 [cuckoo.core.plugins] DEBUG: Executed processing module "NetworkAnalysis" for task #33
+2022-05-13 01:38:55,130 [cuckoo.core.plugins] DEBUG: Executed processing module "Extracted" for task #33
+2022-05-13 01:38:55,130 [cuckoo.core.plugins] DEBUG: Executed processing module "TLSMasterSecrets" for task #33
+2022-05-13 01:38:55,133 [cuckoo.core.plugins] DEBUG: Executed processing module "Debug" for task #33
+2022-05-13 01:38:55,220 [cuckoo.core.plugins] WARNING:        Unnamed: 0 IoCType InfoSource             IoCCategory         IoCValue
+0               0      IP     F-ISAC                 Malware    91.218.114.26
+1               1      IP     F-ISAC                 Malware   146.56.216.220
+2               2      IP     F-ISAC                 Malware   103.13.222.143
+3               3      IP     F-ISAC                 Malware      3.237.41.66
+4               4      IP     F-ISAC                 Malware   49.232.161.221
+5               5      IP     F-ISAC                 Malware     96.43.83.164
+6               6      IP     F-ISAC                 Malware   42.192.209.105
+7               7      IP     F-ISAC                 Malware    23.224.70.226
+8               8      IP     F-ISAC                 Malware  107.174.254.190
+9               9      IP     F-ISAC                 Malware    106.54.69.144
+10             10      IP     F-ISAC                 Malware   42.193.181.167
+11             11      IP     F-ISAC                 Malware    121.4.154.238
+12             12      IP     F-ISAC                 Malware    192.3.128.243
+13             13      IP     F-ISAC                 Malware    39.104.28.100
+14             14      IP     F-ISAC                 Malware  157.230.243.171
+15             15      IP     F-ISAC                 Malware    49.235.68.234
+16             16      IP     F-ISAC                 Malware  223.252.173.162
+17             17      IP     F-ISAC                 Malware   42.193.127.142
+18             18      IP     F-ISAC                 Malware   59.110.222.131
+19             19      IP     F-ISAC                 Malware     45.15.19.114
+20             20      IP     F-ISAC                 Malware    106.52.95.229
+21             21      IP     F-ISAC                 Malware     40.71.21.207
+22             22      IP     F-ISAC                 Malware   101.43.109.165
+23             23      IP     F-ISAC                 Malware       46.3.243.5
+24             24      IP     F-ISAC                 Malware     81.69.14.179
+25             25      IP     F-ISAC                 Malware     18.135.46.68
+26             26      IP     F-ISAC                 Malware   59.110.238.182
+27             27      IP     F-ISAC                 Malware     142.93.254.7
+28             28      IP     F-ISAC                 Malware     20.120.35.41
+29             29      IP     F-ISAC                 Malware    23.227.193.79
+...           ...     ...        ...                     ...              ...
+33840       33840      IP     F-ISAC  Vulnerability Scanning     194.5.52.183
+33841       33841      IP     F-ISAC  Vulnerability Scanning     194.5.52.181
+33842       33842      IP     F-ISAC  Vulnerability Scanning     194.5.52.178
+33843       33843      IP     F-ISAC  Vulnerability Scanning     194.5.52.176
+33844       33844      IP     F-ISAC  Vulnerability Scanning     194.5.52.175
+33845       33845      IP     F-ISAC  Vulnerability Scanning     194.5.52.173
+33846       33846      IP     F-ISAC  Vulnerability Scanning     194.5.52.172
+33847       33847      IP     F-ISAC  Vulnerability Scanning     194.5.52.170
+33848       33848      IP     F-ISAC  Vulnerability Scanning     194.5.52.169
+33849       33849      IP     F-ISAC  Vulnerability Scanning     194.5.52.168
+33850       33850      IP     F-ISAC  Vulnerability Scanning     194.5.52.166
+33851       33851      IP     F-ISAC  Vulnerability Scanning     194.5.52.165
+33852       33852      IP     F-ISAC  Vulnerability Scanning     194.5.52.162
+33853       33853      IP     F-ISAC  Vulnerability Scanning     194.5.52.161
+33854       33854      IP     F-ISAC  Vulnerability Scanning     194.5.52.160
+33855       33855      IP     F-ISAC  Vulnerability Scanning     194.5.52.158
+33856       33856      IP     F-ISAC  Vulnerability Scanning     194.5.52.157
+33857       33857      IP     F-ISAC  Vulnerability Scanning     194.5.52.155
+33858       33858      IP     F-ISAC  Vulnerability Scanning     194.5.52.152
+33859       33859      IP     F-ISAC  Vulnerability Scanning     194.5.52.151
+33860       33860      IP     F-ISAC  Vulnerability Scanning    193.37.32.100
+33861       33861      IP     F-ISAC  Vulnerability Scanning     193.37.32.85
+33862       33862      IP     F-ISAC  Vulnerability Scanning    193.37.32.142
+33863       33863      IP     F-ISAC  Vulnerability Scanning     193.37.32.57
+33864       33864      IP     F-ISAC  Vulnerability Scanning     193.37.32.51
+33865       33865      IP     F-ISAC  Vulnerability Scanning    193.37.32.151
+33866       33866      IP     F-ISAC  Vulnerability Scanning    193.37.32.168
+33867       33867      IP     F-ISAC  Vulnerability Scanning     193.37.32.55
+33868       33868      IP     F-ISAC  Vulnerability Scanning    193.37.32.159
+33869       33869      IP     F-ISAC  Vulnerability Scanning    193.37.32.144
+
+[33870 rows x 5 columns]
+2022-05-13 01:38:55,378 [cuckoo.core.plugins] WARNING: fuck you
+2022-05-13 01:38:55,448 [cuckoo.core.plugins] DEBUG: Running 542 signatures
+2022-05-13 01:38:55,828 [cuckoo.core.plugins] DEBUG: Analysis matched signature: memdump_urls
+2022-05-13 01:38:55,879 [cuckoo.core.plugins] DEBUG: Executed reporting module "JsonDump"
+2022-05-13 01:38:55,951 [cuckoo.core.plugins] DEBUG: Executed reporting module "MongoDB"
+2022-05-13 01:38:55,951 [cuckoo.core.scheduler] INFO: Task #33: reports generation completed
+2022-05-13 01:38:55,960 [cuckoo.core.scheduler] INFO: Task #33: analysis procedure completed

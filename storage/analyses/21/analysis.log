@@ -1,0 +1,22 @@
+2022-05-12 22:57:09,015 [analyzer] DEBUG: Starting analyzer from: C:\tmpy1hzlw
+2022-05-12 22:57:09,015 [analyzer] DEBUG: Pipe server name: \??\PIPE\WaRNLeOoIXpulDftzHkgLrajYUyIYteT
+2022-05-12 22:57:09,015 [analyzer] DEBUG: Log pipe server name: \??\PIPE\vqeXteUbRBVAKSWCbCJevQhCOfMJk
+2022-05-12 22:57:09,015 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.
+2022-05-12 22:57:09,030 [analyzer] INFO: Automatically selected analysis package "generic"
+2022-05-12 22:57:11,062 [analyzer] DEBUG: Started auxiliary module DbgView
+2022-05-12 22:57:29,733 [analyzer] DEBUG: Started auxiliary module Disguise
+2022-05-12 22:57:30,390 [analyzer] DEBUG: Loaded monitor into process with pid 496
+2022-05-12 22:57:30,421 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2022-05-12 22:57:30,437 [analyzer] DEBUG: Started auxiliary module Human
+2022-05-12 22:57:30,437 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2022-05-12 22:57:30,437 [analyzer] DEBUG: Started auxiliary module Reboot
+2022-05-12 22:57:30,967 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2022-05-12 22:57:30,983 [analyzer] DEBUG: Started auxiliary module Screenshots
+2022-05-12 22:57:30,983 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2022-05-12 22:57:31,592 [lib.api.process] INFO: Successfully executed process from path 'C:\\Windows\\System32\\cmd.exe' with arguments ['/c', 'start', '/wait', '"tmACCFCPGYqJv"', u'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\istockphoto-1188445864-612x612.jpg'] and pid 2716
+2022-05-12 22:57:32,578 [analyzer] DEBUG: Loaded monitor into process with pid 2716
+2022-05-12 22:58:01,108 [modules.auxiliary.human] INFO: Found button u'&File', clicking it
+2022-05-12 22:58:08,390 [lib.api.process] INFO: Memory dump of process with pid 2716 completed
+2022-05-12 22:58:09,483 [analyzer] INFO: Process with pid 2716 has terminated
+2022-05-12 22:58:09,483 [analyzer] INFO: Process list is empty, terminating analysis.
+2022-05-12 22:58:10,483 [analyzer] INFO: Analysis completed.

@@ -1,0 +1,77 @@
+2022-05-12 21:56:52,640 [cuckoo.core.scheduler] INFO: Task #16: acquired machine 192.168.56.102 (label=192.168.56.102)
+2022-05-12 21:56:52,640 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #16
+2022-05-12 21:56:52,641 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-12 21:56:52,653 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3268 (interface=vboxnet0, host=192.168.56.101)
+2022-05-12 21:56:52,653 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-12 21:56:52,684 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.102
+2022-05-12 21:56:52,982 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.102 to its current snapshot
+2022-05-12 21:56:57,570 [cuckoo.core.guest] INFO: Starting analysis #16 on guest (id=192.168.56.102, ip=192.168.56.101)
+2022-05-12 21:56:58,572 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 21:56:59,575 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 21:57:00,579 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 21:57:00,643 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 21:57:01,676 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.102, ip=192.168.56.101)
+2022-05-12 21:57:01,734 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.102, ip=192.168.56.101, monitor=latest, size=3884763)
+2022-05-12 21:57:05,357 [cuckoo.core.resultserver] DEBUG: Task #16: live log analysis.log initialized.
+2022-05-12 21:57:09,193 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:57:14,245 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:57:19,288 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:57:24,383 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:57:26,009 [cuckoo.core.resultserver] DEBUG: Task #16 is sending a BSON stream
+2022-05-12 21:57:27,509 [cuckoo.core.resultserver] DEBUG: Task #16 is sending a BSON stream
+2022-05-12 21:57:28,007 [cuckoo.core.resultserver] DEBUG: Task #16: File upload for 'shots/0001.jpg'
+2022-05-12 21:57:28,082 [cuckoo.core.resultserver] DEBUG: Task #16 uploaded file length: 47414
+2022-05-12 21:57:29,449 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:57:34,494 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:57:39,547 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:57:44,593 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:57:49,628 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:57:53,248 [cuckoo.core.resultserver] DEBUG: Task #16: File upload for 'memory/2708-1.dmp'
+2022-05-12 21:57:55,196 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:58:00,396 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #16 still processing
+2022-05-12 21:58:00,744 [cuckoo.core.resultserver] DEBUG: Task #16 uploaded file length: 69494336
+2022-05-12 21:58:03,841 [cuckoo.core.resultserver] DEBUG: Task #16: File upload for 'shots/0002.jpg'
+2022-05-12 21:58:03,947 [cuckoo.core.resultserver] DEBUG: Task #16 uploaded file length: 42827
+2022-05-12 21:58:05,384 [cuckoo.core.resultserver] DEBUG: Task #16 had connection reset for <Context for LOG>
+2022-05-12 21:58:05,564 [cuckoo.core.guest] INFO: 192.168.56.102: analysis completed successfully
+2022-05-12 21:58:05,573 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2022-05-12 21:58:05,575 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer
+2022-05-12 21:58:05,575 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.102
+2022-05-12 21:58:06,901 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #16
+2022-05-12 21:58:06,907 [cuckoo.core.scheduler] DEBUG: Released database task #16
+2022-05-12 21:58:06,941 [cuckoo.core.plugins] DEBUG: Executed processing module "AnalysisInfo" for task #16
+2022-05-12 21:58:06,945 [cuckoo.core.plugins] DEBUG: Executed processing module "BehaviorAnalysis" for task #16
+2022-05-12 21:58:06,947 [cuckoo.core.plugins] DEBUG: Executed processing module "Dropped" for task #16
+2022-05-12 21:58:06,949 [cuckoo.core.plugins] DEBUG: Executed processing module "DroppedBuffer" for task #16
+2022-05-12 21:58:07,561 [cuckoo.core.plugins] DEBUG: Executed processing module "MetaInfo" for task #16
+2022-05-12 21:58:09,553 [cuckoo.core.plugins] DEBUG: Executed processing module "ProcessMemory" for task #16
+2022-05-12 21:58:09,553 [cuckoo.core.plugins] DEBUG: Executed processing module "Procmon" for task #16
+2022-05-12 21:58:09,584 [cuckoo.core.plugins] DEBUG: Executed processing module "Screenshots" for task #16
+2022-05-12 21:58:09,585 [cuckoo.core.plugins] DEBUG: Executed processing module "Static" for task #16
+2022-05-12 21:58:09,593 [cuckoo.core.plugins] DEBUG: Executed processing module "Strings" for task #16
+2022-05-12 21:58:09,597 [cuckoo.core.plugins] DEBUG: Executed processing module "TargetInfo" for task #16
+2022-05-12 21:58:09,857 [cuckoo.core.plugins] DEBUG: Executed processing module "NetworkAnalysis" for task #16
+2022-05-12 21:58:09,858 [cuckoo.core.plugins] DEBUG: Executed processing module "Extracted" for task #16
+2022-05-12 21:58:09,858 [cuckoo.core.plugins] DEBUG: Executed processing module "TLSMasterSecrets" for task #16
+2022-05-12 21:58:09,862 [cuckoo.core.plugins] DEBUG: Executed processing module "Debug" for task #16
+2022-05-12 21:58:09,863 [cuckoo.core.scheduler] ERROR: Failure in AnalysisManager.run
+Traceback (most recent call last):
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/core/scheduler.py", line 766, in run
+    self.process_results()
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/core/scheduler.py", line 707, in process_results
+    RunSignatures(results=results).run()
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/core/plugins.py", line 342, in __init__
+    csv_data = pd.read_csv(csv_file, low_memory = False)
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 702, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 429, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 895, in __init__
+    self._make_engine(self.engine)
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1122, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1853, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 387, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 705, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: [Errno 2] File ioc_ip.csv does not exist: 'ioc_ip.csv'

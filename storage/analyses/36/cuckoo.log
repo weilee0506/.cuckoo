@@ -1,0 +1,64 @@
+2022-05-13 04:19:36,619 [cuckoo.core.scheduler] INFO: Task #36: acquired machine 192.168.56.102 (label=192.168.56.102)
+2022-05-13 04:19:36,619 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #36
+2022-05-13 04:19:36,620 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-13 04:19:36,633 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 20830 (interface=vboxnet0, host=192.168.56.101)
+2022-05-13 04:19:36,638 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-13 04:19:36,670 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.102
+2022-05-13 04:19:36,993 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.102 to its current snapshot
+2022-05-13 04:19:41,274 [cuckoo.core.guest] INFO: Starting analysis #36 on guest (id=192.168.56.102, ip=192.168.56.101)
+2022-05-13 04:19:42,277 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-13 04:19:43,281 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-13 04:19:44,284 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-13 04:19:44,338 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-13 04:19:45,369 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.102, ip=192.168.56.101)
+2022-05-13 04:19:45,429 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.102, ip=192.168.56.101, monitor=latest, size=3884763)
+2022-05-13 04:19:49,374 [cuckoo.core.resultserver] DEBUG: Task #36: live log analysis.log initialized.
+2022-05-13 04:19:53,118 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:19:58,214 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:03,271 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:08,376 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:11,699 [cuckoo.core.resultserver] DEBUG: Task #36 is sending a BSON stream
+2022-05-13 04:20:13,421 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:13,443 [cuckoo.core.resultserver] DEBUG: Task #36 is sending a BSON stream
+2022-05-13 04:20:13,966 [cuckoo.core.resultserver] DEBUG: Task #36: File upload for 'shots/0001.jpg'
+2022-05-13 04:20:13,999 [cuckoo.core.resultserver] DEBUG: Task #36 uploaded file length: 47771
+2022-05-13 04:20:15,663 [cuckoo.core.resultserver] DEBUG: Task #36: File upload for 'shots/0002.jpg'
+2022-05-13 04:20:15,700 [cuckoo.core.resultserver] DEBUG: Task #36 uploaded file length: 47409
+2022-05-13 04:20:18,471 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:23,535 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:28,602 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:33,664 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:38,719 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:44,437 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:44,999 [cuckoo.core.resultserver] DEBUG: Task #36: File upload for 'memory/2704-1.dmp'
+2022-05-13 04:20:49,453 [cuckoo.core.resultserver] DEBUG: Task #36 uploaded file length: 69490240
+2022-05-13 04:20:49,517 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #36 still processing
+2022-05-13 04:20:51,568 [cuckoo.core.guest] INFO: 192.168.56.102: analysis completed successfully
+2022-05-13 04:20:51,584 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2022-05-13 04:20:51,586 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer
+2022-05-13 04:20:51,587 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.102
+2022-05-13 04:20:52,954 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #36
+2022-05-13 04:20:52,954 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 36
+2022-05-13 04:20:52,960 [cuckoo.core.scheduler] DEBUG: Released database task #36
+2022-05-13 04:20:52,986 [cuckoo.core.plugins] DEBUG: Executed processing module "AnalysisInfo" for task #36
+2022-05-13 04:20:52,992 [cuckoo.core.plugins] DEBUG: Executed processing module "BehaviorAnalysis" for task #36
+2022-05-13 04:20:52,994 [cuckoo.core.plugins] DEBUG: Executed processing module "Dropped" for task #36
+2022-05-13 04:20:52,995 [cuckoo.core.plugins] DEBUG: Executed processing module "DroppedBuffer" for task #36
+2022-05-13 04:20:53,654 [cuckoo.core.plugins] DEBUG: Executed processing module "MetaInfo" for task #36
+2022-05-13 04:20:55,669 [cuckoo.core.plugins] DEBUG: Executed processing module "ProcessMemory" for task #36
+2022-05-13 04:20:55,669 [cuckoo.core.plugins] DEBUG: Executed processing module "Procmon" for task #36
+2022-05-13 04:20:55,708 [cuckoo.core.plugins] DEBUG: Executed processing module "Screenshots" for task #36
+2022-05-13 04:20:55,711 [cuckoo.core.plugins] DEBUG: Executed processing module "Static" for task #36
+2022-05-13 04:20:55,722 [cuckoo.core.plugins] DEBUG: Executed processing module "Strings" for task #36
+2022-05-13 04:20:55,726 [cuckoo.core.plugins] DEBUG: Executed processing module "TargetInfo" for task #36
+2022-05-13 04:20:55,986 [cuckoo.core.plugins] DEBUG: Executed processing module "NetworkAnalysis" for task #36
+2022-05-13 04:20:55,987 [cuckoo.core.plugins] DEBUG: Executed processing module "Extracted" for task #36
+2022-05-13 04:20:55,987 [cuckoo.core.plugins] DEBUG: Executed processing module "TLSMasterSecrets" for task #36
+2022-05-13 04:20:55,989 [cuckoo.core.plugins] DEBUG: Executed processing module "Debug" for task #36
+2022-05-13 04:20:55,989 [cuckoo.core.plugins] WARNING: {'category': u'file', 'file': {'yara': [], 'sha1': 'eac6a6586c3d731c364454d8234039fef78901dc', 'name': u'istockphoto-1188445864-612x612.jpg', 'type': 'JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=1, description=Closeup portrait of funny ginger cat wearing sunglasses isolated on light cyan. Copyspace.\\377\\341\\005yh], progressive, precision 8, 612x344, components 3', 'sha256': '69f3ad423309e22491adbb317a7b12ccebe03f3d233a0ff1e45147199ceffc3f', 'urls': ['http://ns.adobe.com/xap/1.0/rights/', 'http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/', 'http://ns.useplus.org/ldf/xmp/1.0/', 'http://xmp.gettyimages.com/gift/1.0/', 'http://purl.org/dc/elements/1.1/', 'http://iptc.org/std/Iptc4xmpExt/2008-02-29/', 'https://www.istockphoto.com/legal/license-agreement?utm_medium=organic', 'https://www.istockphoto.com/photo/license-gm1188445864-?utm_medium=organic', 'http://ns.adobe.com/photoshop/1.0/', 'http://ns.adobe.com/xap/1.0/'], 'crc32': '5620FA9D', 'path': '/home/cuckoo/.cuckoo/storage/binaries/69f3ad423309e22491adbb317a7b12ccebe03f3d233a0ff1e45147199ceffc3f', 'ssdeep': None, 'size': 19310, 'sha512': '96fe21f66d2e62aef55f7362c4a0fe1b72cb0c8e8ef2972346e9211c29448e6d3eb0e2a6340467f68831b35ffc6228002d9b74cac948e6a0dcf6352f2183e106', 'md5': '5e3a80524bb7d23222a489aee2b8c340'}}
+2022-05-13 04:20:56,043 [cuckoo.core.plugins] DEBUG: Running 542 signatures
+2022-05-13 04:20:56,286 [cuckoo.core.plugins] DEBUG: Analysis matched signature: memdump_urls
+2022-05-13 04:20:56,326 [cuckoo.core.plugins] DEBUG: Executed reporting module "JsonDump"
+2022-05-13 04:20:56,382 [cuckoo.core.plugins] DEBUG: Executed reporting module "MongoDB"
+2022-05-13 04:20:56,383 [cuckoo.core.scheduler] INFO: Task #36: reports generation completed
+2022-05-13 04:20:56,401 [cuckoo.core.scheduler] INFO: Task #36: analysis procedure completed

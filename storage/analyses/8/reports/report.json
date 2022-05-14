@@ -1,0 +1,149 @@
+{
+    "info": {
+        "added": 1652061448.51602, 
+        "started": 1652061448.570492, 
+        "duration": 1, 
+        "ended": 1652061450.018326, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 8, 
+        "category": "file", 
+        "git": {
+            "head": "13cbe0d9e457be3673304533043e992ead1ea9b2", 
+            "fetch_head": "13cbe0d9e457be3673304533043e992ead1ea9b2"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "", 
+        "route": null, 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "192.168.56.101", 
+            "label": "192.168.56.101", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-05-09 01:57:28", 
+            "shutdown_on": "2022-05-09 01:57:29"
+        }, 
+        "platform": null, 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=none"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "yara": [], 
+            "sha1": "eac6a6586c3d731c364454d8234039fef78901dc", 
+            "name": "istockphoto-1188445864-612x612.jpg", 
+            "type": "JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=1, description=Closeup portrait of funny ginger cat wearing sunglasses isolated on light cyan. Copyspace.\\377\\341\\005yh], progressive, precision 8, 612x344, components 3", 
+            "sha256": "69f3ad423309e22491adbb317a7b12ccebe03f3d233a0ff1e45147199ceffc3f", 
+            "urls": [
+                "http://ns.adobe.com/xap/1.0/rights/", 
+                "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/", 
+                "http://ns.useplus.org/ldf/xmp/1.0/", 
+                "http://xmp.gettyimages.com/gift/1.0/", 
+                "http://purl.org/dc/elements/1.1/", 
+                "http://iptc.org/std/Iptc4xmpExt/2008-02-29/", 
+                "https://www.istockphoto.com/legal/license-agreement?utm_medium=organic", 
+                "https://www.istockphoto.com/photo/license-gm1188445864-?utm_medium=organic", 
+                "http://ns.adobe.com/photoshop/1.0/", 
+                "http://ns.adobe.com/xap/1.0/"
+            ], 
+            "crc32": "5620FA9D", 
+            "path": "/home/cuckoo/.cuckoo/storage/binaries/69f3ad423309e22491adbb317a7b12ccebe03f3d233a0ff1e45147199ceffc3f", 
+            "ssdeep": null, 
+            "size": 19310, 
+            "sha512": "96fe21f66d2e62aef55f7362c4a0fe1b72cb0c8e8ef2972346e9211c29448e6d3eb0e2a6340467f68831b35ffc6228002d9b74cac948e6a0dcf6352f2183e106", 
+            "md5": "5e3a80524bb7d23222a489aee2b8c340"
+        }
+    }, 
+    "debug": {
+        "action": [
+            "vmrouting"
+        ], 
+        "dbgview": [], 
+        "errors": [
+            "Error processing task #8: it appears that the Virtual Machine hasn't been able to contact back to the Cuckoo Host. There could be a few reasons for this, please refer to our documentation on the matter: https://cuckoo.sh/docs/faq/index.html#troubleshooting-vm-network-configuration"
+        ], 
+        "log": [], 
+        "cuckoo": []
+    }, 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }, 
+    "strings": [
+        "Closeup portrait of funny ginger cat wearing sunglasses isolated on light cyan. Copyspace.", 
+        "yhttp://ns.adobe.com/xap/1.0/", 
+        "<?xpacket begin=\"", 
+        "\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>", 
+        "<x:xmpmeta xmlns:x=\"adobe:ns:meta/\">", 
+        "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">", 
+        "<rdf:Description rdf:about=\"\" xmlns:photoshop=\"http://ns.adobe.com/photoshop/1.0/\" xmlns:Iptc4xmpCore=\"http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/\"   xmlns:GettyImagesGIFT=\"http://xmp.gettyimages.com/gift/1.0/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:plus=\"http://ns.useplus.org/ldf/xmp/1.0/\"  xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\" xmlns:xmpRights=\"http://ns.adobe.com/xap/1.0/rights/\" photoshop:Credit=\"Getty Images/iStockphoto\" GettyImagesGIFT:AssetID=\"1188445864\" xmpRights:WebStatement=\"https://www.istockphoto.com/legal/license-agreement?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl\" >", 
+        "<dc:creator><rdf:Seq><rdf:li>Mark_KA</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang=\"x-default\">Closeup portrait of funny ginger cat wearing sunglasses isolated on light cyan. Copyspace.</rdf:li></rdf:Alt></dc:description>", 
+        "<plus:Licensor><rdf:Seq><rdf:li rdf:parseType='Resource'><plus:LicensorURL>https://www.istockphoto.com/photo/license-gm1188445864-?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>", 
+        "</rdf:Description>", 
+        "</rdf:RDF>", 
+        "</x:xmpmeta>", 
+        "<?xpacket end=\"w\"?>", 
+        "Photoshop 3.0", 
+        "Mark_KA", 
+        "ZCloseup portrait of funny ginger cat wearing sunglasses isolated on light cyan. Copyspace.", 
+        "Getty Images/iStockphoto", 
+        "#\u001f%$\"\u001f\"!&+7/&)4)!\"0A149;>>>%.DIC<H7=>;", 
+        ";(\"(;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;", 
+        "g_LC7:", 
+        "/?K~K5", 
+        ",&M(^E", 
+        "1P\"2A ", 
+        "#0@`3B", 
+        "%1{643=", 
+        "60bZ7O", 
+        "t1z]\u001f]", 
+        " 1!P0A\"Q", 
+        "YhR7^(", 
+        "2A\"BQa@`q", 
+        "\\t'|e/", 
+        "CdSf\u001f^", 
+        " \"APa2`q", 
+        "B)Or6g", 
+        "~cd:E_", 
+        "e]Q05y", 
+        "T%\"VS-Q", 
+        "t!vm;1f0M", 
+        "0Bi!Rpj", 
+        "50e&T>", 
+        "sOru,\\", 
+        "l& BX~", 
+        "APa Qq0`", 
+        "}$I?rl", 
+        "1AP Qa0q`", 
+        "!1AQaq", 
+        "Q;G`^+", 
+        "[5P_Q2"
+    ], 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }
+}

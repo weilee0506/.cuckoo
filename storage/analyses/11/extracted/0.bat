@@ -1,0 +1,1 @@
+start /wait "YkMpDgMLQjfblmg" C:\Users\ADMINI~1\AppData\Local\Temp\sources.list

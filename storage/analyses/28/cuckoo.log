@@ -1,0 +1,29 @@
+2022-05-12 23:41:38,238 [cuckoo.core.scheduler] INFO: Task #28: acquired machine 192.168.56.102 (label=192.168.56.102)
+2022-05-12 23:41:38,238 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #28
+2022-05-12 23:41:38,238 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-12 23:41:38,258 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 11487 (interface=vboxnet0, host=192.168.56.101)
+2022-05-12 23:41:38,259 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-12 23:41:38,295 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.102
+2022-05-12 23:41:38,600 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.102 to its current snapshot
+2022-05-12 23:41:43,281 [cuckoo.core.guest] INFO: Starting analysis #28 on guest (id=192.168.56.102, ip=192.168.56.101)
+2022-05-12 23:41:44,286 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 23:41:45,290 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 23:41:46,292 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 23:41:46,339 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-12 23:41:47,365 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.102, ip=192.168.56.101)
+2022-05-12 23:41:47,415 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.102, ip=192.168.56.101, monitor=latest, size=3884763)
+2022-05-12 23:41:51,150 [cuckoo.core.resultserver] DEBUG: Task #28: live log analysis.log initialized.
+2022-05-12 23:41:55,027 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #28 still processing
+2022-05-12 23:42:00,105 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #28 still processing
+2022-05-12 23:42:05,161 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #28 still processing
+2022-05-12 23:42:10,197 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #28 still processing
+2022-05-12 23:42:12,269 [cuckoo.core.resultserver] DEBUG: Task #28 is sending a BSON stream
+2022-05-12 23:42:14,442 [cuckoo.core.resultserver] DEBUG: Task #28 is sending a BSON stream
+2022-05-12 23:42:14,575 [cuckoo.core.resultserver] DEBUG: Task #28: File upload for 'shots/0001.jpg'
+2022-05-12 23:42:14,608 [cuckoo.core.resultserver] DEBUG: Task #28 uploaded file length: 54315
+2022-05-12 23:42:15,251 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #28 still processing
+2022-05-12 23:42:16,348 [cuckoo.core.resultserver] DEBUG: Task #28: File upload for 'shots/0002.jpg'
+2022-05-12 23:42:16,485 [cuckoo.core.resultserver] DEBUG: Task #28 uploaded file length: 47953
+2022-05-12 23:42:20,323 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #28 still processing
+2022-05-12 23:42:25,450 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #28 still processing
+2022-05-12 23:42:30,687 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #28 still processing

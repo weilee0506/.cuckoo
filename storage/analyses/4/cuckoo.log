@@ -1,0 +1,99 @@
+2022-05-08 21:19:32,269 [cuckoo.core.scheduler] INFO: Task #4: acquired machine 192.168.56.101 (label=192.168.56.101)
+2022-05-08 21:19:32,269 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #4
+2022-05-08 21:19:32,269 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-08 21:19:32,276 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 7488 (interface=vboxnet0, host=192.168.56.101)
+2022-05-08 21:19:32,281 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-08 21:19:32,301 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.101
+2022-05-08 21:19:32,572 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.101 to its current snapshot
+2022-05-08 21:19:36,672 [cuckoo.core.guest] INFO: Starting analysis #4 on guest (id=192.168.56.101, ip=192.168.56.101)
+2022-05-08 21:19:37,677 [cuckoo.core.guest] DEBUG: 192.168.56.101: not ready yet
+2022-05-08 21:19:38,680 [cuckoo.core.guest] DEBUG: 192.168.56.101: not ready yet
+2022-05-08 21:19:39,682 [cuckoo.core.guest] DEBUG: 192.168.56.101: not ready yet
+2022-05-08 21:19:39,748 [cuckoo.core.guest] DEBUG: 192.168.56.101: not ready yet
+2022-05-08 21:19:40,780 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.101, ip=192.168.56.101)
+2022-05-08 21:19:40,838 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.101, ip=192.168.56.101, monitor=latest, size=3884763)
+2022-05-08 21:19:44,802 [cuckoo.core.resultserver] DEBUG: Task #4: live log analysis.log initialized.
+2022-05-08 21:19:48,359 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:19:53,396 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:19:58,451 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:03,496 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:03,562 [cuckoo.core.resultserver] DEBUG: Task #4 is sending a BSON stream
+2022-05-08 21:20:04,823 [cuckoo.core.resultserver] DEBUG: Task #4 is sending a BSON stream
+2022-05-08 21:20:08,532 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:09,155 [cuckoo.core.resultserver] DEBUG: Task #4: File upload for 'memory/2408-1.dmp'
+2022-05-08 21:20:09,301 [cuckoo.core.resultserver] DEBUG: Task #4 uploaded file length: 2830864
+2022-05-08 21:20:09,532 [cuckoo.core.resultserver] DEBUG: Task #4 is sending a BSON stream
+2022-05-08 21:20:13,620 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:18,658 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:23,695 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:28,723 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:33,802 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:39,110 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:44,148 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:49,180 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:54,221 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:20:59,284 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:04,313 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:09,341 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:14,374 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:19,418 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:24,484 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:29,540 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:34,595 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:39,649 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:44,699 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:49,743 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:54,775 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:21:59,806 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:22:04,840 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:22:09,893 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:22:14,941 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:22:20,043 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:22:25,149 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:22:30,192 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:22:30,251 [cuckoo.core.resultserver] DEBUG: Task #4: File upload for 'memory/2296-1.dmp'
+2022-05-08 21:22:35,297 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:22:36,349 [cuckoo.core.resultserver] DEBUG: Task #4 uploaded file length: 103327504
+2022-05-08 21:22:40,352 [cuckoo.core.guest] DEBUG: 192.168.56.101: analysis #4 still processing
+2022-05-08 21:22:43,372 [cuckoo.core.guest] INFO: 192.168.56.101: end of analysis reached!
+2022-05-08 21:22:43,379 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2022-05-08 21:22:43,379 [cuckoo.core.plugins] ERROR: Unable to stop auxiliary module: Sniffer
+Traceback (most recent call last):
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/core/plugins.py", line 164, in stop
+    module.stop()
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/auxiliary/sniffer.py", line 156, in stop
+    (out, err, faq("permission-denied-for-tcpdump"))
+CuckooOperationalError: Error running tcpdump to sniff the network traffic during the analysis; stdout = '' and stderr = 'tcpdump: /home/cuckoo/.cuckoo/storage/analyses/4/dump.pcap: Permission denied\n'. Did you enable the extra capabilities to allow running tcpdump as non-root user and disable AppArmor properly (the latter only applies to Ubuntu-based distributions with AppArmor, see also https://cuckoo.sh/docs/faq/index.html#permission-denied-for-tcpdump)?
+2022-05-08 21:22:43,392 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.101
+2022-05-08 21:22:44,770 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #4
+2022-05-08 21:22:44,770 [cuckoo.core.resultserver] DEBUG: Cancel <Context for BSON> for task 4
+2022-05-08 21:22:44,771 [cuckoo.core.resultserver] DEBUG: Cancel <Context for BSON> for task 4
+2022-05-08 21:22:44,771 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 4
+2022-05-08 21:22:44,771 [cuckoo.core.resultserver] DEBUG: Cancel <Context for BSON> for task 4
+2022-05-08 21:22:44,780 [cuckoo.core.scheduler] DEBUG: Released database task #4
+2022-05-08 21:22:44,803 [cuckoo.core.plugins] DEBUG: Executed processing module "AnalysisInfo" for task #4
+2022-05-08 21:22:44,893 [cuckoo.core.plugins] DEBUG: Executed processing module "BehaviorAnalysis" for task #4
+2022-05-08 21:22:44,893 [cuckoo.core.plugins] DEBUG: Executed processing module "Dropped" for task #4
+2022-05-08 21:22:44,893 [cuckoo.core.plugins] DEBUG: Executed processing module "DroppedBuffer" for task #4
+2022-05-08 21:22:46,029 [cuckoo.core.plugins] DEBUG: Executed processing module "MetaInfo" for task #4
+2022-05-08 21:22:49,603 [cuckoo.core.plugins] DEBUG: Executed processing module "ProcessMemory" for task #4
+2022-05-08 21:22:49,604 [cuckoo.core.plugins] DEBUG: Executed processing module "Procmon" for task #4
+2022-05-08 21:22:49,604 [cuckoo.core.plugins] DEBUG: Executed processing module "Screenshots" for task #4
+2022-05-08 21:22:49,604 [cuckoo.core.plugins] DEBUG: Executed processing module "Static" for task #4
+2022-05-08 21:22:49,604 [cuckoo.core.plugins] DEBUG: Executed processing module "Strings" for task #4
+2022-05-08 21:22:49,604 [cuckoo.core.plugins] DEBUG: Executed processing module "TargetInfo" for task #4
+2022-05-08 21:22:49,604 [cuckoo.processing.network] WARNING: The PCAP file does not exist at path "/home/cuckoo/.cuckoo/storage/analyses/4/dump.pcap".
+2022-05-08 21:22:49,605 [cuckoo.core.plugins] DEBUG: Executed processing module "NetworkAnalysis" for task #4
+2022-05-08 21:22:49,605 [cuckoo.core.plugins] DEBUG: Executed processing module "Extracted" for task #4
+2022-05-08 21:22:49,605 [cuckoo.core.plugins] DEBUG: Executed processing module "TLSMasterSecrets" for task #4
+2022-05-08 21:22:49,607 [cuckoo.core.plugins] DEBUG: Executed processing module "Debug" for task #4
+2022-05-08 21:22:49,658 [cuckoo.core.plugins] DEBUG: Running 542 signatures
+2022-05-08 21:22:50,196 [cuckoo.core.plugins] DEBUG: Analysis matched signature: allocates_rwx
+2022-05-08 21:22:50,197 [cuckoo.core.plugins] DEBUG: Analysis matched signature: protection_rx
+2022-05-08 21:22:50,197 [cuckoo.core.plugins] DEBUG: Analysis matched signature: memdump_urls
+2022-05-08 21:22:50,197 [cuckoo.core.plugins] DEBUG: Analysis matched signature: injection_resumethread
+2022-05-08 21:22:50,197 [cuckoo.core.plugins] DEBUG: Analysis matched signature: uses_windows_utilities
+2022-05-08 21:22:50,600 [cuckoo.core.plugins] DEBUG: Executed reporting module "JsonDump"
+2022-05-08 21:22:50,727 [cuckoo.core.plugins] DEBUG: Executed reporting module "MongoDB"
+2022-05-08 21:22:50,727 [cuckoo.core.scheduler] INFO: Task #4: reports generation completed
+2022-05-08 21:22:50,733 [cuckoo.core.scheduler] INFO: Task #4: analysis procedure completed
