@@ -1,0 +1,22 @@
+2022-05-15 02:57:46,030 [analyzer] DEBUG: Starting analyzer from: C:\tmpijiehg
+2022-05-15 02:57:46,030 [analyzer] DEBUG: Pipe server name: \??\PIPE\IBdJjGLMePacRgTdFpipyZfXOFesIS
+2022-05-15 02:57:46,030 [analyzer] DEBUG: Log pipe server name: \??\PIPE\wPWwqQYyPJMaKXpZa
+2022-05-15 02:57:46,030 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.
+2022-05-15 02:57:46,030 [analyzer] INFO: Automatically selected analysis package "generic"
+2022-05-15 02:57:47,062 [analyzer] DEBUG: Started auxiliary module DbgView
+2022-05-15 02:58:07,140 [analyzer] DEBUG: Started auxiliary module Disguise
+2022-05-15 02:58:07,796 [analyzer] DEBUG: Loaded monitor into process with pid 516
+2022-05-15 02:58:07,842 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2022-05-15 02:58:07,842 [analyzer] DEBUG: Started auxiliary module Human
+2022-05-15 02:58:07,842 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2022-05-15 02:58:07,842 [analyzer] DEBUG: Started auxiliary module Reboot
+2022-05-15 02:58:08,453 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2022-05-15 02:58:08,467 [analyzer] DEBUG: Started auxiliary module Screenshots
+2022-05-15 02:58:08,467 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2022-05-15 02:58:08,467 [modules.auxiliary.screenshots] INFO: Python Image Library (either PIL or Pillow) is not installed, screenshots are disabled.
+2022-05-15 02:58:09,000 [lib.api.process] INFO: Successfully executed process from path 'C:\\Windows\\System32\\cmd.exe' with arguments ['/c', 'start', '/wait', '"dpOBmxQg"', u'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\istockphoto-1188445864-612x612.jpg'] and pid 2372
+2022-05-15 02:58:09,875 [analyzer] DEBUG: Loaded monitor into process with pid 2372
+2022-05-15 02:58:43,733 [lib.api.process] INFO: Memory dump of process with pid 2372 completed
+2022-05-15 02:58:43,796 [analyzer] INFO: Process with pid 2372 has terminated
+2022-05-15 02:58:43,796 [analyzer] INFO: Process list is empty, terminating analysis.
+2022-05-15 02:58:44,796 [analyzer] INFO: Analysis completed.
