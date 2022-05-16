@@ -14,7 +14,6 @@ class IPMatch(Signature):
     ioc_ip_file = "/home/cuckoo/.cuckoo/ioc_file/ioc_ip.csv"
     ioc_ip_data = pd.read_csv(ioc_ip_file, low_memory = False)
     ioc_ip_df = pd.DataFrame(ioc_ip_data)
-    print(ioc_ip_df)
 
     # add test ip in ioc_ip_df
     test_ip_df = pd.DataFrame({"IoCType":["IP"],"InfoSource":["F-ISAC"],"IoCCategory":["Malware"],"IoCValue":["8.8.8.8"]})

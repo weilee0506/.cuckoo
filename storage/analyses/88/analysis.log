@@ -1,0 +1,36 @@
+2022-05-15 22:08:30,030 [analyzer] DEBUG: Starting analyzer from: C:\tmpy1hzlw
+2022-05-15 22:08:30,030 [analyzer] DEBUG: Pipe server name: \??\PIPE\kjcIlemHoYeejhBthUHRIjI
+2022-05-15 22:08:30,030 [analyzer] DEBUG: Log pipe server name: \??\PIPE\OXRNuQEltvqnCNnlkUrHh
+2022-05-15 22:08:32,296 [analyzer] DEBUG: Started auxiliary module DbgView
+2022-05-15 22:08:50,328 [analyzer] DEBUG: Started auxiliary module Disguise
+2022-05-15 22:08:50,875 [analyzer] DEBUG: Loaded monitor into process with pid 496
+2022-05-15 22:08:50,905 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2022-05-15 22:08:50,921 [analyzer] DEBUG: Started auxiliary module Human
+2022-05-15 22:08:50,921 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2022-05-15 22:08:50,921 [analyzer] DEBUG: Started auxiliary module Reboot
+2022-05-15 22:08:51,250 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2022-05-15 22:08:51,250 [analyzer] DEBUG: Started auxiliary module Screenshots
+2022-05-15 22:08:51,250 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2022-05-15 22:08:52,187 [lib.api.process] INFO: Successfully executed process from path 'C:\\Program Files\\Internet Explorer\\iexplore.exe' with arguments ['http://www.facebook.com'] and pid 2768
+2022-05-15 22:08:52,608 [analyzer] DEBUG: Loaded monitor into process with pid 2768
+2022-05-15 22:08:52,717 [analyzer] DEBUG: Ignoring process "C:\Windows\System32\ie4uinit.exe" -ShowQLIcon!
+2022-05-15 22:08:55,953 [analyzer] DEBUG: Following legitimate IE8 process: "C:\Program Files\Internet Explorer\iexplore.exe" SCODEF:2768 CREDAT:79873!
+2022-05-15 22:08:56,187 [analyzer] INFO: Injected into process with pid 2880 and name u'iexplore.exe'
+2022-05-15 22:08:57,187 [lib.api.process] INFO: Memory dump of process with pid 2880 completed
+2022-05-15 22:08:57,608 [analyzer] DEBUG: Loaded monitor into process with pid 2880
+2022-05-15 22:08:58,000 [analyzer] INFO: Added new file to list with pid 2768 and path C:\Users\Administrator\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{D75DD451-D48A-11EC-84C7-840F0C3BD90C}.dat
+2022-05-15 22:08:58,046 [analyzer] INFO: Added new file to list with pid 2768 and path C:\Users\Administrator\AppData\Local\Temp\~DFDF8124705B739714.TMP
+2022-05-15 22:08:59,546 [analyzer] INFO: Added new file to list with pid 2768 and path C:\Users\Administrator\Favorites\Links\desktop.ini
+2022-05-15 22:09:01,000 [analyzer] INFO: Added new file to list with pid 2768 and path C:\Users\Administrator\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\{D75DD452-D48A-11EC-84C7-840F0C3BD90C}.dat
+2022-05-15 22:09:01,140 [analyzer] INFO: Added new file to list with pid 2768 and path C:\Users\Administrator\AppData\Local\Temp\~DFE2F7BB4BFD9724FC.TMP
+2022-05-15 22:09:14,875 [analyzer] INFO: Added new file to list with pid 2880 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\dnserror[1]
+2022-05-15 22:09:15,342 [analyzer] INFO: Added new file to list with pid 2880 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\IBBL5OJZ\ErrorPageTemplate[1]
+2022-05-15 22:09:15,890 [analyzer] INFO: Added new file to list with pid 2880 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\1930N1EX\errorPageStrings[1]
+2022-05-15 22:09:16,375 [analyzer] INFO: Added new file to list with pid 2880 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\0CXDFCDX\httpErrorPagesScripts[1]
+2022-05-15 22:09:16,530 [analyzer] INFO: Added new file to list with pid 2880 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\noConnect[1]
+2022-05-15 22:09:16,890 [analyzer] INFO: Added new file to list with pid 2880 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\IBBL5OJZ\background_gradient[1]
+2022-05-15 22:09:17,390 [analyzer] INFO: Added new file to list with pid 2880 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\1930N1EX\down[1]
+2022-05-15 22:09:17,890 [analyzer] INFO: Added new file to list with pid 2880 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\0CXDFCDX\favcenter[1]
+2022-05-15 22:09:18,015 [analyzer] INFO: Added new file to list with pid 2880 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\tools[1]
+2022-05-15 22:10:55,750 [analyzer] INFO: Analysis timeout hit, terminating analysis.
+2022-05-15 22:11:26,375 [lib.api.process] INFO: Memory dump of process with pid 2768 completed
