@@ -1,0 +1,54 @@
+2022-05-16 05:38:46,062 [analyzer] DEBUG: Starting analyzer from: C:\tmpy1hzlw
+2022-05-16 05:38:46,092 [analyzer] DEBUG: Pipe server name: \??\PIPE\RbXHdcrsRWqWFDZAwxLuMwIcY
+2022-05-16 05:38:46,092 [analyzer] DEBUG: Log pipe server name: \??\PIPE\gcQuIvAEtWKPUGonBDGProN
+2022-05-16 05:38:48,155 [analyzer] DEBUG: Started auxiliary module DbgView
+2022-05-16 11:39:24,930 [analyzer] DEBUG: Started auxiliary module Disguise
+2022-05-16 11:39:25,492 [analyzer] DEBUG: Loaded monitor into process with pid 496
+2022-05-16 11:39:25,507 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2022-05-16 11:39:25,523 [analyzer] DEBUG: Started auxiliary module Human
+2022-05-16 11:39:25,523 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2022-05-16 11:39:25,523 [analyzer] DEBUG: Started auxiliary module Reboot
+2022-05-16 11:39:26,242 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2022-05-16 11:39:26,242 [analyzer] DEBUG: Started auxiliary module Screenshots
+2022-05-16 11:39:26,242 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2022-05-16 11:39:27,117 [lib.api.process] INFO: Successfully executed process from path 'C:\\Program Files\\Internet Explorer\\iexplore.exe' with arguments ['http://www.facebook.com'] and pid 2796
+2022-05-16 11:39:27,539 [analyzer] DEBUG: Loaded monitor into process with pid 2796
+2022-05-16 11:39:27,710 [analyzer] DEBUG: Ignoring process "C:\Windows\System32\ie4uinit.exe" -ShowQLIcon!
+2022-05-16 11:39:31,319 [analyzer] DEBUG: Following legitimate IE8 process: "C:\Program Files\Internet Explorer\iexplore.exe" SCODEF:2796 CREDAT:79873!
+2022-05-16 11:39:31,601 [analyzer] INFO: Injected into process with pid 2924 and name u'iexplore.exe'
+2022-05-16 11:39:32,819 [lib.api.process] INFO: Memory dump of process with pid 2924 completed
+2022-05-16 11:39:33,710 [analyzer] DEBUG: Loaded monitor into process with pid 2924
+2022-05-16 11:39:34,101 [analyzer] INFO: Added new file to list with pid 2796 and path C:\Users\Administrator\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{142311D7-D4FC-11EC-84C7-840F0C3BD90C}.dat
+2022-05-16 11:39:34,210 [analyzer] INFO: Added new file to list with pid 2796 and path C:\Users\Administrator\AppData\Local\Temp\~DFE0F1986F4E2DA567.TMP
+2022-05-16 11:39:36,710 [analyzer] INFO: Added new file to list with pid 2796 and path C:\Users\Administrator\Favorites\Links\desktop.ini
+2022-05-16 11:39:38,944 [analyzer] INFO: Added new file to list with pid 2796 and path C:\Users\Administrator\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\{1A37F166-D4FC-11EC-84C7-840F0C3BD90C}.dat
+2022-05-16 11:39:39,055 [analyzer] INFO: Added new file to list with pid 2796 and path C:\Users\Administrator\AppData\Local\Temp\~DF0A40D1D37A3DD92E.TMP
+2022-05-16 11:39:50,069 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\94308059B57B3142E455B38A6EB92015
+2022-05-16 11:39:50,305 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\94308059B57B3142E455B38A6EB92015
+2022-05-16 11:39:50,851 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Temp\Cab200C.tmp
+2022-05-16 11:39:51,069 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Temp\Tar201D.tmp
+2022-05-16 11:40:05,007 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\F0ACCF77CDCBFF39F6191887F6D2D357
+2022-05-16 11:40:05,023 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\F0ACCF77CDCBFF39F6191887F6D2D357
+2022-05-16 11:40:05,414 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Temp\Cab5A0A.tmp
+2022-05-16 11:40:05,569 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Temp\Tar5A1A.tmp
+2022-05-16 11:40:11,460 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Temp\Cab7228.tmp
+2022-05-16 11:40:11,539 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Temp\Tar7238.tmp
+2022-05-16 11:40:18,257 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\EDC238BFF48A31D55A97E1E93892934B_C20E0DA2D0F89FE526E1490F4A2EE5AB
+2022-05-16 11:40:18,289 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\EDC238BFF48A31D55A97E1E93892934B_C20E0DA2D0F89FE526E1490F4A2EE5AB
+2022-05-16 11:40:23,914 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\35DDEDF268117918D1D277A171D8DF7B_B5DBB5EF8E68B56BB47EAFC5DE10B09A
+2022-05-16 11:40:23,944 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\35DDEDF268117918D1D277A171D8DF7B_B5DBB5EF8E68B56BB47EAFC5DE10B09A
+2022-05-16 11:40:24,007 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Temp\CabA33C.tmp
+2022-05-16 11:40:24,055 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Temp\TarA34D.tmp
+2022-05-16 11:40:24,680 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\facebook_com[1].txt
+2022-05-16 11:40:26,585 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Cookies\administrator@facebook[1].txt
+2022-05-16 11:40:26,648 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Cookies\administrator@facebook[2].txt
+2022-05-16 11:40:26,757 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\m_facebook_com[1].txt
+2022-05-16 11:40:26,789 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\m_facebook_com[1].htm
+2022-05-16 11:40:28,007 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\hrb0H7k9FkC[1].png
+2022-05-16 11:40:28,023 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\A3UO8RD8\k97pj8-or6s[1].png
+2022-05-16 11:40:29,444 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\35DDEDF268117918D1D277A171D8DF7B_9287A1C3D986BA90ED0906FDBF1E4E4F
+2022-05-16 11:40:29,492 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\35DDEDF268117918D1D277A171D8DF7B_9287A1C3D986BA90ED0906FDBF1E4E4F
+2022-05-16 11:40:30,835 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\IBBL5OJZ\hsts-pixel[1].gif
+2022-05-16 11:40:31,523 [analyzer] INFO: Added new file to list with pid 2924 and path C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\1930N1EX\favicon[1].png
+2022-05-16 11:40:36,789 [analyzer] INFO: Added new file to list with pid 2796 and path C:\Users\Administrator\AppData\LocalLow\Microsoft\Internet Explorer\Services\search_{0633EE93-D776-472f-A0FF-E1416B8B2E3A}.ico
+2022-05-16 11:41:32,492 [analyzer] INFO: Analysis timeout hit, terminating analysis.

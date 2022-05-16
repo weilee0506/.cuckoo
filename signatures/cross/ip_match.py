@@ -7,6 +7,7 @@ class IPMatch(Signature):
     description = "the target's related ip matches the IoC "
     severity = 10
     categories = ["esun_ioc"]
+    families = ["esun_ioc"]
     authors = ["22326"]
     minium = "2.0"
 
@@ -16,14 +17,25 @@ class IPMatch(Signature):
     ioc_ip_df = pd.DataFrame(ioc_ip_data)
 
     # add test ip in ioc_ip_df
-    test_ip_df = pd.DataFrame({"IoCType":["IP"],"InfoSource":["F-ISAC"],"IoCCategory":["Malware"],"IoCValue":["8.8.8.8"]})
+    test_ip_df = pd.DataFrame({
+        "IoCType":["IP"],
+        "InfoSource":["F-ISAC"],
+        "IoCCategory":["Malware"],
+        "IoCValue":["8.8.8.8"]
+        })
     ioc_ip_df = pd.concat([ioc_ip_df,test_ip_df], ignore_index = True, axis = 0)
 
+    # grab specific column
+    ioc_ip_df_final = ioc_ip_df[["IoCType","InfoSource","IoCCategory","IoCValue"]]
+
+    # replace nan with "null"
+    ioc_ip_df_final = ioc_ip_df_final.fillna("null")
+
     # turn ioc_ip_df into list
-    ioc_ip_list = ioc_ip_df.values.tolist()
-
-    # ioc_ip_list_test = ioc_ip_list
-
+    ioc_ip_list = ioc_ip_df_final.values.tolist()
+    # logging.warning(ioc_ip_df_final)
+    # logging.warning("---------")
+    # logging.warning(ioc_ip_list) 
     
 
     # add ioc_ip into ioc_ip_list
@@ -33,11 +45,12 @@ class IPMatch(Signature):
 
     
     def on_complete(self):    
-        # logging.warning(self.ioc_ip_list)        
+        # logging.warning(self.ioc_ip_list)      
+        # logging.warning(self.ioc_ip_list)  
         for row in self.ioc_ip_list:
             if self.check_ip(pattern=row[3]):
-                logging.warning("esunioc")
-                self.mark_esunioc(category = row[1], infoSource = row[0], ioc = row[3])
+                # logging.warning("esunioc")
+                self.mark_esunioc(category = row[2], infoSource = row[1], ioc = row[3])
 
         return self.has_marks()
 

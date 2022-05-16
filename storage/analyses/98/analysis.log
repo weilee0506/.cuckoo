@@ -1,0 +1,21 @@
+2022-05-16 03:14:23,015 [analyzer] DEBUG: Starting analyzer from: C:\tmpy1hzlw
+2022-05-16 03:14:23,062 [analyzer] DEBUG: Pipe server name: \??\PIPE\NpbmpkcjmfRfXROL
+2022-05-16 03:14:23,062 [analyzer] DEBUG: Log pipe server name: \??\PIPE\fkynIAcvdNQJvvQrbBS
+2022-05-16 03:14:23,062 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.
+2022-05-16 03:14:23,062 [analyzer] INFO: Automatically selected analysis package "generic"
+2022-05-16 03:14:25,092 [analyzer] DEBUG: Started auxiliary module DbgView
+2022-05-16 09:14:58,150 [analyzer] DEBUG: Started auxiliary module Disguise
+2022-05-16 09:14:58,727 [analyzer] DEBUG: Loaded monitor into process with pid 496
+2022-05-16 09:14:58,743 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2022-05-16 09:14:58,743 [analyzer] DEBUG: Started auxiliary module Human
+2022-05-16 09:14:58,759 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2022-05-16 09:14:58,759 [analyzer] DEBUG: Started auxiliary module Reboot
+2022-05-16 09:14:59,275 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2022-05-16 09:14:59,290 [analyzer] DEBUG: Started auxiliary module Screenshots
+2022-05-16 09:14:59,290 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2022-05-16 09:14:59,963 [lib.api.process] INFO: Successfully executed process from path 'C:\\Windows\\System32\\cmd.exe' with arguments ['/c', 'start', '/wait', '"NyIdVyyQ"', u'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\istockphoto-1188445864-612x612.jpg'] and pid 2768
+2022-05-16 09:15:01,134 [analyzer] DEBUG: Loaded monitor into process with pid 2768
+2022-05-16 09:15:36,900 [lib.api.process] INFO: Memory dump of process with pid 2768 completed
+2022-05-16 09:15:38,931 [analyzer] INFO: Process with pid 2768 has terminated
+2022-05-16 09:15:38,931 [analyzer] INFO: Process list is empty, terminating analysis.
+2022-05-16 09:15:39,931 [analyzer] INFO: Analysis completed.

@@ -1,0 +1,22 @@
+2022-05-16 02:22:17,030 [analyzer] DEBUG: Starting analyzer from: C:\tmpijiehg
+2022-05-16 02:22:17,062 [analyzer] DEBUG: Pipe server name: \??\PIPE\XkdwSoHvawxbYQxdiEVdtDBahVIBRzdC
+2022-05-16 02:22:17,078 [analyzer] DEBUG: Log pipe server name: \??\PIPE\xqoLnUKXHIkMFrCgszFZKYZFyVtvKRK
+2022-05-16 02:22:17,078 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.
+2022-05-16 02:22:17,078 [analyzer] INFO: Automatically selected analysis package "generic"
+2022-05-16 02:22:17,562 [analyzer] DEBUG: Started auxiliary module DbgView
+2022-05-16 02:22:35,953 [analyzer] DEBUG: Started auxiliary module Disguise
+2022-05-16 08:22:56,346 [analyzer] DEBUG: Loaded monitor into process with pid 516
+2022-05-16 08:22:56,361 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2022-05-16 08:22:56,378 [analyzer] DEBUG: Started auxiliary module Human
+2022-05-16 08:22:56,378 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2022-05-16 08:22:56,378 [analyzer] DEBUG: Started auxiliary module Reboot
+2022-05-16 08:22:57,065 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2022-05-16 08:22:57,065 [analyzer] DEBUG: Started auxiliary module Screenshots
+2022-05-16 08:22:57,065 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2022-05-16 08:22:57,081 [modules.auxiliary.screenshots] INFO: Python Image Library (either PIL or Pillow) is not installed, screenshots are disabled.
+2022-05-16 08:22:57,706 [lib.api.process] INFO: Successfully executed process from path 'C:\\Windows\\System32\\cmd.exe' with arguments ['/c', 'start', '/wait', '"uJgzDBgUHNSNe"', u'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\istockphoto-1188445864-612x612.jpg'] and pid 2352
+2022-05-16 08:22:58,658 [analyzer] DEBUG: Loaded monitor into process with pid 2352
+2022-05-16 08:23:34,408 [lib.api.process] INFO: Memory dump of process with pid 2352 completed
+2022-05-16 08:23:36,331 [analyzer] INFO: Process with pid 2352 has terminated
+2022-05-16 08:23:36,346 [analyzer] INFO: Process list is empty, terminating analysis.
+2022-05-16 08:23:37,346 [analyzer] INFO: Analysis completed.

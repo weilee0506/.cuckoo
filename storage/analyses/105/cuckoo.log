@@ -1,0 +1,383 @@
+2022-05-16 05:30:34,628 [cuckoo.core.scheduler] INFO: Task #105: acquired machine 192.168.56.102 (label=192.168.56.102)
+2022-05-16 05:30:34,628 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #105
+2022-05-16 05:30:34,628 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-16 05:30:34,647 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 7788 (interface=vboxnet0, host=192.168.56.101)
+2022-05-16 05:30:34,648 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-16 05:30:34,681 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.102
+2022-05-16 05:30:35,038 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.102 to its current snapshot
+2022-05-16 05:30:40,502 [cuckoo.core.guest] INFO: Starting analysis #105 on guest (id=192.168.56.102, ip=192.168.56.101)
+2022-05-16 05:30:41,508 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-16 05:30:42,511 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-16 05:30:43,516 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-16 05:30:43,564 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-16 05:30:44,587 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.102, ip=192.168.56.101)
+2022-05-16 05:30:44,649 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.102, ip=192.168.56.101, monitor=latest, size=3884763)
+2022-05-16 05:30:48,752 [cuckoo.core.resultserver] DEBUG: Task #105: live log analysis.log initialized.
+2022-05-16 05:30:52,492 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:30:57,553 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:02,623 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:07,679 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:11,959 [cuckoo.core.resultserver] DEBUG: Task #105 is sending a BSON stream
+2022-05-16 05:31:12,763 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:13,555 [cuckoo.core.resultserver] DEBUG: Task #105 is sending a BSON stream
+2022-05-16 05:31:14,212 [cuckoo.core.resultserver] DEBUG: Task #105: File upload for 'shots/0001.jpg'
+2022-05-16 05:31:14,290 [cuckoo.core.resultserver] DEBUG: Task #105 uploaded file length: 47869
+2022-05-16 05:31:17,810 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:22,852 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:27,903 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:32,974 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:38,114 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:41,699 [cuckoo.core.resultserver] DEBUG: Task #105: File upload for 'memory/2808-1.dmp'
+2022-05-16 05:31:43,241 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:48,281 [cuckoo.core.resultserver] DEBUG: Task #105 uploaded file length: 69494336
+2022-05-16 05:31:48,337 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #105 still processing
+2022-05-16 05:31:49,857 [cuckoo.core.resultserver] DEBUG: Task #105: File upload for 'shots/0002.jpg'
+2022-05-16 05:31:50,023 [cuckoo.core.resultserver] DEBUG: Task #105 uploaded file length: 44022
+2022-05-16 05:31:51,668 [cuckoo.core.resultserver] DEBUG: Task #105: File upload for 'shots/0003.jpg'
+2022-05-16 05:31:51,756 [cuckoo.core.resultserver] DEBUG: Task #105 uploaded file length: 42870
+2022-05-16 05:31:52,382 [cuckoo.core.guest] INFO: 192.168.56.102: analysis completed successfully
+2022-05-16 05:31:52,398 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2022-05-16 05:31:52,401 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer
+2022-05-16 05:31:52,401 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.102
+2022-05-16 05:31:53,807 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #105
+2022-05-16 05:31:53,807 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 105
+2022-05-16 05:31:53,813 [cuckoo.core.scheduler] DEBUG: Released database task #105
+2022-05-16 05:31:53,849 [cuckoo.core.plugins] DEBUG: Executed processing module "AnalysisInfo" for task #105
+2022-05-16 05:31:53,851 [cuckoo.core.plugins] DEBUG: Executed processing module "BehaviorAnalysis" for task #105
+2022-05-16 05:31:53,853 [cuckoo.core.plugins] DEBUG: Executed processing module "Dropped" for task #105
+2022-05-16 05:31:53,855 [cuckoo.core.plugins] DEBUG: Executed processing module "DroppedBuffer" for task #105
+2022-05-16 05:31:54,611 [cuckoo.core.plugins] DEBUG: Executed processing module "MetaInfo" for task #105
+2022-05-16 05:31:56,749 [cuckoo.core.plugins] DEBUG: Executed processing module "ProcessMemory" for task #105
+2022-05-16 05:31:56,750 [cuckoo.core.plugins] DEBUG: Executed processing module "Procmon" for task #105
+2022-05-16 05:31:56,794 [cuckoo.core.plugins] DEBUG: Executed processing module "Screenshots" for task #105
+2022-05-16 05:31:56,797 [cuckoo.core.plugins] DEBUG: Executed processing module "Static" for task #105
+2022-05-16 05:31:56,803 [cuckoo.core.plugins] DEBUG: Executed processing module "Strings" for task #105
+2022-05-16 05:31:56,815 [cuckoo.core.plugins] DEBUG: Executed processing module "TargetInfo" for task #105
+2022-05-16 05:31:57,403 [cuckoo.core.plugins] DEBUG: Executed processing module "NetworkAnalysis" for task #105
+2022-05-16 05:31:57,404 [cuckoo.core.plugins] DEBUG: Executed processing module "Extracted" for task #105
+2022-05-16 05:31:57,404 [cuckoo.core.plugins] DEBUG: Executed processing module "TLSMasterSecrets" for task #105
+2022-05-16 05:31:57,406 [cuckoo.core.plugins] DEBUG: Executed processing module "Debug" for task #105
+2022-05-16 05:31:57,406 [cuckoo.core.plugins] WARNING: fuck you
+2022-05-16 05:31:57,473 [cuckoo.core.plugins] DEBUG: Running 545 signatures
+2022-05-16 05:31:57,608 [root] WARNING: Malware
+2022-05-16 05:31:57,609 [root] WARNING: Malware
+2022-05-16 05:31:57,609 [root] WARNING: Malware
+2022-05-16 05:31:57,609 [root] WARNING: Malware
+2022-05-16 05:31:57,609 [root] WARNING: Malware
+2022-05-16 05:31:57,609 [root] WARNING: Malware
+2022-05-16 05:31:57,609 [root] WARNING: Malware
+2022-05-16 05:31:57,610 [root] WARNING: Malware
+2022-05-16 05:31:57,610 [root] WARNING: Malware
+2022-05-16 05:31:57,610 [root] WARNING: Malware
+2022-05-16 05:31:57,610 [root] WARNING: Malware
+2022-05-16 05:31:57,610 [root] WARNING: Malware
+2022-05-16 05:31:57,610 [root] WARNING: Malware
+2022-05-16 05:31:57,611 [root] WARNING: Malware
+2022-05-16 05:31:57,611 [root] WARNING: Malware
+2022-05-16 05:31:57,611 [root] WARNING: Malware
+2022-05-16 05:31:57,611 [root] WARNING: Malware
+2022-05-16 05:31:57,611 [root] WARNING: Malware
+2022-05-16 05:31:57,611 [root] WARNING: Malware
+2022-05-16 05:31:57,611 [root] WARNING: Malware
+2022-05-16 05:31:57,612 [root] WARNING: Malware
+2022-05-16 05:31:57,612 [root] WARNING: Malware
+2022-05-16 05:31:57,612 [root] WARNING: Malware
+2022-05-16 05:31:57,612 [root] WARNING: Malware
+2022-05-16 05:31:57,612 [root] WARNING: Malware
+2022-05-16 05:31:57,612 [root] WARNING: Malware
+2022-05-16 05:31:57,612 [root] WARNING: Malware
+2022-05-16 05:31:57,613 [root] WARNING: Malware
+2022-05-16 05:31:57,613 [root] WARNING: Malware
+2022-05-16 05:31:57,613 [root] WARNING: Malware
+2022-05-16 05:31:57,613 [root] WARNING: Malware
+2022-05-16 05:31:57,613 [root] WARNING: Malware
+2022-05-16 05:31:57,613 [root] WARNING: Malware
+2022-05-16 05:31:57,614 [root] WARNING: Malware
+2022-05-16 05:31:57,614 [root] WARNING: Malware
+2022-05-16 05:31:57,614 [root] WARNING: Malware
+2022-05-16 05:31:57,614 [root] WARNING: Malware
+2022-05-16 05:31:57,614 [root] WARNING: Malware
+2022-05-16 05:31:57,614 [root] WARNING: Malware
+2022-05-16 05:31:57,614 [root] WARNING: Malware
+2022-05-16 05:31:57,615 [root] WARNING: Malware
+2022-05-16 05:31:57,615 [root] WARNING: Malware
+2022-05-16 05:31:57,615 [root] WARNING: Malware
+2022-05-16 05:31:57,615 [root] WARNING: Malware
+2022-05-16 05:31:57,615 [root] WARNING: Malware
+2022-05-16 05:31:57,615 [root] WARNING: Malware
+2022-05-16 05:31:57,616 [root] WARNING: Malware
+2022-05-16 05:31:57,616 [root] WARNING: Malware
+2022-05-16 05:31:57,616 [root] WARNING: Malware
+2022-05-16 05:31:57,616 [root] WARNING: Malware
+2022-05-16 05:31:57,616 [root] WARNING: Malware
+2022-05-16 05:31:57,616 [root] WARNING: Malware
+2022-05-16 05:31:57,616 [root] WARNING: Malware
+2022-05-16 05:31:57,617 [root] WARNING: Malware
+2022-05-16 05:31:57,617 [root] WARNING: Malware
+2022-05-16 05:31:57,617 [root] WARNING: Malware
+2022-05-16 05:31:57,617 [root] WARNING: Malware
+2022-05-16 05:31:57,617 [root] WARNING: Malware
+2022-05-16 05:31:57,618 [root] WARNING: Malware
+2022-05-16 05:31:57,618 [root] WARNING: Malware
+2022-05-16 05:31:57,618 [root] WARNING: Malware
+2022-05-16 05:31:57,618 [root] WARNING: Malware
+2022-05-16 05:31:57,618 [root] WARNING: Malware
+2022-05-16 05:31:57,618 [root] WARNING: Malware
+2022-05-16 05:31:57,619 [root] WARNING: Malware
+2022-05-16 05:31:57,623 [root] WARNING: Malware
+2022-05-16 05:31:57,623 [root] WARNING: Malware
+2022-05-16 05:31:57,624 [root] WARNING: Malware
+2022-05-16 05:31:57,624 [root] WARNING: Malware
+2022-05-16 05:31:57,624 [root] WARNING: Malware
+2022-05-16 05:31:57,624 [root] WARNING: Malware
+2022-05-16 05:31:57,624 [root] WARNING: Malware
+2022-05-16 05:31:57,624 [root] WARNING: Malware
+2022-05-16 05:31:57,624 [root] WARNING: Malware
+2022-05-16 05:31:57,625 [root] WARNING: Malware
+2022-05-16 05:31:57,625 [root] WARNING: Malware
+2022-05-16 05:31:57,625 [root] WARNING: Malware
+2022-05-16 05:31:57,625 [root] WARNING: Malware
+2022-05-16 05:31:57,625 [root] WARNING: Malware
+2022-05-16 05:31:57,625 [root] WARNING: Malware
+2022-05-16 05:31:57,626 [root] WARNING: Malware
+2022-05-16 05:31:57,626 [root] WARNING: Malware
+2022-05-16 05:31:57,626 [root] WARNING: Malware
+2022-05-16 05:31:57,626 [root] WARNING: Malware
+2022-05-16 05:31:57,626 [root] WARNING: Malware
+2022-05-16 05:31:57,626 [root] WARNING: Malware
+2022-05-16 05:31:57,626 [root] WARNING: Malware
+2022-05-16 05:31:57,627 [root] WARNING: Malware
+2022-05-16 05:31:57,627 [root] WARNING: Malware
+2022-05-16 05:31:57,627 [root] WARNING: Malware
+2022-05-16 05:31:57,627 [root] WARNING: Malware
+2022-05-16 05:31:57,627 [root] WARNING: Malware
+2022-05-16 05:31:57,627 [root] WARNING: Malware
+2022-05-16 05:31:57,627 [root] WARNING: Malware
+2022-05-16 05:31:57,628 [root] WARNING: Malware
+2022-05-16 05:31:57,628 [root] WARNING: Malware
+2022-05-16 05:31:57,628 [root] WARNING: Malware
+2022-05-16 05:31:57,628 [root] WARNING: Malware
+2022-05-16 05:31:57,628 [root] WARNING: Malware
+2022-05-16 05:31:57,628 [root] WARNING: Malware
+2022-05-16 05:31:57,628 [root] WARNING: Malware
+2022-05-16 05:31:57,629 [root] WARNING: Malware
+2022-05-16 05:31:57,629 [root] WARNING: Malware
+2022-05-16 05:31:57,629 [root] WARNING: Malware
+2022-05-16 05:31:57,629 [root] WARNING: Malware
+2022-05-16 05:31:57,629 [root] WARNING: Malware
+2022-05-16 05:31:57,629 [root] WARNING: Malware
+2022-05-16 05:31:57,630 [root] WARNING: Malware
+2022-05-16 05:31:57,630 [root] WARNING: Malware
+2022-05-16 05:31:57,630 [root] WARNING: Malware
+2022-05-16 05:31:57,630 [root] WARNING: Malware
+2022-05-16 05:31:57,630 [root] WARNING: Malware
+2022-05-16 05:31:57,630 [root] WARNING: Malware
+2022-05-16 05:31:57,630 [root] WARNING: Malware
+2022-05-16 05:31:57,631 [root] WARNING: Malware
+2022-05-16 05:31:57,631 [root] WARNING: Malware
+2022-05-16 05:31:57,631 [root] WARNING: Malware
+2022-05-16 05:31:57,631 [root] WARNING: Malware
+2022-05-16 05:31:57,631 [root] WARNING: Malware
+2022-05-16 05:31:57,631 [root] WARNING: Malware
+2022-05-16 05:31:57,631 [root] WARNING: Malware
+2022-05-16 05:31:57,632 [root] WARNING: Malware
+2022-05-16 05:31:57,632 [root] WARNING: Malware
+2022-05-16 05:31:57,632 [root] WARNING: Malware
+2022-05-16 05:31:57,632 [root] WARNING: Malware
+2022-05-16 05:31:57,632 [root] WARNING: Malware
+2022-05-16 05:31:57,632 [root] WARNING: Malware
+2022-05-16 05:31:57,632 [root] WARNING: Malware
+2022-05-16 05:31:57,633 [root] WARNING: Malware
+2022-05-16 05:31:57,633 [root] WARNING: Malware
+2022-05-16 05:31:57,633 [root] WARNING: Malware
+2022-05-16 05:31:57,633 [root] WARNING: Malware
+2022-05-16 05:31:57,633 [root] WARNING: Malware
+2022-05-16 05:31:57,634 [root] WARNING: Malware
+2022-05-16 05:31:57,635 [root] WARNING: Malware
+2022-05-16 05:31:57,635 [root] WARNING: Malware
+2022-05-16 05:31:57,636 [root] WARNING: Malware
+2022-05-16 05:31:57,636 [root] WARNING: Malware
+2022-05-16 05:31:57,636 [root] WARNING: Malware
+2022-05-16 05:31:57,636 [root] WARNING: Malware
+2022-05-16 05:31:57,636 [root] WARNING: Malware
+2022-05-16 05:31:57,636 [root] WARNING: Malware
+2022-05-16 05:31:57,637 [root] WARNING: Malware
+2022-05-16 05:31:57,637 [root] WARNING: Malware
+2022-05-16 05:31:57,637 [root] WARNING: Malware
+2022-05-16 05:31:57,637 [root] WARNING: Malware
+2022-05-16 05:31:57,637 [root] WARNING: Malware
+2022-05-16 05:31:57,637 [root] WARNING: Malware
+2022-05-16 05:31:57,638 [root] WARNING: Malware
+2022-05-16 05:31:57,638 [root] WARNING: Malware
+2022-05-16 05:31:57,644 [root] WARNING: Malware
+2022-05-16 05:31:57,644 [root] WARNING: Malware
+2022-05-16 05:31:57,644 [root] WARNING: Malware
+2022-05-16 05:31:57,644 [root] WARNING: Malware
+2022-05-16 05:31:57,644 [root] WARNING: Malware
+2022-05-16 05:31:57,644 [root] WARNING: Malware
+2022-05-16 05:31:57,644 [root] WARNING: Malware
+2022-05-16 05:31:57,645 [root] WARNING: Malware
+2022-05-16 05:31:57,645 [root] WARNING: Malware
+2022-05-16 05:31:57,645 [root] WARNING: Malware
+2022-05-16 05:31:57,645 [root] WARNING: Malware
+2022-05-16 05:31:57,645 [root] WARNING: Malware
+2022-05-16 05:31:57,645 [root] WARNING: Malware
+2022-05-16 05:31:57,646 [root] WARNING: Malware
+2022-05-16 05:31:57,646 [root] WARNING: Malware
+2022-05-16 05:31:57,646 [root] WARNING: Malware
+2022-05-16 05:31:57,648 [root] WARNING: Malware
+2022-05-16 05:31:57,648 [root] WARNING: Malware
+2022-05-16 05:31:57,648 [root] WARNING: Malware
+2022-05-16 05:31:57,649 [root] WARNING: Malware
+2022-05-16 05:31:57,649 [root] WARNING: Malware
+2022-05-16 05:31:57,649 [root] WARNING: Trojan
+2022-05-16 05:31:57,649 [root] WARNING: Trojan
+2022-05-16 05:31:57,649 [root] WARNING: Trojan
+2022-05-16 05:31:57,649 [root] WARNING: Trojan
+2022-05-16 05:31:57,649 [root] WARNING: Trojan
+2022-05-16 05:31:57,650 [root] WARNING: Trojan
+2022-05-16 05:31:57,650 [root] WARNING: Trojan
+2022-05-16 05:31:57,650 [root] WARNING: Trojan
+2022-05-16 05:31:57,650 [root] WARNING: Trojan
+2022-05-16 05:31:57,650 [root] WARNING: Trojan
+2022-05-16 05:31:57,650 [root] WARNING: Trojan
+2022-05-16 05:31:57,651 [root] WARNING: Trojan
+2022-05-16 05:31:57,651 [root] WARNING: Trojan
+2022-05-16 05:31:57,652 [root] WARNING: Trojan
+2022-05-16 05:31:57,652 [root] WARNING: Trojan
+2022-05-16 05:31:57,652 [root] WARNING: Trojan
+2022-05-16 05:31:57,652 [root] WARNING: Trojan
+2022-05-16 05:31:57,653 [root] WARNING: Trojan
+2022-05-16 05:31:57,653 [root] WARNING: Trojan
+2022-05-16 05:31:57,653 [root] WARNING: Trojan
+2022-05-16 05:31:57,653 [root] WARNING: Trojan
+2022-05-16 05:31:57,653 [root] WARNING: Trojan
+2022-05-16 05:31:57,654 [root] WARNING: Trojan
+2022-05-16 05:31:57,654 [root] WARNING: Trojan
+2022-05-16 05:31:57,654 [root] WARNING: Trojan
+2022-05-16 05:31:57,654 [root] WARNING: Trojan
+2022-05-16 05:31:57,654 [root] WARNING: Trojan
+2022-05-16 05:31:57,656 [root] WARNING: Trojan
+2022-05-16 05:31:57,656 [root] WARNING: Trojan
+2022-05-16 05:31:57,656 [root] WARNING: Trojan
+2022-05-16 05:31:57,656 [root] WARNING: Trojan
+2022-05-16 05:31:57,656 [root] WARNING: Trojan
+2022-05-16 05:31:57,657 [root] WARNING: Trojan
+2022-05-16 05:31:57,657 [root] WARNING: Trojan
+2022-05-16 05:31:57,657 [root] WARNING: Trojan
+2022-05-16 05:31:57,657 [root] WARNING: Trojan
+2022-05-16 05:31:57,657 [root] WARNING: Trojan
+2022-05-16 05:31:57,661 [root] WARNING: Trojan
+2022-05-16 05:31:57,661 [root] WARNING: Trojan
+2022-05-16 05:31:57,661 [root] WARNING: Trojan
+2022-05-16 05:31:57,661 [root] WARNING: Trojan
+2022-05-16 05:31:57,661 [root] WARNING: Trojan
+2022-05-16 05:31:57,661 [root] WARNING: Trojan
+2022-05-16 05:31:57,662 [root] WARNING: Trojan
+2022-05-16 05:31:57,662 [root] WARNING: Trojan
+2022-05-16 05:31:57,662 [root] WARNING: Trojan
+2022-05-16 05:31:57,662 [root] WARNING: Trojan
+2022-05-16 05:31:57,662 [root] WARNING: Trojan
+2022-05-16 05:31:57,662 [root] WARNING: Trojan
+2022-05-16 05:31:57,662 [root] WARNING: Trojan
+2022-05-16 05:31:57,663 [root] WARNING: Trojan
+2022-05-16 05:31:57,663 [root] WARNING: Trojan
+2022-05-16 05:31:57,663 [root] WARNING: Trojan
+2022-05-16 05:31:57,663 [root] WARNING: Trojan
+2022-05-16 05:31:57,663 [root] WARNING: Trojan
+2022-05-16 05:31:57,663 [root] WARNING: Trojan
+2022-05-16 05:31:57,664 [root] WARNING: Trojan
+2022-05-16 05:31:57,664 [root] WARNING: Malware
+2022-05-16 05:31:57,664 [root] WARNING: Malware
+2022-05-16 05:31:57,664 [root] WARNING: Malware
+2022-05-16 05:31:57,664 [root] WARNING: Malware
+2022-05-16 05:31:57,664 [root] WARNING: Malware
+2022-05-16 05:31:57,664 [root] WARNING: Malware
+2022-05-16 05:31:57,665 [root] WARNING: Malware
+2022-05-16 05:31:57,665 [root] WARNING: Malware
+2022-05-16 05:31:57,666 [root] WARNING: Malware
+2022-05-16 05:31:57,667 [root] WARNING: Malware
+2022-05-16 05:31:57,667 [root] WARNING: Malware
+2022-05-16 05:31:57,668 [root] WARNING: Malware
+2022-05-16 05:31:57,668 [root] WARNING: Malware
+2022-05-16 05:31:57,668 [root] WARNING: Malware
+2022-05-16 05:31:57,668 [root] WARNING: Malware
+2022-05-16 05:31:57,668 [root] WARNING: Malware
+2022-05-16 05:31:57,671 [root] WARNING: Malware
+2022-05-16 05:31:57,672 [root] WARNING: Malware
+2022-05-16 05:31:57,672 [root] WARNING: Malware
+2022-05-16 05:31:57,672 [root] WARNING: Malware
+2022-05-16 05:31:57,672 [root] WARNING: Malware
+2022-05-16 05:31:57,672 [root] WARNING: Malware
+2022-05-16 05:31:57,672 [root] WARNING: Malware
+2022-05-16 05:31:57,673 [root] WARNING: Malware
+2022-05-16 05:31:57,673 [root] WARNING: Malware
+2022-05-16 05:31:57,673 [root] WARNING: Malware
+2022-05-16 05:31:57,673 [root] WARNING: Malware
+2022-05-16 05:31:57,673 [root] WARNING: Malware
+2022-05-16 05:31:57,673 [root] WARNING: Malware
+2022-05-16 05:31:57,673 [root] WARNING: Malware
+2022-05-16 05:31:57,674 [root] WARNING: Malware
+2022-05-16 05:31:57,674 [root] WARNING: Malware
+2022-05-16 05:31:57,674 [root] WARNING: Malware
+2022-05-16 05:31:57,674 [root] WARNING: Malware
+2022-05-16 05:31:57,674 [root] WARNING: Malware
+2022-05-16 05:31:57,674 [root] WARNING: Malware
+2022-05-16 05:31:57,674 [root] WARNING: Malware
+2022-05-16 05:31:57,675 [root] WARNING: Malware
+2022-05-16 05:31:57,675 [root] WARNING: Malware
+2022-05-16 05:31:57,675 [root] WARNING: Malware
+2022-05-16 05:31:57,675 [root] WARNING: Malware
+2022-05-16 05:31:57,675 [root] WARNING: Malware
+2022-05-16 05:31:57,675 [root] WARNING: Malware
+2022-05-16 05:31:57,675 [root] WARNING: Malware
+2022-05-16 05:31:57,676 [root] WARNING: Malware
+2022-05-16 05:31:57,676 [root] WARNING: Malware
+2022-05-16 05:31:57,676 [root] WARNING: Malware
+2022-05-16 05:31:57,677 [root] WARNING: Malware
+2022-05-16 05:31:57,677 [root] WARNING: Malware
+2022-05-16 05:31:57,686 [root] WARNING: Malware
+2022-05-16 05:31:57,686 [root] WARNING: Malware
+2022-05-16 05:31:57,689 [root] WARNING: Malware
+2022-05-16 05:31:57,689 [root] WARNING: Malware
+2022-05-16 05:31:57,689 [root] WARNING: Malware
+2022-05-16 05:31:57,691 [root] WARNING: Malware
+2022-05-16 05:31:57,691 [root] WARNING: Malware
+2022-05-16 05:31:57,691 [root] WARNING: Malware
+2022-05-16 05:31:57,691 [root] WARNING: Malware
+2022-05-16 05:31:57,691 [root] WARNING: Malware
+2022-05-16 05:31:57,691 [root] WARNING: Malware
+2022-05-16 05:31:57,692 [root] WARNING: Malware
+2022-05-16 05:31:57,692 [root] WARNING: Malware
+2022-05-16 05:31:57,692 [root] WARNING: Malware
+2022-05-16 05:31:57,692 [root] WARNING: Malware
+2022-05-16 05:31:57,694 [root] WARNING: Malware
+2022-05-16 05:31:57,694 [root] WARNING: Malware
+2022-05-16 05:31:57,694 [root] WARNING: Malware
+2022-05-16 05:31:57,694 [root] WARNING: Malware
+2022-05-16 05:31:57,698 [root] WARNING: Malware
+2022-05-16 05:31:57,698 [root] WARNING: Malware
+2022-05-16 05:31:57,698 [root] WARNING: Malware
+2022-05-16 05:31:57,698 [root] WARNING: Malware
+2022-05-16 05:31:57,699 [root] WARNING: Malware
+2022-05-16 05:31:57,699 [root] WARNING: nan
+2022-05-16 05:31:57,700 [cuckoo.core.plugins] ERROR: Failed to run 'on_complete' of the hash_match signature
+Traceback (most recent call last):
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/core/plugins.py", line 475, in call_signature
+    if not signature.matched and handler(*args, **kwargs):
+  File "/home/cuckoo/.cuckoo/signatures/cross/hash_match.py", line 42, in on_complete
+    if self.check_hash(pattern=row[3]):
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/common/abstracts.py", line 1193, in check_hash
+    all=all)
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/common/abstracts.py", line 888, in _check_value
+    if item.lower() == pattern.lower():
+AttributeError: 'float' object has no attribute 'lower'
+2022-05-16 05:31:57,911 [root] WARNING: Malware
+2022-05-16 05:31:57,912 [root] WARNING: F-ISAC
+2022-05-16 05:31:57,912 [root] WARNING: 8.8.8.8
+2022-05-16 05:31:58,189 [cuckoo.core.plugins] DEBUG: Analysis matched signature: ip_match
+2022-05-16 05:31:58,190 [cuckoo.core.plugins] DEBUG: Analysis matched signature: memdump_urls
+2022-05-16 05:31:58,248 [cuckoo.core.plugins] DEBUG: Executed reporting module "JsonDump"
+2022-05-16 05:31:58,325 [cuckoo.core.plugins] DEBUG: Executed reporting module "MongoDB"
+2022-05-16 05:31:58,325 [cuckoo.core.scheduler] INFO: Task #105: reports generation completed
+2022-05-16 05:31:58,339 [cuckoo.core.scheduler] INFO: Task #105: analysis procedure completed

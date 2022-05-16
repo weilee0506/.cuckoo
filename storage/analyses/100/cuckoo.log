@@ -1,0 +1,182 @@
+2022-05-16 03:44:20,448 [cuckoo.core.scheduler] INFO: Task #100: acquired machine 192.168.56.102 (label=192.168.56.102)
+2022-05-16 03:44:20,448 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #100
+2022-05-16 03:44:20,449 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2022-05-16 03:44:20,468 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 31243 (interface=vboxnet0, host=192.168.56.101)
+2022-05-16 03:44:20,470 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2022-05-16 03:44:20,507 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.102
+2022-05-16 03:44:20,822 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.102 to its current snapshot
+2022-05-16 03:44:26,682 [cuckoo.core.guest] INFO: Starting analysis #100 on guest (id=192.168.56.102, ip=192.168.56.101)
+2022-05-16 03:44:27,689 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-16 03:44:28,691 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-16 03:44:29,699 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-16 03:44:29,739 [cuckoo.core.guest] DEBUG: 192.168.56.102: not ready yet
+2022-05-16 03:44:30,764 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.102, ip=192.168.56.101)
+2022-05-16 03:44:30,830 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.102, ip=192.168.56.101, monitor=latest, size=3884763)
+2022-05-16 03:44:34,926 [cuckoo.core.resultserver] DEBUG: Task #100: live log analysis.log initialized.
+2022-05-16 03:44:38,538 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:44:43,611 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:44:48,669 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:44:53,708 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:44:57,249 [cuckoo.core.resultserver] DEBUG: Task #100 is sending a BSON stream
+2022-05-16 03:44:58,749 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:44:59,124 [cuckoo.core.resultserver] DEBUG: Task #100 is sending a BSON stream
+2022-05-16 03:44:59,364 [cuckoo.core.resultserver] DEBUG: Task #100: File upload for 'shots/0001.jpg'
+2022-05-16 03:44:59,396 [cuckoo.core.resultserver] DEBUG: Task #100 uploaded file length: 47814
+2022-05-16 03:45:03,808 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:45:08,854 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:45:13,905 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:45:19,043 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:45:25,192 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:45:25,612 [cuckoo.core.resultserver] DEBUG: Task #100: File upload for 'memory/2772-1.dmp'
+2022-05-16 03:45:30,363 [cuckoo.core.guest] DEBUG: 192.168.56.102: analysis #100 still processing
+2022-05-16 03:45:33,572 [cuckoo.core.resultserver] DEBUG: Task #100 uploaded file length: 69494336
+2022-05-16 03:45:35,059 [cuckoo.core.resultserver] DEBUG: Task #100: File upload for 'shots/0002.jpg'
+2022-05-16 03:45:35,285 [cuckoo.core.resultserver] DEBUG: Task #100 uploaded file length: 42829
+2022-05-16 03:45:35,322 [cuckoo.core.resultserver] DEBUG: Task #100 had connection reset for <Context for LOG>
+2022-05-16 03:45:35,496 [cuckoo.core.guest] INFO: 192.168.56.102: analysis completed successfully
+2022-05-16 03:45:35,503 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2022-05-16 03:45:35,508 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer
+2022-05-16 03:45:35,508 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.102
+2022-05-16 03:45:36,847 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #100
+2022-05-16 03:45:36,853 [cuckoo.core.scheduler] DEBUG: Released database task #100
+2022-05-16 03:45:36,892 [cuckoo.core.plugins] DEBUG: Executed processing module "AnalysisInfo" for task #100
+2022-05-16 03:45:36,896 [cuckoo.core.plugins] DEBUG: Executed processing module "BehaviorAnalysis" for task #100
+2022-05-16 03:45:36,899 [cuckoo.core.plugins] DEBUG: Executed processing module "Dropped" for task #100
+2022-05-16 03:45:36,899 [cuckoo.core.plugins] DEBUG: Executed processing module "DroppedBuffer" for task #100
+2022-05-16 03:45:37,604 [cuckoo.core.plugins] DEBUG: Executed processing module "MetaInfo" for task #100
+2022-05-16 03:45:39,631 [cuckoo.core.plugins] DEBUG: Executed processing module "ProcessMemory" for task #100
+2022-05-16 03:45:39,632 [cuckoo.core.plugins] DEBUG: Executed processing module "Procmon" for task #100
+2022-05-16 03:45:39,662 [cuckoo.core.plugins] DEBUG: Executed processing module "Screenshots" for task #100
+2022-05-16 03:45:39,664 [cuckoo.core.plugins] DEBUG: Executed processing module "Static" for task #100
+2022-05-16 03:45:39,670 [cuckoo.core.plugins] DEBUG: Executed processing module "Strings" for task #100
+2022-05-16 03:45:39,673 [cuckoo.core.plugins] DEBUG: Executed processing module "TargetInfo" for task #100
+2022-05-16 03:45:40,158 [cuckoo.core.plugins] DEBUG: Executed processing module "NetworkAnalysis" for task #100
+2022-05-16 03:45:40,159 [cuckoo.core.plugins] DEBUG: Executed processing module "Extracted" for task #100
+2022-05-16 03:45:40,159 [cuckoo.core.plugins] DEBUG: Executed processing module "TLSMasterSecrets" for task #100
+2022-05-16 03:45:40,162 [cuckoo.core.plugins] DEBUG: Executed processing module "Debug" for task #100
+2022-05-16 03:45:40,162 [cuckoo.core.plugins] WARNING: fuck you
+2022-05-16 03:45:40,231 [cuckoo.core.plugins] DEBUG: Running 545 signatures
+2022-05-16 03:45:40,363 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,364 [root] WARNING: --
+2022-05-16 03:45:40,364 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,364 [root] WARNING: --
+2022-05-16 03:45:40,364 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,365 [root] WARNING: --
+2022-05-16 03:45:40,365 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,365 [root] WARNING: --
+2022-05-16 03:45:40,365 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,365 [root] WARNING: --
+2022-05-16 03:45:40,365 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,366 [root] WARNING: --
+2022-05-16 03:45:40,366 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,366 [root] WARNING: --
+2022-05-16 03:45:40,366 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,366 [root] WARNING: --
+2022-05-16 03:45:40,366 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,366 [root] WARNING: --
+2022-05-16 03:45:40,367 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,367 [root] WARNING: --
+2022-05-16 03:45:40,367 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,367 [root] WARNING: --
+2022-05-16 03:45:40,367 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,367 [root] WARNING: --
+2022-05-16 03:45:40,368 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,368 [root] WARNING: --
+2022-05-16 03:45:40,368 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,368 [root] WARNING: --
+2022-05-16 03:45:40,368 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,368 [root] WARNING: --
+2022-05-16 03:45:40,368 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,369 [root] WARNING: --
+2022-05-16 03:45:40,369 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,369 [root] WARNING: --
+2022-05-16 03:45:40,369 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,369 [root] WARNING: --
+2022-05-16 03:45:40,369 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,369 [root] WARNING: --
+2022-05-16 03:45:40,370 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,370 [root] WARNING: --
+2022-05-16 03:45:40,370 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,370 [root] WARNING: --
+2022-05-16 03:45:40,370 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,370 [root] WARNING: --
+2022-05-16 03:45:40,370 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,371 [root] WARNING: --
+2022-05-16 03:45:40,371 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,371 [root] WARNING: --
+2022-05-16 03:45:40,371 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,371 [root] WARNING: --
+2022-05-16 03:45:40,371 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,372 [root] WARNING: --
+2022-05-16 03:45:40,372 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,372 [root] WARNING: --
+2022-05-16 03:45:40,372 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,372 [root] WARNING: --
+2022-05-16 03:45:40,372 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,373 [root] WARNING: --
+2022-05-16 03:45:40,373 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,373 [root] WARNING: --
+2022-05-16 03:45:40,373 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,373 [root] WARNING: --
+2022-05-16 03:45:40,373 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,374 [root] WARNING: --
+2022-05-16 03:45:40,374 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,378 [root] WARNING: --
+2022-05-16 03:45:40,379 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,379 [root] WARNING: --
+2022-05-16 03:45:40,379 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,379 [root] WARNING: --
+2022-05-16 03:45:40,379 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,379 [root] WARNING: --
+2022-05-16 03:45:40,379 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,380 [root] WARNING: --
+2022-05-16 03:45:40,380 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,380 [root] WARNING: --
+2022-05-16 03:45:40,380 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,380 [root] WARNING: --
+2022-05-16 03:45:40,380 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,381 [root] WARNING: --
+2022-05-16 03:45:40,381 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,381 [root] WARNING: --
+2022-05-16 03:45:40,381 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,381 [root] WARNING: --
+2022-05-16 03:45:40,381 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,382 [root] WARNING: --
+2022-05-16 03:45:40,382 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,382 [root] WARNING: --
+2022-05-16 03:45:40,382 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,382 [root] WARNING: --
+2022-05-16 03:45:40,382 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,382 [root] WARNING: --
+2022-05-16 03:45:40,383 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,383 [root] WARNING: --
+2022-05-16 03:45:40,383 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,383 [root] WARNING: --
+2022-05-16 03:45:40,383 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,383 [root] WARNING: --
+2022-05-16 03:45:40,383 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,384 [root] WARNING: --
+2022-05-16 03:45:40,384 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,384 [root] WARNING: --
+2022-05-16 03:45:40,384 [root] WARNING: ['5e3a80524bb7d23222a489aee2b8c340']
+2022-05-16 03:45:40,384 [root] WARNING: --
+2022-05-16 03:45:40,384 [cuckoo.core.plugins] ERROR: Failed to run 'on_complete' of the hash_match signature
+Traceback (most recent call last):
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/core/plugins.py", line 475, in call_signature
+    if not signature.matched and handler(*args, **kwargs):
+  File "/home/cuckoo/.cuckoo/signatures/cross/hash_match.py", line 39, in on_complete
+    if self.check_hash(pattern=row[4]):
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/common/abstracts.py", line 1193, in check_hash
+    all=all)
+  File "/home/cuckoo/cuckoo/local/lib/python2.7/site-packages/cuckoo/common/abstracts.py", line 888, in _check_value
+    if item.lower() == pattern.lower():
+AttributeError: 'float' object has no attribute 'lower'
+2022-05-16 03:45:40,586 [root] WARNING: Malware
+2022-05-16 03:45:40,586 [root] WARNING: F-ISAC
+2022-05-16 03:45:40,586 [root] WARNING: 8.8.8.8
+2022-05-16 03:45:40,836 [cuckoo.core.plugins] DEBUG: Analysis matched signature: ip_match
+2022-05-16 03:45:40,837 [cuckoo.core.plugins] DEBUG: Analysis matched signature: memdump_urls
+2022-05-16 03:45:40,890 [cuckoo.core.plugins] DEBUG: Executed reporting module "JsonDump"
+2022-05-16 03:45:40,951 [cuckoo.core.plugins] DEBUG: Executed reporting module "MongoDB"
+2022-05-16 03:45:40,952 [cuckoo.core.scheduler] INFO: Task #100: reports generation completed
+2022-05-16 03:45:40,961 [cuckoo.core.scheduler] INFO: Task #100: analysis procedure completed
