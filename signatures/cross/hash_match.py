@@ -36,13 +36,13 @@ class HashMatch(Signature):
     # turn ioc_hash_df into list
     ioc_hash_list = ioc_hash_df_final.values.tolist()
 
-    logging.warning(ioc_hash_list) 
+    # logging.warning(ioc_hash_list) 
     # logging.warning("show after init")
 
     def on_complete(self):    
-        logging.warning(self.ioc_hash_list)        
+        # logging.warning(self.ioc_hash_list)        
         for row in self.ioc_hash_list:
-            logging.warning(row[3])
+            # logging.warning(row[3])
             if self.check_hash(pattern=row[3]):
                 # logging.warning("esunioc")
                 self.mark_esunioc(category = row[2], infoSource = row[1], ioc = row[3])
